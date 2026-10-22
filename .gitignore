@@ -2,19 +2,26 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.venv/
-venv/
+*.so
+.Python
 env/
-.env
-
-# VS Code
-.vscode/
-*.code-workspace
+venv/
+ENV/
+.venv
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Koda / Local skills
-.koda/
-.claude/
+# KOMPAS-3D temp & lock files
+*.lck
+*.tmp
+*.log
+*.err
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
