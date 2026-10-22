@@ -15,7 +15,9 @@
 ```bash
 git clone https://github.com/Berref/kompas-ai-skills.git
 cp -r kompas-ai-skills/skills/kompas-python-api <ваш-проект>/.koda/skills/
+
 ### Claude Code (локально, для проекта)
+```bash
 # Глобально для пользователя
 git clone https://github.com/Berref/kompas-ai-skills.git
 cp -r kompas-ai-skills/skills/kompas-python-api ~/.claude/skills/
