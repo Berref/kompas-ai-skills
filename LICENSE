@@ -1,27 +1,41 @@
 
 ---
 
-### 2. Файл `LICENSE` (в корне)
+### 2. Обновите файл: `skills/kompas-python-api/SKILL.md`
+*Добавлен новый раздел "9. Алгоритм действий при ошибках (для ИИ)" в конец файла. Это резко снизит количество галлюцинаций ИИ при отладке.*
 
-```text
-MIT License
+```markdown
+---
+name: kompas-python-api
+description: Автоматизация КОМПАС-3D через Python API (COM/pywin32) — подключение, 2D/3D-документы, построение геометрии, свойства, экспорт, обработка ошибок, поиск решений на форуме АСКОН и в GitHub.
+tags:
+  - kompas
+  - kompas-3d
+  - python
+  - cad
+  - automation
+  - pywin32
+  - com
+  - api
+  - ascon-forum
+  - github
+when_to_use: Используй этот навык, когда пользователь просит написать, исправить или объяснить Python-скрипт для КОМПАС-3D: построение детали или чертежа, заполнение штампа, извлечение свойств, пакетный экспорт, работа с API5/API7, обход ошибок COM, а также когда нужно найти готовое решение или пример кода на форуме АСКОН или в открытых GitHub-репозиториях.
+license: MIT
+metadata:
+  author: Berref
+  version: 1.0.0
+---
 
-Copyright (c) 2026 Berref
+# Автоматизация КОМПАС-3D через Python
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 0. Жёсткие правила (не нарушать)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. **Только Windows.** API КОМПАС-3D работает через COM. Скрипты не будут работать на Linux/macOS без Windows-окружения.
+2. **Требуется установленный КОМПАС-3D.** Библиотеки `pywin32` сами по себе не содержат API Компаса — они лишь подключаются к запущенному приложению.
+3. **`pythoncom.CoInitialize()` обязателен** в начале скрипта и `pythoncom.CoUninitialize()` в конце, если скрипт запускается из фонового потока или сервиса.
+4. **Не выдумывай методы и свойства.** Если не уверен в имени интерфейса или метода — сначала поищи в источниках из раздела `references` или предложи пользователю уточнить версию Компаса.
+5. **Не используй относительные пути в скриптах навыка**, если добавляешь вспомогательные файлы: указывай абсолютные пути или пути относительно корня проекта явно.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 1. Подключение к API (базовый шаблон)
+
+Минимальный проверенный шаблон подключения через `pywin32` и `gencache`:
