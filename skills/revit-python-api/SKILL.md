@@ -1,15 +1,23 @@
 ---
 name: revit-python-api
 description: Разработка и отладка Python-скриптов для Autodesk Revit через pyRevit / Revit API (IronPython, .NET через clr). Используйте при задачах автоматизации Revit — сбор элементов, чтение/запись параметров, экспорт в Excel, работа со спецификациями, тегами, аннотациями.
-keywords:
+tags:
   - revit
   - pyrevit
   - autodesk
   - bim
-  - revit api
+  - revit-api
   - ironpython
-  - filtered element collector
----
+  - filtered-element-collector
+when_to_use: >
+  Используй этот навык, когда пользователь просит написать, исправить или объяснить
+  Python-скрипт для Autodesk Revit: сбор элементов по параметрам, чтение/запись
+  параметров экземпляра или типа, выгрузка в Excel, проверка маркировок/тегов,
+  присвоение позиций по полям сортировки спецификации.
+license: MIT
+metadata:
+  author: Berref
+  version: 1.0.0
 
 # Revit Python API Skill
 
