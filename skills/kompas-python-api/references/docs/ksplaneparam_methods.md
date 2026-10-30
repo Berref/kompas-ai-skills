@@ -1,8 +1,0 @@
-# IPlaneParam - методы
-
-[API интерфейсов. Версия 5](ag57940.html) > [Документ-модель (Интерфейсы - ksDocument3D, IDocument3D ) ](ksdocument3d.html) > [Компонент сборки (деталь или подсборка). Интерфейсы ksPart и IPart ](kspart.html) > [Математическая поверхность в трехмерном пространстве ](bz1748754.html) > [Интерфейсы ksSurface, ISurface ](kssurface.html) > [Параметры плоскости (Интерфейсы ksPlaneParam, IPlaneParam) ](ksplaneparam.html) |  Scroll [ [ [ ](ksplaneparam_getplacement.html "К следующему разделу")](ksplaneparam.html "На уровень выше")](ksplaneparam.html "К предыдущему разделу")  
----|---  
-  
-Подразделы:
-
-[GetPlacement - Получить систему координат плоскости ](ksplaneparam_getplacement.html)

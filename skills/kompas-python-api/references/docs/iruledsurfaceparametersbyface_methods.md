@@ -1,8 +1,0 @@
-# IRuledSurfaceParametersByFaces - методы
-
-[API интерфейсов. Версия 7](applicate.html) > [Документ 3D ](bc1473974.html) > [Поверхности ](bc2288197.html) > [Интерфейс ISurfaceContainer ](isurfacecontainer.html) > [ISurfaceContainer - свойства ](isurfacecontainer_props.html) > [Интерфейс IRuledSurfaceParametersByFaces](iruledsurfaceparametersbyfaces.html) |  Scroll [ [ [ ](iruledsurfaceparametersbyfaces_setnexttouchoption.html "К следующему разделу")](iruledsurfaceparametersbyfaces.html "На уровень выше")](iruledsurfaceparametersbyfaces_touchoption.html "К предыдущему разделу")  
----|---  
-  
-Подразделы:
-
-[SetNextTouchOption - Установить следующий вариант касания](iruledsurfaceparametersbyfaces_setnexttouchoption.html)
