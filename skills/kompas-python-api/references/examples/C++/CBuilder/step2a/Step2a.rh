@@ -1,0 +1,6 @@
+#ifndef __STEP2A_RH
+#define __STEP2A_RH
+
+#define IDR_LIBID                 2001
+
+#endif

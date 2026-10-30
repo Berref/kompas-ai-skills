@@ -1,0 +1,7 @@
+;LIBRARY      "Step3_API7_3D"
+;DESCRIPTION  'Windows Dynamic Link Library'
+
+EXPORTS
+ LIBRARYID               @1
+ LIBRARYENTRY            @2
+

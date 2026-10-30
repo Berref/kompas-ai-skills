@@ -1,0 +1,64 @@
+HKLM
+{
+	NoRemove SOFTWARE
+	{
+		NoRemove ASCON
+		{
+			NoRemove KOMPAS-3D
+			{
+				NoRemove Converters
+				{
+					ForceRemove MyLibConverter = d '0'
+					{
+						val Path  = s '%MODULE%'
+						val Name  = s 'Ïנטלונ ךמםגונעמנא'
+						val Connect = d '1'
+						
+						m3d = d '0'
+						{
+						  val Filter				= s 'Ôאיכû (*.mym3d)|*.mym3d|'
+							val OpenCommandID	= d '7'
+							val SaveCommandID	= d '1'
+						}
+						
+						a3d = d '0'
+						{
+						  val Filter				= s 'Ôאיכû (*.mya3d)|*.mya3d|'
+							val OpenCommandID	= d '8'
+							val SaveCommandID	= d '2'
+						}
+						
+						frw = d '0'
+						{
+						  val Filter				= s 'Ôאיכû (*.myfrw)|*.myfrw|'
+							val OpenCommandID	= d '9'
+							val SaveCommandID	= d '3'
+						}
+
+						cdw = d '0'
+						{
+						  val Filter				= s 'Ôאיכû (*.mycdw)|*.mycdw|'
+							val OpenCommandID	= d '10'
+							val SaveCommandID	= d '4'
+						}
+
+						spw = d '0'
+						{
+						  val Filter				= s 'Ôאיכû (*.myspw)|*.myspw|'
+							val OpenCommandID	= d '11'
+							val SaveCommandID	= d '5'
+						}
+
+						kdw = d '0'
+						{
+						  val Filter				= s 'Ôאיכû (*.mykdw)|*.mykdw|'
+							val OpenCommandID	= d '12'
+							val SaveCommandID	= d '6'
+						}
+
+					}
+				}
+			}
+		}
+	}
+}

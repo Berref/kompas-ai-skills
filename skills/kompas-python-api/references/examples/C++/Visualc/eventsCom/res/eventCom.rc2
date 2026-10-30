@@ -1,0 +1,479 @@
+//
+// STEP1.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+//#ifndef __LDEFIN2D_H
+//#include "ldefin2d.h"
+//#endif
+
+#define o3d_unknown	            0 
+#define o3d_planeXOY            1 
+#define	o3d_planeXOZ            2 
+#define o3d_planeYOZ            3 
+#define o3d_pointCS	            4   
+#define o3d_sketch	            5 
+#define o3d_axis2Planes         9 
+#define o3d_axis2Points	        10
+#define o3d_axisConeFace        11
+#define o3d_axisEdge	          12 
+#define o3d_axisOperation	      13
+#define o3d_planeOffset	        14
+#define o3d_planeAngle	        15
+#define o3d_plane3Points	      16
+#define o3d_planeNormal	        17
+#define o3d_planeTangent	      18
+#define o3d_planeEdgePoint      19
+#define o3d_planeParallel	      20
+#define o3d_planePerpendicular  21
+#define o3d_planeLineToEdge	    22
+#define o3d_planeLineToPlane	  23
+#define o3d_baseExtrusion	      24
+#define o3d_bossExtrusion	      25
+#define o3d_cutExtrusion	      26
+#define o3d_baseRotated	        27
+#define	o3d_bossRotated	        28
+#define o3d_cutRotated	        29
+#define o3d_baseLoft	          30 
+#define o3d_bossLoft            31 
+#define o3d_cutLoft	            32   
+#define o3d_chamfer	            33   
+#define o3d_fillet	            34   
+#define o3d_meshCopy	          35 
+#define o3d_circularCopy	      36
+#define o3d_curveCopy	          37 
+#define o3d_circPartArray	      38
+#define o3d_meshPartArray	      39
+#define o3d_curvePartArray	    40
+#define o3d_derivPartArray	    41
+#define o3d_incline	            42   
+#define o3d_shellOperation      43
+#define o3d_ribOperation	      44
+#define o3d_baseEvolution	      45
+#define o3d_bossEvolution	      46
+#define o3d_cutEvolution	      47
+#define o3d_mirrorOperation	    48
+#define o3d_mirrorAllOperation	49
+#define o3d_cutByPlane	        50
+#define	o3d_cutBySketch	        51
+#define o3d_holeOperation       52
+#define o3d_polyline	          53
+#define o3d_conicSpiral	        54
+#define o3d_spline	            55 
+#define o3d_cylindricSpiral	    56
+#define o3d_importedSurface	    57
+#define o3d_thread	            58                            
+#define o3d_part	             104          
+#define o3d_feature	           120   
+
+#define  SPC_BASE_OBJECT     1    // базовый объект (редактируется пользователем)
+#define  SPC_COMMENT         2    // комментарий    (редактируется пользователем)
+
+#define ALL_OBJ                0         // все объекты,кроме вспомогательных, которые могут входить в вид                    -
+#define LINESEG_OBJ            1         // отрезок                        +
+#define CIRCLE_OBJ             2         // окружность                     +
+#define ARC_OBJ                3         // дуга                           +
+#define TEXT_OBJ               4         // текст                          +
+#define POINT_OBJ              5         // точка                          +
+#define HATCH_OBJ              7         // штриховка                      +
+#define BEZIER_OBJ             8         // bezier сплайн                  +
+#define LDIMENSION_OBJ         9         // линейный размер                +
+#define ADIMENSION_OBJ         10        // угловой размер                 +
+#define DDIMENSION_OBJ         13        // диаметральный размер           +
+#define RDIMENSION_OBJ         14        // радиальный размер              +
+#define RBREAKDIMENSION_OBJ    15        // радиальный размер с изломом    +
+#define ROUGH_OBJ              16        // шероховатость                  +
+#define BASE_OBJ               17        // база                           +
+#define WPOINTER_OBJ           18        // стрелка вида                   +
+#define CUT_OBJ                19        // линия разреза                  +
+#define LEADER_OBJ             20        // простая линия выноски                      +
+#define POSLEADER_OBJ          21        // линия выноски для обозначения позиции      +
+#define BRANDLEADER_OBJ        22        // линия выноски для обозначения клеймения    +
+#define MARKERLEADER_OBJ       23        // линия выноски для обозначения маркирования +
+#define TOLERANCE_OBJ          24        // допуск формы                   +
+#define TABLE_OBJ              25        // таблица                        -     //тексты
+#define CONTOUR_OBJ            26        // контур                         +     //стиль
+#define MACRO_OBJ              27        // нетипизированный макроэлемент  -
+#define LINE_OBJ               28        // линия                          +
+#define LAYER_OBJ              29        // слой                           +
+#define FRAGMENT_OBJ           30        // вставной фрагмент              +
+#define POLYLINE_OBJ           31        // полилиния                      +
+#define ELLIPSE_OBJ            32        // эллипс                         +
+#define NURBS_OBJ              33        // nurbs сплайн                   +
+#define ELLIPSE_ARC_OBJ        34        // дуга эллипса                   +
+#define RECTANGLE_OBJ          35        // прямоугольник                  +
+#define REGULARPOLYGON_OBJ     36        // многоугольник                  +
+#define EQUID_OBJ              37        // эквидистанта                   +
+#define LBREAKDIMENSION_OBJ    38        // линейный размер с обрывом      +
+#define ABREAKDIMENSION_OBJ    39        // угловой размер с обрывом       +
+#define ORDINATEDIMENSION_OBJ  40        // размер высоты                  +
+#define COLORFILL_OBJ          41        // фоновая заливка цветом         +
+#define CENTREMARKER_OBJ       42        // обозначение центра             +
+#define ARCDIMENSION_OBJ       43        // размер длины дуги              -
+#define SPC_OBJ                44        // объект спецификации            +
+#define RASTER_OBJ             45        // растровый объект               +
+#define CHANGE_LEADER_OBJ      46        // Обозначение изменения          +
+#define REMOTE_ELEMENT_OBJ     47        // выносной элемент               +
+#define AXISLINE_OBJ           48        // Осевая линия                   +
+#define OLEOBJECT_OBJ          49        // вставка ole объекта            -
+#define KNOTNUMBER_OBJ         50        // объект номер узла              -
+#define BRACE_OBJ              51        // объект фигурная скобка         -
+#define POSNUM_OBJ             52        // марка/позиционное обозначение с линией-выноской - 
+#define MARKONLDR_OBJ          53        // марка/позиционное обозначение на линии          -
+#define MARKWOLDR_OBJ          54        // марка/позиционное обозначение без линии-выноски -
+#define WAVELINE_OBJ           55        // волнистая линия                -
+#define DIRAXIS_OBJ            56        // прямая ось                     -
+#define BROKENLINE_OBJ         57        // линия обрыва с изломами        -
+#define CIRCLEAXIS_OBJ         58        // круговая ось                   -
+#define ARCAXIS_OBJ            59        // дуговая ось                    -
+#define CUTUNITMARKING         60        // Обозначение узла в сечении     -
+#define UNITMARKING            61        // Обозначение узла               -
+#define MULTITEXTLEADER        62        // Выносная надпись к многослойным конструкциям.      -
+#define EXTERNALVIEW_OBJ       63        // Вставка внешнего вида                              -
+#define ANNLINESEG_OBJ         64        // Аннотационный отрезок                 +- Для GetObjParam используется структура LineSegParam
+#define ANNCIRCLE_OBJ          65        // Аннотационная окружность              +- Для GetObjParam используется структура CircleParam
+#define ANNELLIPSE_OBJ         66        // Аннотационный эллипс                  +- Для GetObjParam используется структура EllipseParam
+#define ANNARC_OBJ             67        // Аннотационная дуга                    +- Для GetObjParam используется структура ArcParam
+#define ANNELLIPSE_ARC_OBJ     68        // Аннотационная дуга эллипса            +- Для GetObjParam используется структура EllipseArcParam
+#define ANNPOLYLINE_OBJ        69        // Аннотационная полилиния               +- Для GetObjParam используется структура PolylineParam
+#define ANNPOINT_OBJ           70        // Аннотационная точка                   +- Для GetObjParam используется структура PointParam
+#define ANNTEXT_OBJ            71        // Текст с аннотационной точкой привязки +- Для GetObjParam используется структура TextParam
+#define MULTILINE_OBJ          72        // Мультилиния                    - 
+#define BUILDINGCUTLINE_OBJ    73        // Линия разреза/сечения для СПДС + используется структура CutLineParam
+#define ATTACHED_LEADER_OBJ    74        // Присоединенная линия выноски ( не имеет текстов )  +
+#define CONDITIONCROSSING_OBJ  75        // Условное пересечение           - 
+#define REPORTTABLE_OBJ        76        // ассоциативная таблица отчета
+#define EMBODIMENTSTABLE_OBJ   77        // таблица исполнений
+#define SPECIALCURVE_OBJ       78        // Кривая общего вида
+#define ARRAYPARAMTABLE_OBJ    79        // Таблица параметров массива
+
+#define MAX_VIEWTIP_SEARCH     80        // верхняя граница типов поиска для объектов вида  -
+
+#define SPECIFICATION_OBJ      121       // спецификация на листе
+#define SPECROUGH_OBJ          122       // неуказанная шероховатость      +
+#define VIEW_OBJ               123       // вид                            +
+#define DOCUMENT_OBJ           124       // документ  графический          +   (лист или фрагмент)
+#define TECHNICALDEMAND_OBJ    125       // технические требования         +
+#define STAMP_OBJ              126       // штамп                          -  //тексты
+#define SELECT_GROUP_OBJ       127       // группа селектирования          -
+#define NAME_GROUP_OBJ         128       // именная группа                 -
+#define WORK_GROUP_OBJ         129       // рабочая группа                 -
+#define SPC_DOCUMENT_OBJ       130       // документ  спецификация         +
+#define D3_DOCUMENT_OBJ        131       // 3d документ  модели или сборки +
+#define CHANGE_LIST_OBJ        132       // таблица изменений              -
+#define TXT_DOCUMENT_OBJ       133       // текстовый документ             +
+#define ALL_DOCUMENTS          134       // документы всех типов
+
+#define MAX_TIP_SEARCH         134       // верхняя граница типов поиска   -
+
+STRINGTABLE 
+BEGIN
+    ID_LIB                  "Пример обработки событий Компаса (Visual C++ COM)"
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+ID_LIB MENU DISCARDABLE 
+BEGIN
+ 
+
+    POPUP "События Компаса"
+    BEGIN
+        MENUITEM "Подписаться",                              10
+        MENUITEM "Отписаться",                               11
+    END
+    POPUP "События документов"
+    BEGIN
+        MENUITEM "Подписаться",                              20
+        MENUITEM "Отписаться",                               21
+    END
+    POPUP "События 2D документов"
+    BEGIN
+        MENUITEM "Подписаться",                              22
+        MENUITEM "Отписаться",                               23
+    END
+
+    POPUP "События объектов 2D документа"
+    BEGIN
+        MENUITEM "Подписаться",                              30
+        MENUITEM "Отписаться",                               31
+				MENUITEM SEPARATOR
+        MENUITEM "Подписаться на события вида по номеру",    32
+        MENUITEM "Отписаться от событий для вида по номеру", 33
+				MENUITEM SEPARATOR
+        MENUITEM "Подписаться на события слоя по номеру",    34
+        MENUITEM "Отписаться от событий для слоя по номеру", 35
+				MENUITEM SEPARATOR
+        MENUITEM "Отписаться от всех событий объектов 2D",   36
+    END
+    POPUP "События селектирования"
+    BEGIN
+        MENUITEM "Подписаться",                              40
+        MENUITEM "Отписаться",                               41
+    END
+    POPUP "События штампа"
+    BEGIN
+        MENUITEM "Подписаться",                              50
+        MENUITEM "Отписаться",                               51
+    END
+    POPUP "События 3D документа"
+    BEGIN
+        MENUITEM "Подписаться",                              60
+        MENUITEM "Отписаться",                               61
+    END
+    POPUP "События объектов 3D документа"
+    BEGIN
+         POPUP "Подписаться"
+				 BEGIN
+            MENUITEM "Указать объект в модели",              70
+//    				MENUITEM "По номеру типа",                     71
+            MENUITEM SEPARATOR
+            MENUITEM "Все объекты",                                          o3d_unknown            + 500    
+            MENUITEM "Плоскость XOY",                                        o3d_planeXOY           + 500    
+            MENUITEM "Плоскость XOZ",                                        o3d_planeXOZ           + 500    
+            MENUITEM "Плоскость YOZ",                                        o3d_planeYOZ           + 500           
+            MENUITEM "Точка начала системы координат",                       o3d_pointCS            + 500           
+            MENUITEM "Эскиз",                                                o3d_sketch             + 500           
+            MENUITEM "Ось по двум плоскостям",                               o3d_axis2Planes        + 500               
+            MENUITEM "Ось по двум точкам",                                   o3d_axis2Points        + 500               
+            MENUITEM "Ось конической грани",                                 o3d_axisConeFace       + 500               
+            MENUITEM "Ось проходящая через ребро",                           o3d_axisEdge           + 500               
+            MENUITEM "Ось операции",                                         o3d_axisOperation      + 500               
+            MENUITEM "Смещённая плоскость",                                  o3d_planeOffset        + 500               
+            MENUITEM "Плоскость под углом",                                  o3d_planeAngle         + 500               
+            MENUITEM "Плоскость по 3-м точкам",                              o3d_plane3Points       + 500               
+            MENUITEM "Нормальная плоскость",                                 o3d_planeNormal        + 500               
+            MENUITEM "Касательная плоскость",                                o3d_planeTangent       + 500               
+            MENUITEM "Плоскость через ребро и вершину",                      o3d_planeEdgePoint     + 500               
+            MENUITEM "Плоскость через вершину параллельно другой плоскости", o3d_planeParallel      + 500               
+            MENUITEM "Плоскость через вершину перпендикулярно ребру",        o3d_planePerpendicular + 500            
+            MENUITEM "Плоскость через ребро пар-но/пер-но другому ребру",    o3d_planeLineToEdge    + 500            
+            MENUITEM "Плоскость через ребро пар-но/пер-но грани",            o3d_planeLineToPlane   + 500            
+//            MENUITEM "Базовая операция выдавливания",                        o3d_baseExtrusion      + 500            
+            MENUITEM "Приклеивание выдавливанием",                           o3d_bossExtrusion      + 500            
+            MENUITEM "Вырезать выдавливанием",                               o3d_cutExtrusion       + 500            
+//            MENUITEM "Базовая операция вращения",                            o3d_baseRotated        + 500            
+            MENUITEM "Приклеивание вращением",                               o3d_bossRotated        + 500               
+            MENUITEM "Вырезать вращением",                                   o3d_cutRotated         + 500               
+//            MENUITEM "Базовая операция по сечениям",                         o3d_baseLoft           + 500            
+            MENUITEM "Приклеивание по сечениям",                             o3d_bossLoft           + 500            
+            MENUITEM "Вырезать по сечениям",                                 o3d_cutLoft            + 500            
+            MENUITEM "Операция 'фаска'",                                     o3d_chamfer            + 500            
+            MENUITEM "Операция 'скругления'",                                o3d_fillet             + 500            
+            MENUITEM "Операция копирования по сетке",                        o3d_meshCopy           + 500            
+            MENUITEM "Операция копирования по концентрической сетке",        o3d_circularCopy       + 500            
+            MENUITEM "Операция копирования по кривой",                       o3d_curveCopy          + 500            
+            MENUITEM "Операция массив по концентрической сетке для сборки",  o3d_circPartArray      + 500            
+            MENUITEM "Операция массив по сетке для сборки",                  o3d_meshPartArray      + 500            
+            MENUITEM "Операция массив по кривой для сборки",                 o3d_curvePartArray     + 500  
+            MENUITEM "Операция массив по образцу для сборки",                o3d_derivPartArray     + 500  
+            MENUITEM "Операция 'уклон'",                                     o3d_incline            + 500  
+            MENUITEM "Операция 'оболочка'",                                  o3d_shellOperation     + 500  
+            MENUITEM "Операция 'ребро жесткости'",                           o3d_ribOperation       + 500  
+//            MENUITEM "Кинематическая операция",                              o3d_baseEvolution      + 500  
+            MENUITEM "Приклеинть кинематически",                             o3d_bossEvolution      + 500  
+            MENUITEM "Вырезать кинематически",                               o3d_cutEvolution       + 500  
+            MENUITEM "Операция 'зеркальный массив'",                         o3d_mirrorOperation    + 500  
+            MENUITEM "Операция 'зеркально отразить все'",                    o3d_mirrorAllOperation + 500  
+            MENUITEM "Операция 'сечение поверхностью'",                      o3d_cutByPlane         + 500  
+            MENUITEM "Операция 'сечение эскизом'",                           o3d_cutBySketch        + 500  
+            MENUITEM "Отверстие",                                            o3d_holeOperation      + 500  
+            MENUITEM "Ломаная",                                              o3d_polyline           + 500  
+            MENUITEM "Коническая спираль",                                   o3d_conicSpiral        + 500  
+            MENUITEM "Сплайн",                                               o3d_spline             + 500  
+            MENUITEM "Цилиндрическая спираль",                               o3d_cylindricSpiral    + 500  
+            MENUITEM "Импортирванная поверхность",                           o3d_importedSurface    + 500  
+            MENUITEM "Условное изображение резьбы",                          o3d_thread             + 500
+            MENUITEM "Компонента"                                            o3d_part               + 500
+            MENUITEM "Объект дерева"                                         o3d_feature            + 500  
+        END
+				POPUP "Отписаться"
+				BEGIN
+            MENUITEM "Указать объект в модели",                   80
+//    				MENUITEM "По номеру типа",                          81
+            MENUITEM SEPARATOR
+            MENUITEM "Все объекты",                                          o3d_unknown            + 700    
+            MENUITEM "Плоскость XOY",                                        o3d_planeXOY           + 700    
+            MENUITEM "Плоскость XOZ",                                        o3d_planeXOZ           + 700    
+            MENUITEM "Плоскость YOZ",                                        o3d_planeYOZ           + 700           
+            MENUITEM "Точка начала системы координат",                       o3d_pointCS            + 700           
+            MENUITEM "Эскиз",                                                o3d_sketch             + 700           
+            MENUITEM "Ось по двум плоскостям",                               o3d_axis2Planes        + 700               
+            MENUITEM "Ось по двум точкам",                                   o3d_axis2Points        + 700               
+            MENUITEM "Ось конической грани",                                 o3d_axisConeFace       + 700               
+            MENUITEM "Ось проходящая через ребро",                           o3d_axisEdge           + 700               
+            MENUITEM "Ось операции",                                         o3d_axisOperation      + 700               
+            MENUITEM "Смещённая плоскость",                                  o3d_planeOffset        + 700               
+            MENUITEM "Плоскость под углом",                                  o3d_planeAngle         + 700               
+            MENUITEM "Плоскость по 3-м точкам",                              o3d_plane3Points       + 700               
+            MENUITEM "Нормальная плоскость",                                 o3d_planeNormal        + 700               
+            MENUITEM "Касательная плоскость",                                o3d_planeTangent       + 700               
+            MENUITEM "Плоскость через ребро и вершину",                      o3d_planeEdgePoint     + 700               
+            MENUITEM "Плоскость через вершину параллельно другой плоскости", o3d_planeParallel      + 700               
+            MENUITEM "Плоскость через вершину перпендикулярно ребру",        o3d_planePerpendicular + 700        
+            MENUITEM "Плоскость через ребро пар-но/пер-но другому ребру",    o3d_planeLineToEdge    + 700        
+            MENUITEM "Плоскость через ребро пар-но/пер-но грани",            o3d_planeLineToPlane   + 700        
+//            MENUITEM "Базовая операция выдавливания",                        o3d_baseExtrusion      + 700        
+            MENUITEM "Приклеивание выдавливанием",                           o3d_bossExtrusion      + 700        
+            MENUITEM "Вырезать выдавливанием",                               o3d_cutExtrusion       + 700        
+ //           MENUITEM "Базовая операция вращения",                            o3d_baseRotated        + 700        
+            MENUITEM "Приклеивание вращением",                               o3d_bossRotated        + 700           
+            MENUITEM "Вырезать вращением",                                   o3d_cutRotated         + 700           
+//            MENUITEM "Базовая операция по сечениям",                         o3d_baseLoft           + 700        
+            MENUITEM "Приклеивание по сечениям",                             o3d_bossLoft           + 700        
+            MENUITEM "Вырезать по сечениям",                                 o3d_cutLoft            + 700        
+            MENUITEM "Операция 'фаска'",                                     o3d_chamfer            + 700        
+            MENUITEM "Операция 'скругления'",                                o3d_fillet             + 700        
+            MENUITEM "Операция копирования по сетке",                        o3d_meshCopy           + 700        
+            MENUITEM "Операция копирования по концентрической сетке",        o3d_circularCopy       + 700            
+            MENUITEM "Операция копирования по кривой",                       o3d_curveCopy          + 700            
+            MENUITEM "Операция массив по концентрической сетке для сборки",  o3d_circPartArray      + 700            
+            MENUITEM "Операция массив по сетке для сборки",                  o3d_meshPartArray      + 700        
+            MENUITEM "Операция массив по кривой для сборки",                 o3d_curvePartArray     + 700
+            MENUITEM "Операция массив по образцу для сборки",                o3d_derivPartArray     + 700
+            MENUITEM "Операция 'уклон'",                                     o3d_incline            + 700
+            MENUITEM "Операция 'оболочка'",                                  o3d_shellOperation     + 700
+            MENUITEM "Операция 'ребро жесткости'",                           o3d_ribOperation       + 700
+//            MENUITEM "Кинематическая операция",                              o3d_baseEvolution      + 700
+            MENUITEM "Приклеинть кинематически",                             o3d_bossEvolution      + 700
+            MENUITEM "Вырезать кинематически",                               o3d_cutEvolution       + 700  
+            MENUITEM "Операция 'зеркальный массив'",                         o3d_mirrorOperation    + 700  
+            MENUITEM "Операция 'зеркально отразить все'",                    o3d_mirrorAllOperation + 700  
+            MENUITEM "Операция 'сечение поверхностью'",                      o3d_cutByPlane         + 700  
+            MENUITEM "Операция 'сечение эскизом'",                           o3d_cutBySketch        + 700  
+            MENUITEM "Отверстие",                                            o3d_holeOperation      + 700  
+            MENUITEM "Ломаная",                                              o3d_polyline           + 700  
+            MENUITEM "Коническая спираль",                                   o3d_conicSpiral        + 700  
+            MENUITEM "Сплайн",                                               o3d_spline             + 700  
+            MENUITEM "Цилиндрическая спираль",                               o3d_cylindricSpiral    + 700  
+            MENUITEM "Импортирванная поверхность",                           o3d_importedSurface    + 700  
+            MENUITEM "Условное изображение резьбы",                          o3d_thread             + 700
+            MENUITEM "Компонента"                                            o3d_part               + 700
+            MENUITEM "Объект дерева"                                         o3d_feature            + 700  
+        END
+
+        MENUITEM "Отписать все",                                90
+    END
+    POPUP "События объекта спецификации"
+    BEGIN
+        POPUP "Подписаться",                 
+        BEGIN
+				    MENUITEM "Текущий объект",                          100
+            MENUITEM SEPARATOR
+            MENUITEM "Все объекты",                               300
+            MENUITEM "Базовый объект",          SPC_BASE_OBJECT + 300
+            MENUITEM "Комментарий",             SPC_COMMENT     + 300
+//#define  SPC_SECTION_NAME    3    // наименование раздела ( создается по стилю СП автоматически )
+//#define  SPC_BLOCK_NAME      4    // наименование блока исполнений ( создается по стилю СП автоматически )
+//#define  SPC_RESERVE_STR     5    // резервная строка ( создается по стилю СП автоматически )
+//#define  SPC_EMPTY_STR       6    // пустая строка ( создается по стилю СП автоматически )
+				END
+
+        POPUP "Отписаться",    
+        BEGIN   
+				    MENUITEM "Текущий объект",                          110
+            MENUITEM SEPARATOR
+            MENUITEM "Все объекты",                               400
+            MENUITEM "Базовый объект",          SPC_BASE_OBJECT + 400
+            MENUITEM "Комментарий",             SPC_COMMENT     + 400
+//#define  SPC_SECTION_NAME    3    // наименование раздела ( создается по стилю СП автоматически )
+//#define  SPC_BLOCK_NAME      4    // наименование блока исполнений ( создается по стилю СП автоматически )
+//#define  SPC_RESERVE_STR     5    // резервная строка ( создается по стилю СП автоматически )
+//#define  SPC_EMPTY_STR       6    // пустая строка ( создается по стилю СП автоматически )
+				END
+        MENUITEM "Отписаться от всех объектов спецификации",     120
+    END  
+//    POPUP "События объектов спецификации"
+//    BEGIN
+//        MENUITEM "Подписаться",                 100
+//        MENUITEM "Отписаться",                  110
+//    END
+    
+		POPUP "События документа спецификации"
+    BEGIN
+        MENUITEM "Подписаться",                    130
+        MENUITEM "Отписаться",                     131
+    END
+
+    POPUP "События спецификации"
+    BEGIN
+        MENUITEM "Подписаться",                    140
+        MENUITEM "Отписаться",                     141
+    END
+    MENUITEM "Подписанные события",                997
+    MENUITEM "Отписаться от всех",                 998
+    MENUITEM "Конфигурация"                        999     
+
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu 
+// Выбор 2D объекта документа
+//
+IDM_REQUEST_OBJECT MENU 
+BEGIN
+    MENUITEM "Все объекты",                 ALL_OBJ             + 1
+    MENUITEM "Отрезки",                     LINESEG_OBJ         + 1
+    MENUITEM "Окружности",                  CIRCLE_OBJ          + 1
+    MENUITEM "Дуга",                        ARC_OBJ             + 1
+    MENUITEM "Текст",                       TEXT_OBJ            + 1
+    MENUITEM "Точка",                       POINT_OBJ           + 1
+    MENUITEM "Штриховка",                   HATCH_OBJ           + 1
+    MENUITEM "Bezier сплайн",               BEZIER_OBJ          + 1
+    MENUITEM "Линейный размер",             LDIMENSION_OBJ      + 1
+    MENUITEM "Угловой размер",              ADIMENSION_OBJ      + 1
+    MENUITEM "Диаметральный размер",        DDIMENSION_OBJ      + 1
+    MENUITEM "Радиальный размер ",          RDIMENSION_OBJ      + 1
+    MENUITEM "Радиальный размер с изломом", RBREAKDIMENSION_OBJ + 1
+    MENUITEM "Шероховатость",               ROUGH_OBJ           + 1 
+    MENUITEM "База",                        BASE_OBJ            + 1
+    MENUITEM "Cтрелка вида",                WPOINTER_OBJ        + 1
+    MENUITEM "Линия разреза",               CUT_OBJ             + 1
+    MENUITEM "Простая линия выноски ",      LEADER_OBJ          + 1
+    MENUITEM "Обозначение позиции",         POSLEADER_OBJ       + 1
+    MENUITEM "Обозначение клеймения",       BRANDLEADER_OBJ     + 1
+    MENUITEM "Обозначения маркирования",    MARKERLEADER_OBJ    + 1
+    MENUITEM "Допуск формы",                TOLERANCE_OBJ       + 1
+    MENUITEM "таблица",                     TABLE_OBJ           + 1
+    MENUITEM "контур",                      CONTOUR_OBJ         + 1
+    MENUITEM "макроэлемент",                MACRO_OBJ           + 1
+    MENUITEM "линия",                       LINE_OBJ            + 1
+    MENUITEM "слой",                        LAYER_OBJ           + 1
+    MENUITEM "вставной фрагмент",           FRAGMENT_OBJ        + 1
+    MENUITEM "полилиния",                   POLYLINE_OBJ        + 1
+    MENUITEM "эллипс ",                     ELLIPSE_OBJ         + 1
+    MENUITEM "nurbs сплайн",                NURBS_OBJ           + 1
+    MENUITEM "дуга эллипса",                ELLIPSE_ARC_OBJ     + 1 
+    MENUITEM "прямоугольник",               RECTANGLE_OBJ       + 1
+    MENUITEM "многоугольник",               REGULARPOLYGON_OBJ  + 1
+    MENUITEM "эквидистанта",                EQUID_OBJ           + 1
+    MENUITEM "линейный размер с обрывом",   LBREAKDIMENSION_OBJ + 1
+    MENUITEM "фоновая заливка цветом",      COLORFILL_OBJ       + 1
+    MENUITEM "обозначение центра",          CENTREMARKER_OBJ    + 1
+    MENUITEM "размер длины дуги",           ARCDIMENSION_OBJ    + 1
+//    MENUITEM "объект спецификации",         SPC_OBJ           + 1
+    MENUITEM "растровый объект",            RASTER_OBJ          + 1
+    MENUITEM "Обозначение изменения",       CHANGE_LEADER_OBJ   + 1
+    MENUITEM "выносной элемент",            REMOTE_ELEMENT_OBJ  + 1
+    MENUITEM "Осевая линия",                AXISLINE_OBJ        + 1
+    MENUITEM "неуказанная шероховатость",   SPECROUGH_OBJ       + 1
+    MENUITEM "вид",                         VIEW_OBJ            + 1
+
+    MENUITEM "Другое число...",             1000
+END
+
+
+
+

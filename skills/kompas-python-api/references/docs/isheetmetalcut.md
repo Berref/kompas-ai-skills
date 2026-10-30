@@ -1,0 +1,24 @@
+# Интерфейс ISheetMetalCut
+
+[API интерфейсов. Версия 7](applicate.html) > [Документ 3D ](bc1473974.html) > [Листовое тело ](bc2753655.html) > [Интерфейс ISheetMetalContainer ](isheetmetalcontainer.html) > [ISheetMetalContainer - свойства ](isheetmetalcontainer_props.html) |  Scroll [ [ [ ](isheetmetalcut_props.html "К следующему разделу")](isheetmetalcontainer_props.html "На уровень выше")](isheetmetalclosedcorner_deletecornerobject.html "К предыдущему разделу")  
+---|---  
+  
+Интерфейс параметров элемента листового тела "Вырез".
+
+Иерархия:
+
+IDispatch
+
+[IKompasAPIObject](ikompasapiobject.html)
+
+[IModelObject](imodelobject.html)
+
+[ISheetMetalCut](isheetmetalcut.html)
+
+Примечание:
+
+Интерфейс можно получить с помощью метода коллекции элементов "Вырез" [ISheetMetalCuts::Add](isheetmetalcuts_add.html) или свойства [ISheetMetalCuts::SheetMetalCut](isheetmetalcuts_sheetmetalcut.html).
+
+Подразделы:
+
+[ISheetMetalCut - свойства ](isheetmetalcut_props.html)

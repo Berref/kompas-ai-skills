@@ -1,0 +1,37 @@
+#ifdef APSTUDIO_INVOKED
+  #error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+IDR_LibConverterRgs	REGISTRY DISCARDABLE	"MyConverter.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+STRINGTABLE DISCARDABLE 
+BEGIN
+  IDS_ERROR_DOC_TYPE  "Невозможно конвертировать текущий файл в заданный формат"
+  IDS_ERR_DOC         "Документ не активизирован"
+  IDS_STYLE_DOC       "Сохранять стиль линий?"
+  IDS_DOC_M3D         "Файлы моделей(*.mym3d)|*.mym3d|"
+  IDS_DOC_A3D         "Файлы сборок(*.mya3d)|*.mya3d|"
+  IDS_DOC_CDW         "Файлы чертежей(*.mycdw)|*.mycdw|"
+  IDS_DOC_FRW         "Файлы фрагментов(*.myfrw)|*.myfrw|"
+  IDS_DOC_SPW         "Файлы спецификаций(*.myspw)|*.myspw|"
+  IDS_DOC_KDW         "Файлы текстовых документов(*.mykdw)|*.mykdw|"
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+IDR_LIBID MENU DISCARDABLE 
+BEGIN
+  MENUITEM "Сохранение текущего файла",                     1
+  MENUITEM "Открыть файл",                                  2
+  
+END
+
+
+/////////////////////////////////////////////////////////////////////////////

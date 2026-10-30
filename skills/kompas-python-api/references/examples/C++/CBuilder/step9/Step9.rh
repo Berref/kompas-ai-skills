@@ -1,0 +1,6 @@
+#ifndef __STEP9_RH
+#define __STEP9_RH
+
+#define IDR_LIBID                 9000
+
+#endif

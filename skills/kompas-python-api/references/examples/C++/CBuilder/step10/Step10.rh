@@ -1,0 +1,7 @@
+#ifndef __STEP10_RH
+#define __STEP10_RH
+
+#define IDR_LIBID                 10000
+#define MENU_POS_LEADER           2000
+
+#endif

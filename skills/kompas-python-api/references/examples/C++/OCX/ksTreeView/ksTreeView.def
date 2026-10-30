@@ -1,0 +1,9 @@
+; ksTreeView.def : Declares the module parameters.
+
+LIBRARY      "ksTreeView.OCX"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE

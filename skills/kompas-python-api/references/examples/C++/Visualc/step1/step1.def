@@ -1,0 +1,6 @@
+;LIBRARY      "Step1"
+;DESCRIPTION  'Windows Dynamic Link Library'
+
+EXPORTS
+ LIBRARYENTRY @2
+ LIBRARYNAME  @3

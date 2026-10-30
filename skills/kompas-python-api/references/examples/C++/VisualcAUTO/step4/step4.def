@@ -1,0 +1,10 @@
+; Step4.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "Step4"
+;DESCRIPTION  'Step4 Windows Dynamic Link Library'
+
+EXPORTS
+  LIBRARYID    @1
+  LIBRARYENTRY @2
+  CALLBACKPROCCURSOR    @12
+  CALLBACKPROCPLACEMENT @13

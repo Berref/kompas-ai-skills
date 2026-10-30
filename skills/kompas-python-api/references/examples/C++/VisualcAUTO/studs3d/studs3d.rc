@@ -1,0 +1,484 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#endif //_WIN32\r\n"
+    "#endif\r\n"
+    "#include ""res\\studs3d.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_LIBID MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Шпильки",                     STUDS_COMMAND
+END
+
+MENU_22032_1 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Отключить угол",              ID_ANGLE
+    MENUITEM "Вид сверху",                  ID_TOPVID
+END
+
+MENU_22032_2 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Отключить угол",              ID_ANGLE
+    MENUITEM "Вид",                         ID_VID
+END
+
+MENU_22032_3 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Включить угол",               ID_ANGLE
+    MENUITEM "Вид сверху",                  ID_TOPVID
+END
+
+MENU_22032_4 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Включить угол",               ID_ANGLE
+    MENUITEM "Вид",                         ID_VID
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDR_LIBID RCDATA MOVEABLE PURE 
+BEGIN
+    0x00a0, 0x00aa
+END
+
+SH22032_1 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x0014, 0x0048, 0x0014, 0x002e, 0x4e22, 0x0014, 0x002e, 0x001a, 0x0028, 
+    0x4e22, 0x001a, 0x0028, 0x00a6, 0x0028, 0x4e22, 0x00a6, 0x0028, 0x00ac, 
+    0x002e, 0x4e22, 0x00ac, 0x002e, 0x00ac, 0x0048, 0x4e22, 0x00ac, 0x0048, 
+    0x00a6, 0x004e, 0x4e22, 0x00a6, 0x004e, 0x001a, 0x004e, 0x4e22, 0x001a, 
+    0x004e, 0x0014, 0x0048, 0x4e22, 0x003a, 0x0028, 0x003a, 0x004e, 0x4e22, 
+    0x0058, 0x0028, 0x0058, 0x004e, 0x4e24, 0x0000, 0x4e22, 0x0017, 0x002b, 
+    0x003a, 0x002b, 0x4e22, 0x0017, 0x004b, 0x003a, 0x004b, 0x4e22, 0x0058, 
+    0x002b, 0x00a9, 0x002b, 0x4e22, 0x0058, 0x004b, 0x00a9, 0x004b, 0x4e24, 
+    0x0001, 0x4e22, 0x001a, 0x0028, 0x001a, 0x004e, 0x4e22, 0x00a6, 0x0028, 
+    0x00a6, 0x004e, 0x4e24, 0x0000, 0x4e23, 0x0003, 0x0001, 0x4e22, 0x000d, 
+    0x003b, 0x00b3, 0x003b, 0x4e21
+END
+
+SH22032_3 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e30, 
+    0x0060, 0x003c, 0x0013, 0x4e24, 0x0000, 0x4e28, 0x0060, 0x003c, 0x0010, 
+    0x0065, 0x002d, 0x0070, 0x0041, 0x4e23, 0x0003, 0x0001, 0x4e22, 0x0046, 
+    0x003c, 0x007b, 0x003c, 0x4e22, 0x0060, 0x0057, 0x0060, 0x0022, 0x4e21
+
+END
+
+SH22042_1 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x0014, 0x0048, 0x0014, 0x002e, 0x4e22, 0x0014, 0x002e, 0x001a, 0x0028, 
+    0x4e22, 0x001a, 0x0028, 0x00a6, 0x0028, 0x4e22, 0x00a6, 0x0028, 0x00ac, 
+    0x002e, 0x4e22, 0x00ac, 0x002e, 0x00ac, 0x0048, 0x4e22, 0x00ac, 0x0048, 
+    0x00a6, 0x004e, 0x4e22, 0x00a6, 0x004e, 0x001a, 0x004e, 0x4e22, 0x001a, 
+    0x004e, 0x0014, 0x0048, 0x4e22, 0x0046, 0x0028, 0x0046, 0x004e, 0x4e22, 
+    0x007a, 0x0028, 0x007a, 0x004e, 0x4e24, 0x0000, 0x4e22, 0x0017, 0x002b, 
+    0x0046, 0x002b, 0x4e22, 0x0017, 0x004b, 0x0046, 0x004b, 0x4e22, 0x007a, 
+    0x002b, 0x00a9, 0x002b, 0x4e22, 0x007a, 0x004b, 0x00a9, 0x004b, 0x4e24, 
+    0x0001, 0x4e22, 0x001a, 0x0028, 0x001a, 0x004e, 0x4e22, 0x00a6, 0x0028, 
+    0x00a6, 0x004e, 0x4e24, 0x0000, 0x4e23, 0x0003, 0x0001, 0x4e22, 0x000d, 
+    0x003b, 0x00b3, 0x003b, 0x4e21
+END
+
+SH22042_3 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x0014, 0x0048, 0x0014, 0x002e, 0x4e22, 0x0014, 0x002e, 0x001a, 0x0028, 
+    0x4e22, 0x001a, 0x0028, 0x00a6, 0x0028, 0x4e22, 0x00a6, 0x0028, 0x00ac, 
+    0x002e, 0x4e22, 0x00ac, 0x002e, 0x00ac, 0x0048, 0x4e22, 0x00ac, 0x0048, 
+    0x00a6, 0x004e, 0x4e22, 0x00a6, 0x004e, 0x001a, 0x004e, 0x4e22, 0x001a, 
+    0x004e, 0x0014, 0x0048, 0x4e24, 0x0000, 0x4e22, 0x0017, 0x002b, 0x00a9, 
+    0x002b, 0x4e22, 0x0017, 0x004b, 0x00a9, 0x004b, 0x4e24, 0x0001, 0x4e22, 
+    0x001a, 0x0028, 0x001a, 0x004e, 0x4e22, 0x00a6, 0x0028, 0x00a6, 0x004e, 
+    0x4e24, 0x0000, 0x4e23, 0x0003, 0x0001, 0x4e22, 0x000d, 0x003b, 0x00b3, 
+    0x003b, 0x4e21
+END
+
+SH22032_2 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x0014, 0x0048, 0x0014, 0x002f, 0x4e22, 0x0014, 0x002f, 0x001a, 0x0029, 
+    0x4e22, 0x001a, 0x0029, 0x003a, 0x0029, 0x4e22, 0x003a, 0x0029, 0x003c, 
+    0x002b, 0x4e22, 0x003c, 0x002b, 0x0056, 0x002b, 0x4e22, 0x0056, 0x002b, 
+    0x0058, 0x0029, 0x4e22, 0x0058, 0x0029, 0x00a6, 0x0029, 0x4e22, 0x00a6, 
+    0x0029, 0x00ac, 0x002f, 0x4e22, 0x00ac, 0x002f, 0x00ac, 0x0048, 0x4e22, 
+    0x00ac, 0x0048, 0x00a6, 0x004e, 0x4e22, 0x00a6, 0x004e, 0x0058, 0x004e, 
+    0x4e22, 0x0058, 0x004e, 0x0056, 0x004c, 0x4e22, 0x0056, 0x004c, 0x003c, 
+    0x004c, 0x4e22, 0x003c, 0x004c, 0x003a, 0x004e, 0x4e22, 0x003a, 0x004e, 
+    0x001a, 0x004e, 0x4e22, 0x001a, 0x004e, 0x0014, 0x0048, 0x4e22, 0x003a, 
+    0x0029, 0x003a, 0x004e, 0x4e22, 0x0058, 0x0029, 0x0058, 0x004e, 0x4e24, 
+    0x0000, 0x4e22, 0x0017, 0x002c, 0x003a, 0x002c, 0x4e22, 0x0017, 0x004b, 
+    0x003a, 0x004b, 0x4e22, 0x0058, 0x002c, 0x00a9, 0x002c, 0x4e22, 0x0058, 
+    0x004b, 0x00a9, 0x004b, 0x4e24, 0x0001, 0x4e22, 0x001a, 0x0029, 0x001a, 
+    0x004e, 0x4e22, 0x00a6, 0x0029, 0x00a6, 0x004e, 0x4e24, 0x0000, 0x4e23, 
+    0x0003, 0x0001, 0x4e22, 0x000d, 0x003b, 0x00b3, 0x003b, 0x4e21
+END
+
+SH22042_2 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x0014, 0x0048, 0x0014, 0x002f, 0x4e22, 0x0014, 0x002f, 0x001a, 0x0029, 
+    0x4e22, 0x001a, 0x0029, 0x0046, 0x0029, 0x4e22, 0x0046, 0x0029, 0x0048, 
+    0x002b, 0x4e22, 0x0048, 0x002b, 0x0078, 0x002b, 0x4e22, 0x0078, 0x002b, 
+    0x007a, 0x0029, 0x4e22, 0x007a, 0x0029, 0x00a6, 0x0029, 0x4e22, 0x00a6, 
+    0x0029, 0x00ac, 0x002f, 0x4e22, 0x00ac, 0x002f, 0x00ac, 0x0048, 0x4e22, 
+    0x00ac, 0x0048, 0x00a6, 0x004e, 0x4e22, 0x00a6, 0x004e, 0x007a, 0x004e, 
+    0x4e22, 0x007a, 0x004e, 0x0078, 0x004c, 0x4e22, 0x0078, 0x004c, 0x0048, 
+    0x004c, 0x4e22, 0x0048, 0x004c, 0x0046, 0x004e, 0x4e22, 0x0046, 0x004e, 
+    0x001a, 0x004e, 0x4e22, 0x001a, 0x004e, 0x0014, 0x0048, 0x4e22, 0x0046, 
+    0x0029, 0x0046, 0x004e, 0x4e22, 0x007a, 0x0029, 0x007a, 0x004e, 0x4e24, 
+    0x0000, 0x4e22, 0x0017, 0x002c, 0x0046, 0x002c, 0x4e22, 0x0017, 0x004b, 
+    0x0046, 0x004b, 0x4e22, 0x007a, 0x002c, 0x00a9, 0x002c, 0x4e22, 0x007a, 
+    0x004b, 0x00a9, 0x004b, 0x4e24, 0x0001, 0x4e22, 0x001a, 0x0029, 0x001a, 
+    0x004e, 0x4e22, 0x00a6, 0x0029, 0x00a6, 0x004e, 0x4e24, 0x0000, 0x4e23, 
+    0x0003, 0x0001, 0x4e22, 0x000d, 0x003b, 0x00b3, 0x003b, 0x4e21
+END
+
+STUDS_COMMAND RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00a8, 0x009e, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x000d, 0x0043, 0x000d, 0x0029, 0x4e22, 0x000d, 0x0029, 0x0013, 0x0023, 
+    0x4e22, 0x0013, 0x0023, 0x0096, 0x0023, 0x4e22, 0x0096, 0x0023, 0x009c, 
+    0x0029, 0x4e22, 0x009c, 0x0029, 0x009c, 0x0043, 0x4e22, 0x009c, 0x0043, 
+    0x0096, 0x0049, 0x4e22, 0x0096, 0x0049, 0x0013, 0x0049, 0x4e22, 0x0013, 
+    0x0049, 0x000d, 0x0043, 0x4e22, 0x0033, 0x0023, 0x0033, 0x0049, 0x4e22, 
+    0x0051, 0x0023, 0x0051, 0x0049, 0x4e24, 0x0000, 0x4e22, 0x0010, 0x0026, 
+    0x0033, 0x0026, 0x4e22, 0x0010, 0x0046, 0x0033, 0x0046, 0x4e22, 0x0051, 
+    0x0026, 0x0099, 0x0026, 0x4e22, 0x0051, 0x0046, 0x0099, 0x0046, 0x4e24, 
+    0x0001, 0x4e22, 0x0013, 0x0023, 0x0013, 0x0049, 0x4e22, 0x0096, 0x0023, 
+    0x0096, 0x0049, 0x4e24, 0x0000, 0x4e23, 0x0003, 0x0001, 0x4e22, 0x0005, 
+    0x0036, 0x00a4, 0x0036, 0x4e24, 0x0000, 0x4e2d, 0x0000, 0x4e25, 0x003c, 
+    0x0069, 0x4e2c, 0xcec3, 0xd2d1, 0x003a, 0x4e25, 0x0014, 0x0082, 0x4e2c, 
+    0x3232, 0x3330, 0x2d32, 0x3637, 0x2e2e, 0x322e, 0x3032, 0x3334, 0x372d, 
+    0x0036, 0x4e21
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+SHPEEL_DIALOG DIALOGEX DISCARDABLE  0, 0, 243, 226
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Шпильки"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,205,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,96,205,50,14
+    LTEXT           "Длина ввинчиваемого конца b1",IDC_STATIC,7,9,109,8
+    COMBOBOX        IDC_STUD_TYPE_COMBO,123,7,45,166,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_SHOW_ST,"Static",SS_WHITEFRAME | SS_SUNKEN,123,27,
+                    113,87
+    GROUPBOX        "",IDC_STATIC,7,24,111,51
+    LTEXT           "Диаметр",IDC_STATIC,14,38,32,8,NOT WS_GROUP
+    LTEXT           "Длина",IDC_STATIC,14,56,32,8,NOT WS_GROUP
+    COMBOBOX        IDD_DIAM,60,36,48,153,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDD_LEN,60,55,48,129,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,7,76,111,38,WS_GROUP
+    CONTROL         "Исполнение 1",IDC_PERFORMANCE1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,15,85,63,10
+    CONTROL         "Исполнение 2",IDC_PERFORMANCE2,"Button",
+                    BS_AUTORADIOBUTTON,15,101,63,10
+    LTEXT           "Класс точности",IDC_STATIC,7,121,54,8,NOT WS_GROUP
+    COMBOBOX        IDC_STUD_KLASS_COMBO,70,119,48,84,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ГОСТ",IDC_STATIC,123,121,20,8,NOT WS_GROUP
+    COMBOBOX        IDC_GOST_COMBO,163,119,73,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Справка",IDC_HELP_BUT,186,205,50,14
+    CONTROL         "Мелкий шаг",IDD_PITCH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,137,57,10
+    CONTROL         "Упрощенно",IDC_STUD_SIMPL_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,163,153,55,10
+    CONTROL         "List1",IDC_LISTVIEWPARAM,"SysListView32",LVS_REPORT | 
+                    LVS_NOSORTHEADER | WS_BORDER,7,167,229,32
+    CONTROL         "Создать объект спецификации",IDC_ATTR_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,153,121,10
+    LTEXT           "Материал",IDC_STATIC,123,137,34,8
+    COMBOBOX        IDC_MAT_COMBO,163,135,73,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    SHPEEL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    STR_SELECT_POINT        "Укажите элемент базирования крепёжной детали"
+    STR_SELECT_PLANE        "Создайте объект или укажите элемент базирования крепёжной детали"
+    STR_SELECT_FACE         "Укажите цилиндрическую поверхность или ось"
+    IDS_3DDOCERROR          "Документ не активизирован или не является 3D-моделью"
+    BASE_STR1               "TXT_DB"
+    STR231                  "p Шаг резьбы"
+    STR236                  "c Фаска"
+    STR237                  "m(кг) Масса 1000 шт."
+    STR59                   "22032-76"
+    IDS_STRING5             "klAPI5.dll"
+    STR60                   "22033-76"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    STR61                   "22034-76"
+    STR62                   "22035-76"
+    STR63                   "22036-76"
+    STR64                   "22037-76"
+    STR65                   "22038-76"
+    STR66                   "22039-76"
+    STR67                   "22040-76"
+    STR68                   "22041-76"
+    STR69                   "22042-76"
+    STR70                   "22043-76"
+    STR247                  "b0 Гаечный конец"
+    STR248                  "b1 Ввинчиваемый конец"
+    IDS_STUD_NAME           "Шпилька М%gх%g ГОСТ %i-76"
+    IDS_STUD_1D             "1d"
+    IDS_STUD_125D           "1,25d"
+    IDS_STUD_16D            "1,6d"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STUD_2D             "2d"
+    IDS_STUD_25D            "2,5d"
+    IDS_STUD_L0             "b0"
+    IDS_STUD_A              "A"
+    IDS_STUD_B              "B"
+    DIAM_ERROR              "Ошибка при заполнении списка диаметров"
+    LEN_ERROR               "Ошибка при заполнении списка длин"
+    STR_200                 "22032.loa"
+    STR_201                 "22033.loa"
+    STR_202                 "22034.loa"
+    STR_203                 "22035.loa"
+    STR_204                 "22036.loa"
+    STR_205                 "22036.loa"
+    STR_206                 "22038.loa"
+    STR_207                 "22038.loa"
+    STR_208                 "22040.loa"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    STR_209                 "22040.loa"
+    STR_210                 "22042.loa"
+    STR_211                 "22042.loa"
+    STR_220                 "st22032.loa"
+    STR_221                 "st22033.loa"
+    STR_222                 "st22034.loa"
+    STR_223                 "st22035.loa"
+    STR_224                 "st22036.loa"
+    STR_225                 "st22037.loa"
+    STR_226                 "st22038.loa"
+    STR_227                 "st22039.loa"
+    STR_228                 "st22040.loa"
+    STR_229                 "st22041.loa"
+    STR_230                 "st22042.loa"
+    STR_231                 "st22043.loa"
+    STR_241                 "1 2"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    STR_243                 "1 2 3"
+    STR_245                 "t = 1 and d=%.1f"
+    STR_246                 "t = 1 && L=%.1f & d=%.1f"
+    STR_247                 "t = 1"
+    IDS_STRING4             "kAPI5.dll"
+    STR230                  "Файл  constr.chm не найден"
+    STR238                  "Сталь"
+    STR239                  "Алюмин. спл."
+    STR240                  "Латунь"
+    STR246                  "Бронза"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "studs3d DLL\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "studs3d\0"
+            VALUE "LegalCopyright", "Copyright (C) 2000\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "studs3d.DLL\0"
+            VALUE "ProductName", "studs3d Dynamic Link Library\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+#endif
+#include "res\studs3d.rc2"  // non-Microsoft Visual C++ edited resources
+
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

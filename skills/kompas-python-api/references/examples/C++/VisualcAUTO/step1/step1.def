@@ -1,0 +1,8 @@
+; Step1.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "Step1"
+;DESCRIPTION  'Step1 Windows Dynamic Link Library'
+
+EXPORTS
+ LIBRARYENTRY @1
+ LIBRARYNAME  @2

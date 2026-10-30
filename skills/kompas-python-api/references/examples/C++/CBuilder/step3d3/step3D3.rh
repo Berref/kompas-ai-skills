@@ -1,0 +1,7 @@
+#ifndef __STEP3D3_RH
+#define __STEP3D3_RH
+
+#define IDR_LIBID            100
+#define STR_3DDOCERROR       10000 // Документ не активизирован или не является 3D-сборкой
+
+#endif

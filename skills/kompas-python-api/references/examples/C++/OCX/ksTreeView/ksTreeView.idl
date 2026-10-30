@@ -1,0 +1,214 @@
+// ksTreeView.idl : type library source for ActiveX Control project.
+
+// This file will be processed by the MIDL compiler tool to
+// produce the type library (ksTreeView.tlb) that will become a resource in
+// ksTreeView.ocx.
+
+#include <olectl.h>
+//#include <idispids.h>
+//#include <commctrl.h>
+
+[ uuid(583EF606-0355-4170-9EA7-EE3D62FD9681), version(1.0),
+  helpfile("ksTreeView.hlp"),
+  helpstring("ksTreeView ActiveX Control module"),
+  control ]
+library ksTreeViewLib
+{
+	importlib(STDOLE_TLB);
+
+[
+  uuid(B01B5B57-13EC-4537-9712-F41C28D45538), 
+  version(1.0),helpstring("Идентификатор листа дерева - HTREEITEM"), 
+  public
+]
+typedef __int64 HTREEITEM_ID;
+
+#define TVGN_ROOT               0x0000
+#define TVGN_NEXT               0x0001
+#define TVGN_PREVIOUS           0x0002
+#define TVGN_PARENT             0x0003
+#define TVGN_CHILD              0x0004
+#define TVGN_FIRSTVISIBLE       0x0005
+#define TVGN_NEXTVISIBLE        0x0006
+#define TVGN_PREVIOUSVISIBLE    0x0007
+#define TVGN_DROPHILITE         0x0008
+#define TVGN_CARET              0x0009
+#define TVGN_LASTVISIBLE        0x000A
+
+
+cpp_quote("  //-------------------------------------------------------------------------------")
+cpp_quote("  // Диапазоны идентификаторов команд и пунктов меню.")
+cpp_quote("  // ---")
+  [uuid(623B256E-FA8D-4015-8D74-5C168C9F7F6C), 
+   helpstring("Тип запрашиваемого листа дерева."), 
+   v1_enum]
+  typedef enum _ksTreeViewIDEnum
+  {
+    [helpstring("Минимальный идентификатор команды в меню.")]            ksTVGN_IDM_MIN   = 500,
+    [helpstring("Максимальный идентификатор команды в меню.")]           ksTVGN_IDM_MAX   = 3500,
+    [helpstring("Минимальный идентификатор команды в панеле команд.")]   ksTVGN_IDCM_MIN  = 3501,
+    [helpstring("Максимальный идентификатор команды в панеле команд.")]  ksTVGN_IDCM_MAX  = 6500,
+  } 
+  ksTreeViewIDEnum;
+
+
+cpp_quote("  //-------------------------------------------------------------------------------")
+cpp_quote("  // Тип запрашиваемого листа дерева")
+cpp_quote("  // ---")
+  [uuid(AEF3E4CF-87CF-46dc-AE02-2A6CEDD12DAB), 
+   helpstring("Тип запрашиваемого листа дерева."), 
+   v1_enum]
+  typedef enum _ksTreeViewNextItemEnum
+  {
+    [helpstring("Получение хэндла самого пеpвого из коpневых элементов tree view.")] ksTVGN_ROOT        = TVGN_ROOT,
+    [helpstring("Получение хэндла выбpанного элемента.")]               ksTVGN_CARET           = TVGN_CARET,
+    [helpstring("Получение хэндла пеpвого дочеpнего элемента по отношению к item'у, чей хэндл указан в паpаметpе hitem.")] 
+                                                                        ksTVGN_CHILD           = TVGN_CHILD,
+    [helpstring("Получение хэндла item'а, котоpый является целью опеpации drag-and-drop.")] 
+                                                                        ksTVGN_DROPHILITE      = TVGN_DROPHILITE,
+    [helpstring("Получение хэндла пеpвого видимого item'а.")]           ksTVGN_FIRSTVISIBLE    = TVGN_FIRSTVISIBLE,
+    [helpstring("Получение хэндла следующего pодственного элемента.")]  ksTVGN_NEXT            = TVGN_NEXT,
+    [helpstring("получение хэндла следующего видимого элемента, котоpый следует за указанным item'ом. Указанный элемент должен быть видимым. Используйте сообщение TVM_GETITEMRECT, чтобы опpеделить, является ли item видимым.")]
+                                                                        ksTVGN_NEXTVISIBLE     = TVGN_NEXTVISIBLE,
+    [helpstring("Получение хэндла указанного pодительского элемента по отношению к указанному.")] 
+                                                                        ksTVGN_PARENT          = TVGN_PARENT,
+    [helpstring("Получение хэндла пpедыдущего pодственного элемента.")] ksTVGN_PREVIOUS        = TVGN_PREVIOUS,
+    [helpstring("Получение хэндла пеpвого видимого элемента, котоpый пpедшествует указанному item'у, котоpый должен быть видимым. Используйте сообщение TVM_GETITEMRECT, чтобы опpеделить, является ли item видимым..")] 
+                                                                        ksTVGN_PREVIOUSVISIBLE = TVGN_PREVIOUSVISIBLE,
+  } 
+  ksTreeViewNextItemEnum;
+
+
+
+	//  Primary dispatch interface for CksTreeViewCtrl
+	[ uuid(9F9E4600-03CA-4720-AACA-FDE955969B43),
+    odl, oleautomation, dual, pointer_default(unique), nonextensible,
+ 	  helpstring("ksTreeView Control - KSTREEVIEW.ksTreeViewCtrl.1")]
+  interface IksTreeView : IDispatch
+	{
+    [propget, id(1), helpstring("HWND.")]
+		HRESULT Handle( [out, retval]OLE_HANDLE * ItemId );
+    [id(2), helpstring("Добавить элемент.")]
+		HRESULT AddItem( [in]HTREEITEM_ID PatentItemID, [in]BSTR ItemText, [in]long NImage, 
+                     [in]long NSelectImage, [in]HTREEITEM_ID HInsertAfter, [out, retval]HTREEITEM_ID * ItemId );
+    [id(3), helpstring("Установить меню.")]
+		HRESULT SetContextMenu( [in]OLE_HANDLE Val );
+    [id(4), helpstring("Установить ImageList.")]
+		HRESULT SetImageList( [in]OLE_HANDLE Val, [in] long NImageListType );
+ 
+    [id(5), helpstring("Установить ImageList.")]
+		HRESULT GetNextItem( [in]HTREEITEM_ID HItem, [in]ksTreeViewNextItemEnum NCode, [out, retval]HTREEITEM_ID * NextItemId );
+
+    [id(6), helpstring("Загрузить из файла.")]
+		HRESULT LoadFromFile( [in]BSTR FileName, [out, retval]VARIANT_BOOL * Result  );
+
+    [id(7), helpstring("Загрузить из файла.")]
+		HRESULT SaveToFile( [in]BSTR FileName, [out, retval]VARIANT_BOOL * Result  );
+
+    [propget, id(8), helpstring("Массив текстов.")]
+		HRESULT Items( [out, retval]VARIANT * Items );
+    [propput, id(8), helpstring("Массив текстов.")]
+		HRESULT Items( [in]VARIANT Items );
+
+    [propget, id(9), helpstring("Доступность редактирования текстов.")]
+		HRESULT ReadOnly( [out, retval]VARIANT_BOOL * pVal );
+    [propput, id(9), helpstring("Доступность редактирования текстов.")]
+		HRESULT ReadOnly( [in]VARIANT_BOOL Val );
+	};
+
+	//  Event dispatch interface for CksTreeViewCtrl
+
+	[ uuid(1872133E-ECF9-4EBC-B59A-C39C4773582D),
+	  helpstring("Event interface for ksTreeView Control KSTREEVIEW.ksTreeViewCtrl.1") ]
+	dispinterface _DksTreeViewEvents
+	{
+		properties:
+			//  Event interface has no properties
+		methods:
+      [id(0x00000001), helpstring("Occurs when a user attempts to edit the label of the currently selected ListItem or Node object.")]
+      void BeforeLabelEdit(short * Cancel );
+      [id(0x00000002), helpstring("Occurs after a user edits the label of the currently selected Node or ListItem object.")]
+      void AfterLabelEdit ( short * Cancel, BSTR * NewString );
+      [id(0x00000003), helpstring("Generated when any Node object in a TreeView control is collapsed.")]
+      void Collapse( HTREEITEM_ID NodeId );
+      [id(0x00000004),helpstring("Occurs when a Node object in a TreeView control is expanded; that is, when its child nodes become visible.")]
+      void Expand( HTREEITEM_ID NodeId );
+      [id(0x00000005), helpstring("Occurs when a Node object is clicked.")]
+      void NodeClick( HTREEITEM_ID NodeId );
+      [id(DISPID_KEYDOWN), helpstring("Occurs when the user presses a key while an object has the focus.")]
+      void KeyDown(short * KeyCode, short Shift );
+      [id(DISPID_KEYUP), helpstring("Occurs when the user releases a key while an object has the focus.")]
+      void KeyUp(short * KeyCode, short Shift );
+      [id(DISPID_KEYPRESS),helpstring("Occurs when the user presses and releases an ANSI key.")]
+      void KeyPress(short * KeyAscii );
+      [id(DISPID_MOUSEDOWN), helpstring("Occurs when the user presses the mouse button while an object has the focus.")]
+      void MouseDown(short Button, short Shift, OLE_XPOS_PIXELS x, OLE_YPOS_PIXELS y );
+      [id(DISPID_MOUSEMOVE), helpstring("Occurs when the user moves the mouse.")]
+      void MouseMove(short Button, short Shift, OLE_XPOS_PIXELS x, OLE_YPOS_PIXELS y );
+      [id(DISPID_MOUSEUP), helpstring("Occurs when the user releases the mouse button while an object has the focus.")]
+      void MouseUp  (short Button, short Shift, OLE_XPOS_PIXELS x, OLE_YPOS_PIXELS y );
+      [id(DISPID_CLICK), helpstring("Occurs when the user presses and then releases a mouse button over an object.")]
+      void Click( void );
+      [id(DISPID_DBLCLICK), helpstring("Occurs when you press and release a mouse button and then press and release it again over an object.")]
+      void DblClick( void );
+//    [id(0x00000006), helpstring("Occurs when Checkboxes = True and a Node object is checked/unchecked.")]
+//    void NodeCheck( HTREEITEM_ID NodeId );
+    	[id(0x00000007), helpstring("Выбор пункта меню.")] 
+      void MenuCommand ( long Id );
+     	[id(0x00000008), helpstring("Состояние команды меню.")] 
+      void MenuCommandUpdate ( long Id, [in,out] VARIANT_BOOL * Enabled, [in,out] long * Checked );
+
+	};
+
+	//  Class information for CksTreeViewCtrl
+
+	[ uuid(241F4962-136B-4589-BBA4-F23F2A8D580D),
+	  helpstring("ksTreeView Control - KSTREEVIEW.ksTreeViewCtrl.1"), control ]
+	coclass ksTreeView
+	{
+		[default] interface IksTreeView;
+		[default, source] dispinterface _DksTreeViewEvents;
+	};
+
+
+
+  [ uuid(A3D30516-5EBF-4A40-8483-29CA14B9CD66),
+    odl, oleautomation, dual, pointer_default(unique), nonextensible,
+ 	  helpstring("ksTreeDlg Control - KSTREEDLG.ksTreeDlgCtrl.1")]
+  interface IksTreeDlg : IDispatch
+	{
+    [propget, id(1), helpstring("Интерфейс дерева.")]
+		HRESULT TreeView( [out, retval]IksTreeView ** Tree );
+    [id(2), helpstring("Загрузка ToolBar-а.")]
+		HRESULT LoadToolBar( [in]VARIANT ResModule, [in]VARIANT ToolbarId, [out, retval]VARIANT_BOOL * Result );
+	};
+
+	
+	//  Event dispatch interface for CksTreeDlgCtrl
+
+	[ uuid(DD7463A6-8307-4205-8AA9-FD350818679A),
+	  helpstring("Event interface for ksTreeDlg Control") ]
+	dispinterface _DksTreeDlgEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+    	[id(0x00000001), helpstring("Запуск команды.")] 
+      void ToolBarCommand ( long Id );
+    	[id(0x00000002), helpstring("Состояние команды.")] 
+      void ButtonUpdate ( long Id, [in,out] VARIANT_BOOL * Enabled, [in,out] long * Checked );
+
+	};
+
+	//  Class information for CksTreeDlgCtrl
+
+	[ uuid(5C78F9EA-7618-43EB-934E-42D2A6B5D022),
+	  helpstring("ksTreeDlg Control"), control ]
+	coclass ksTreeDlg
+	{
+		[default] dispinterface IksTreeDlg;
+		[default, source] dispinterface _DksTreeDlgEvents;
+	};
+
+};

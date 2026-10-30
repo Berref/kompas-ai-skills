@@ -1,0 +1,9 @@
+; Step3D1.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "Step3D1"
+;DESCRIPTION  'Step3D1 Windows Dynamic Link Library'
+
+EXPORTS
+  LIBRARYID    @1
+  LIBRARYENTRY @2
+

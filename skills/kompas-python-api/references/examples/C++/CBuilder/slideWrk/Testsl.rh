@@ -1,0 +1,6 @@
+#ifndef __TESTSL_RH
+#define __TESTSL_RH
+
+#define IDR_LIBID                 10000
+
+#endif

@@ -1,0 +1,6 @@
+#ifndef _STEP4_RH
+#define _STEP4_RH
+
+#define IDR_LIBID            100
+
+#endif	

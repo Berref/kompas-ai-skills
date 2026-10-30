@@ -1,0 +1,29 @@
+STRINGTABLE
+{
+  100 "объекты-a"
+}
+
+100 RCDATA
+{
+ 170
+ 200
+}
+
+
+100 MENU
+{
+	MENUITEM "контур"                    1
+	MENUITEM "технические требования"    2
+  MENUITEM "стрелка вида"              3
+	MENUITEM "заполнить штамп"           4
+	MENUITEM "таблица"                   5
+	MENUITEM "эквидистанта"              6
+	MENUITEM "эллипс"                    7
+	MENUITEM "полилиния"                 8
+	MENUITEM "nurbs"                     9
+	MENUITEM "допуск формы"              10
+	MENUITEM "неуказанная шероховатость" 11
+	MENUITEM "вставка фрагмента внешней ссылкой"  12
+	MENUITEM "вставка локального фрагмента "      13
+}
+

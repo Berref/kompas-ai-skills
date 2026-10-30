@@ -1,0 +1,16 @@
+///////////////////////////////////////////////////////////////////////////////
+// Библиотека примеров: 'Размеры 3D'
+////////////////////////////////////////////////////////////////////////////////
+library Step2_API7_3D;
+
+{$E rtw}
+
+{$R 'step.res' 'step.rc'}
+uses
+  Step2_API7_3D_1 in 'Step2_API7_3D_1.pas';
+
+exports
+  LibraryId    name 'LIBRARYID',
+  LibraryEntry name 'LIBRARYENTRY';
+begin
+end.

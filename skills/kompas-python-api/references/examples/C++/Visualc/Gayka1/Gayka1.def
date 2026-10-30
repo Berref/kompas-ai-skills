@@ -1,0 +1,10 @@
+;LIBRARY      "Gayka1"
+;DESCRIPTION  'Windows Dynamic Link Library'
+
+EXPORTS
+  LIBRARYENTRY             @1
+  LIBRARYID                @2
+  LibObjInterfaceEntry     @5
+  FillContextPanel         @6
+  LibCommandState          @7
+  ContextPanelStyleComboChanged @8

@@ -1,0 +1,216 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AD11B7B5-807D-43E8-B9E8-1CD1BDBE6F43}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="step1\step1.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step2\step2.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step2a\step2a.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step3\step3.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step3a\step3a.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step3d1\step3d1.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step3d2\step3d2.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step4\step4.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step3d3\step3d3.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step5\step5.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step7\step7.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step9\step9.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step8\step8.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step10\step10.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Studs3D\studs3d.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EventsAuto\eventsAuto.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="step1">
+        <MSBuild Projects="step1\step1.cbproj"/>
+    </Target>
+    <Target Name="step1:Clean">
+        <MSBuild Projects="step1\step1.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step1:Make">
+        <MSBuild Projects="step1\step1.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step2">
+        <MSBuild Projects="step2\step2.cbproj"/>
+    </Target>
+    <Target Name="step2:Clean">
+        <MSBuild Projects="step2\step2.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step2:Make">
+        <MSBuild Projects="step2\step2.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step2a">
+        <MSBuild Projects="step2a\step2a.cbproj"/>
+    </Target>
+    <Target Name="step2a:Clean">
+        <MSBuild Projects="step2a\step2a.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step2a:Make">
+        <MSBuild Projects="step2a\step2a.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step3">
+        <MSBuild Projects="step3\step3.cbproj"/>
+    </Target>
+    <Target Name="step3:Clean">
+        <MSBuild Projects="step3\step3.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step3:Make">
+        <MSBuild Projects="step3\step3.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step3a">
+        <MSBuild Projects="step3a\step3a.cbproj"/>
+    </Target>
+    <Target Name="step3a:Clean">
+        <MSBuild Projects="step3a\step3a.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step3a:Make">
+        <MSBuild Projects="step3a\step3a.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step3d1">
+        <MSBuild Projects="step3d1\step3d1.cbproj"/>
+    </Target>
+    <Target Name="step3d1:Clean">
+        <MSBuild Projects="step3d1\step3d1.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step3d1:Make">
+        <MSBuild Projects="step3d1\step3d1.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step3d2">
+        <MSBuild Projects="step3d2\step3d2.cbproj"/>
+    </Target>
+    <Target Name="step3d2:Clean">
+        <MSBuild Projects="step3d2\step3d2.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step3d2:Make">
+        <MSBuild Projects="step3d2\step3d2.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step4">
+        <MSBuild Projects="step4\step4.cbproj"/>
+    </Target>
+    <Target Name="step4:Clean">
+        <MSBuild Projects="step4\step4.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step4:Make">
+        <MSBuild Projects="step4\step4.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step3d3">
+        <MSBuild Projects="step3d3\step3d3.cbproj"/>
+    </Target>
+    <Target Name="step3d3:Clean">
+        <MSBuild Projects="step3d3\step3d3.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step3d3:Make">
+        <MSBuild Projects="step3d3\step3d3.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step5">
+        <MSBuild Projects="step5\step5.cbproj"/>
+    </Target>
+    <Target Name="step5:Clean">
+        <MSBuild Projects="step5\step5.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step5:Make">
+        <MSBuild Projects="step5\step5.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step7">
+        <MSBuild Projects="step7\step7.cbproj"/>
+    </Target>
+    <Target Name="step7:Clean">
+        <MSBuild Projects="step7\step7.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step7:Make">
+        <MSBuild Projects="step7\step7.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step9">
+        <MSBuild Projects="step9\step9.cbproj"/>
+    </Target>
+    <Target Name="step9:Clean">
+        <MSBuild Projects="step9\step9.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step9:Make">
+        <MSBuild Projects="step9\step9.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step8">
+        <MSBuild Projects="step8\step8.cbproj"/>
+    </Target>
+    <Target Name="step8:Clean">
+        <MSBuild Projects="step8\step8.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step8:Make">
+        <MSBuild Projects="step8\step8.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="step10">
+        <MSBuild Projects="step10\step10.cbproj"/>
+    </Target>
+    <Target Name="step10:Clean">
+        <MSBuild Projects="step10\step10.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="step10:Make">
+        <MSBuild Projects="step10\step10.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="studs3d">
+        <MSBuild Projects="Studs3D\studs3d.cbproj"/>
+    </Target>
+    <Target Name="studs3d:Clean">
+        <MSBuild Projects="Studs3D\studs3d.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="studs3d:Make">
+        <MSBuild Projects="Studs3D\studs3d.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="eventsAuto">
+        <MSBuild Projects="EventsAuto\eventsAuto.cbproj"/>
+    </Target>
+    <Target Name="eventsAuto:Clean">
+        <MSBuild Projects="EventsAuto\eventsAuto.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="eventsAuto:Make">
+        <MSBuild Projects="EventsAuto\eventsAuto.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="step1;step2;step2a;step3;step3a;step3d1;step3d2;step4;step3d3;step5;step7;step9;step8;step10;studs3d;eventsAuto"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="step1:Clean;step2:Clean;step2a:Clean;step3:Clean;step3a:Clean;step3d1:Clean;step3d2:Clean;step4:Clean;step3d3:Clean;step5:Clean;step7:Clean;step9:Clean;step8:Clean;step10:Clean;studs3d:Clean;eventsAuto:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="step1:Make;step2:Make;step2a:Make;step3:Make;step3a:Make;step3d1:Make;step3d2:Make;step4:Make;step3d3:Make;step5:Make;step7:Make;step9:Make;step8:Make;step10:Make;studs3d:Make;eventsAuto:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

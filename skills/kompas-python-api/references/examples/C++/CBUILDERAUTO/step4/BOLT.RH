@@ -1,0 +1,24 @@
+#ifndef BOLT_RH
+#define BOLT_RH
+
+#define BITMAP_3	3
+#define BITMAP_4	4
+#define BITMAP_5	5
+
+#define BOLT_DIALOG	200
+#define IDD_LEN	    201
+#define IDD_DIAM    202
+#define IDD_FASK    203
+#define IDD_SHOW    204
+#define IDC_GROUPBOX1	205
+#define IDC_COMBOBOX1	206
+
+#define DIALOG_1	100
+#define DIALOG_2	101
+#define IDC_EDIT1	1001
+#define IDC_EDIT2	1002
+
+#define MENU_1   2
+#define Slide1   1000
+
+#endif

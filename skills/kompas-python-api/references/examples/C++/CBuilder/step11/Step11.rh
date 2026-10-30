@@ -1,0 +1,11 @@
+#ifndef __STEP11_RH
+#define __STEP11_RH
+
+#define IDR_LIBID                 11000
+#define ID_COMMAND_1              1
+#define ID_COMMAND_2              2
+#define ID_COMMAND_3              3
+#define ID_TREE_CONTENTS          3000
+
+
+#endif

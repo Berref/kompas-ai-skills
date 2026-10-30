@@ -1,0 +1,324 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{6EAFDD29-8C9E-4CC3-968F-B52C5F991629}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="STEP1\STEP1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step2a\STEP2a.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Step2\Step2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step3\Step3.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step3a\Step3a.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step4\Step4.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step5\Step5.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step7\Step7.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step8\Step8.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step9\Step9.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step10\Step10.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step11\Step11.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="step12\STEP12.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Step3_API7_3D\Step3_API7_3D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Step3_API7_2D\Step3_API7_2D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Step2_API7_3D\Step2_API7_3D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Step2_API7_2D\Step2_API7_2D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Cube\Cube.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="gayka1\gayka1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Step1_API7_2D\Step1_API7_2D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Step4_API7_2D\Step4_API7_2D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Step4_API7_3D\Step4_API7_3D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="UserSymbolWithLeader\UserSymbolWithLeader.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="gayka\gayka.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EventsCom\eventsCom.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="STEP1">
+        <MSBuild Projects="STEP1\STEP1.dproj"/>
+    </Target>
+    <Target Name="STEP1:Clean">
+        <MSBuild Projects="STEP1\STEP1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="STEP1:Make">
+        <MSBuild Projects="STEP1\STEP1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="STEP2a">
+        <MSBuild Projects="step2a\STEP2a.dproj"/>
+    </Target>
+    <Target Name="STEP2a:Clean">
+        <MSBuild Projects="step2a\STEP2a.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="STEP2a:Make">
+        <MSBuild Projects="step2a\STEP2a.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step2">
+        <MSBuild Projects="Step2\Step2.dproj"/>
+    </Target>
+    <Target Name="Step2:Clean">
+        <MSBuild Projects="Step2\Step2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step2:Make">
+        <MSBuild Projects="Step2\Step2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step3">
+        <MSBuild Projects="step3\Step3.dproj"/>
+    </Target>
+    <Target Name="Step3:Clean">
+        <MSBuild Projects="step3\Step3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step3:Make">
+        <MSBuild Projects="step3\Step3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step3a">
+        <MSBuild Projects="step3a\Step3a.dproj"/>
+    </Target>
+    <Target Name="Step3a:Clean">
+        <MSBuild Projects="step3a\Step3a.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step3a:Make">
+        <MSBuild Projects="step3a\Step3a.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step4">
+        <MSBuild Projects="step4\Step4.dproj"/>
+    </Target>
+    <Target Name="Step4:Clean">
+        <MSBuild Projects="step4\Step4.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step4:Make">
+        <MSBuild Projects="step4\Step4.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step5">
+        <MSBuild Projects="step5\Step5.dproj"/>
+    </Target>
+    <Target Name="Step5:Clean">
+        <MSBuild Projects="step5\Step5.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step5:Make">
+        <MSBuild Projects="step5\Step5.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step7">
+        <MSBuild Projects="step7\Step7.dproj"/>
+    </Target>
+    <Target Name="Step7:Clean">
+        <MSBuild Projects="step7\Step7.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step7:Make">
+        <MSBuild Projects="step7\Step7.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step8">
+        <MSBuild Projects="step8\Step8.dproj"/>
+    </Target>
+    <Target Name="Step8:Clean">
+        <MSBuild Projects="step8\Step8.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step8:Make">
+        <MSBuild Projects="step8\Step8.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step9">
+        <MSBuild Projects="step9\Step9.dproj"/>
+    </Target>
+    <Target Name="Step9:Clean">
+        <MSBuild Projects="step9\Step9.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step9:Make">
+        <MSBuild Projects="step9\Step9.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step10">
+        <MSBuild Projects="step10\Step10.dproj"/>
+    </Target>
+    <Target Name="Step10:Clean">
+        <MSBuild Projects="step10\Step10.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step10:Make">
+        <MSBuild Projects="step10\Step10.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step11">
+        <MSBuild Projects="step11\Step11.dproj"/>
+    </Target>
+    <Target Name="Step11:Clean">
+        <MSBuild Projects="step11\Step11.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step11:Make">
+        <MSBuild Projects="step11\Step11.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="STEP12">
+        <MSBuild Projects="step12\STEP12.dproj"/>
+    </Target>
+    <Target Name="STEP12:Clean">
+        <MSBuild Projects="step12\STEP12.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="STEP12:Make">
+        <MSBuild Projects="step12\STEP12.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step3_API7_3D">
+        <MSBuild Projects="Step3_API7_3D\Step3_API7_3D.dproj"/>
+    </Target>
+    <Target Name="Step3_API7_3D:Clean">
+        <MSBuild Projects="Step3_API7_3D\Step3_API7_3D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step3_API7_3D:Make">
+        <MSBuild Projects="Step3_API7_3D\Step3_API7_3D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step3_API7_2D">
+        <MSBuild Projects="Step3_API7_2D\Step3_API7_2D.dproj"/>
+    </Target>
+    <Target Name="Step3_API7_2D:Clean">
+        <MSBuild Projects="Step3_API7_2D\Step3_API7_2D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step3_API7_2D:Make">
+        <MSBuild Projects="Step3_API7_2D\Step3_API7_2D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step2_API7_3D">
+        <MSBuild Projects="Step2_API7_3D\Step2_API7_3D.dproj"/>
+    </Target>
+    <Target Name="Step2_API7_3D:Clean">
+        <MSBuild Projects="Step2_API7_3D\Step2_API7_3D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step2_API7_3D:Make">
+        <MSBuild Projects="Step2_API7_3D\Step2_API7_3D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step2_API7_2D">
+        <MSBuild Projects="Step2_API7_2D\Step2_API7_2D.dproj"/>
+    </Target>
+    <Target Name="Step2_API7_2D:Clean">
+        <MSBuild Projects="Step2_API7_2D\Step2_API7_2D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step2_API7_2D:Make">
+        <MSBuild Projects="Step2_API7_2D\Step2_API7_2D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Cube">
+        <MSBuild Projects="Cube\Cube.dproj"/>
+    </Target>
+    <Target Name="Cube:Clean">
+        <MSBuild Projects="Cube\Cube.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Cube:Make">
+        <MSBuild Projects="Cube\Cube.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="gayka1">
+        <MSBuild Projects="gayka1\gayka1.dproj"/>
+    </Target>
+    <Target Name="gayka1:Clean">
+        <MSBuild Projects="gayka1\gayka1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="gayka1:Make">
+        <MSBuild Projects="gayka1\gayka1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step1_API7_2D">
+        <MSBuild Projects="Step1_API7_2D\Step1_API7_2D.dproj"/>
+    </Target>
+    <Target Name="Step1_API7_2D:Clean">
+        <MSBuild Projects="Step1_API7_2D\Step1_API7_2D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step1_API7_2D:Make">
+        <MSBuild Projects="Step1_API7_2D\Step1_API7_2D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step4_API7_2D">
+        <MSBuild Projects="Step4_API7_2D\Step4_API7_2D.dproj"/>
+    </Target>
+    <Target Name="Step4_API7_2D:Clean">
+        <MSBuild Projects="Step4_API7_2D\Step4_API7_2D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step4_API7_2D:Make">
+        <MSBuild Projects="Step4_API7_2D\Step4_API7_2D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Step4_API7_3D">
+        <MSBuild Projects="Step4_API7_3D\Step4_API7_3D.dproj"/>
+    </Target>
+    <Target Name="Step4_API7_3D:Clean">
+        <MSBuild Projects="Step4_API7_3D\Step4_API7_3D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Step4_API7_3D:Make">
+        <MSBuild Projects="Step4_API7_3D\Step4_API7_3D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UserSymbolWithLeader">
+        <MSBuild Projects="UserSymbolWithLeader\UserSymbolWithLeader.dproj"/>
+    </Target>
+    <Target Name="UserSymbolWithLeader:Clean">
+        <MSBuild Projects="UserSymbolWithLeader\UserSymbolWithLeader.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UserSymbolWithLeader:Make">
+        <MSBuild Projects="UserSymbolWithLeader\UserSymbolWithLeader.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="gayka">
+        <MSBuild Projects="gayka\gayka.dproj"/>
+    </Target>
+    <Target Name="gayka:Clean">
+        <MSBuild Projects="gayka\gayka.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="gayka:Make">
+        <MSBuild Projects="gayka\gayka.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="eventsCom">
+        <MSBuild Projects="EventsCom\eventsCom.dproj"/>
+    </Target>
+    <Target Name="eventsCom:Clean">
+        <MSBuild Projects="EventsCom\eventsCom.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="eventsCom:Make">
+        <MSBuild Projects="EventsCom\eventsCom.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="STEP1;STEP2a;Step2;Step3;Step3a;Step4;Step5;Step7;Step8;Step9;Step10;Step11;STEP12;Step3_API7_3D;Step3_API7_2D;Step2_API7_3D;Step2_API7_2D;Cube;gayka1;Step1_API7_2D;Step4_API7_2D;Step4_API7_3D;UserSymbolWithLeader;gayka;eventsCom"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="STEP1:Clean;STEP2a:Clean;Step2:Clean;Step3:Clean;Step3a:Clean;Step4:Clean;Step5:Clean;Step7:Clean;Step8:Clean;Step9:Clean;Step10:Clean;Step11:Clean;STEP12:Clean;Step3_API7_3D:Clean;Step3_API7_2D:Clean;Step2_API7_3D:Clean;Step2_API7_2D:Clean;Cube:Clean;gayka1:Clean;Step1_API7_2D:Clean;Step4_API7_2D:Clean;Step4_API7_3D:Clean;UserSymbolWithLeader:Clean;gayka:Clean;eventsCom:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="STEP1:Make;STEP2a:Make;Step2:Make;Step3:Make;Step3a:Make;Step4:Make;Step5:Make;Step7:Make;Step8:Make;Step9:Make;Step10:Make;Step11:Make;STEP12:Make;Step3_API7_3D:Make;Step3_API7_2D:Make;Step2_API7_3D:Make;Step2_API7_2D:Make;Cube:Make;gayka1:Make;Step1_API7_2D:Make;Step4_API7_2D:Make;Step4_API7_3D:Make;UserSymbolWithLeader:Make;gayka:Make;eventsCom:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

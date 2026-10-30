@@ -1,0 +1,177 @@
+#ifndef __GAYKA_RH
+#include "gayka.rh"
+#endif
+
+#ifndef __SLIDE_RH
+#include "slide.rh"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+CURSOR_ROTATE    CURSOR DISCARDABLE "res\\Rotate.cur"
+CURSOR_DIAMETER  CURSOR DISCARDABLE "res\\Diametr.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+// Размер окна слайдов для меню команд
+ID_LIBID RCDATA {
+  200,
+  150
+}
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+// Слайд Гайка
+CM_GAYKA5915 RCDATA
+{
+  GB,  168, 158,
+  SC,  1,
+  LS,  0,   1,
+  LN,  69,  57, 69,  26,
+  LN,  69,  26, 74,  18,
+  LN,  74,  18, 101, 18,
+  LN,  101, 18, 105, 26,
+  LN,  105, 26, 105, 57,
+  LN,  74,  37, 101, 37,
+  AR1, 114, 57, 45,  74,  37, 69,  57,
+  AR1, 61,  57, 44,  105, 57, 101, 37,
+  AR1, 80,  28, 11,  69,  28, 74,  37,
+  AR1, 94,  28, 11,  101, 37, 105, 28,
+  LN,  69,  57, 69,  88,
+  LN,  69,  88, 74,  96,
+  LN,  74,  96, 101, 96,
+  LN,  101, 96, 105, 88,
+  LN,  105, 88, 105, 57,
+  LN,  74,  77, 101, 77,
+  AR1, 114, 57, 45,  69,  57, 74,  77,
+  AR1, 62,  57, 44,  103, 77, 105, 57,
+  AR1, 80,  86, 11,  74,  77, 69,  86,
+  AR1, 95,  86, 11,  106, 86, 100, 76,
+  SC,  0,
+  LS,  2,   1,
+  LN,  62,  57, 112, 57,
+  SC,  0,
+  TS,  0,
+  MA,  45,  112,
+  TX,  "ГОСТ 9515-70\0"
+  MA,  37, 132,
+  TX,  "Класс точности В\0"
+  END_SLIDE
+}
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+ID_GAYKA_BMP      BITMAP DISCARDABLE "res\\Gayka.bmp"
+ID_LEADER_CREATE  BITMAP DISCARDABLE "res\\G_leader.BMP"
+
+
+IDP_BMP_SPC_OBJ   BITMAP DISCARDABLE  "res\\SPC_OBJ.BMP"
+IDP_BMP_KEY       BITMAP DISCARDABLE  "res\\G_KEY.bmp"
+IDP_BMP_AXIS      BITMAP DISCARDABLE  "res\\G_OSX_ON.bmp"
+
+IDP_BMP_G_VIEW    BITMAP DISCARDABLE  "res\\G_VIEW.bmp"
+IDP_BMP_G_LEFT    BITMAP DISCARDABLE  "res\\G_LEFT.bmp"
+IDP_BMP_G_TOP     BITMAP DISCARDABLE  "res\\G_TOP.bmp"
+IDP_BMP_G_SEC     BITMAP DISCARDABLE  "res\\G_SEC.bmp"
+IDP_BMP_G_I1      BITMAP DISCARDABLE  "res\\G_I1.bmp"
+IDP_BMP_G_I2      BITMAP DISCARDABLE  "res\\G_I2.bmp"
+IDP_BMP_G_SIMPLE  BITMAP DISCARDABLE  "res\\G_SIMPLE.bmp"
+IDP_BMP_G_STEP    BITMAP DISCARDABLE  "res\\G_STEP.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+ID_LIBID MENU DISCARDABLE
+BEGIN
+  MENUITEM "Гайки ГОСТ 5915 - 70",        CM_GAYKA5915
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+STRINGTABLE DISCARDABLE
+BEGIN
+
+  ID_LIBID                "Конструкторский элемент на Delphi с панелью"
+  ID_ERROR_2DDOC          "Документ не активизирован или \nне является листом/фрагментом"
+  ID_ERROR_LEADER         "Объект не позиционная линия выноски"
+  ID_INDICATE_LEADER      "Укажите позиционную линию выноски"
+
+  // Имена закладок
+  IDP_ELEMENT_PARAM       "Параметры элемента"
+  IDP_POS_LEADER          "Ввод линии выноски"
+  IDP_LEADER_BUTTONS      "Создать новую"
+  IDP_GAYKA5915           "Гайки ГОСТ 5915-70"
+
+  // Имена контроов ( Надписи )
+  IDP_SPC_OBJ             "Создать объект спецификации"
+  IDP_HATCH_PARAM         "Параметры штриховки"
+  IDP_HATCHANG_ANGLE      "У&гол, гр"
+  IDP_HATCHANG_STEP       "&Шаг, мм"
+  IDP_DIAM                "&Диаметр, мм"
+  IDP_REFLECTION          "&Вид отображения"
+  IDP_ISP                 "&Исполнение"
+  IDP_FLAGS               "Дополнительные па&раметры"
+  IDP_SIMPLE              "&Упрощения"
+  ID_AXIS                 "Ось рисовать"
+  ID_VIEW                 "Вид"
+  ID_LEFT                 "Вид сбоку"
+  ID_TOP                  "Вид сверху"
+  ID_SEC                  "Вид\\разрез"
+
+  // Подсказки для кнопок
+  IDP_BMP_KEY             "Размер под ключ"
+  IDP_BMP_G_I1            "Исполнение 1"
+  IDP_BMP_G_I2            "Исполнение 2"
+  IDP_BMP_G_SIMPLE        "Упрощенно"
+  IDP_BMP_G_STEP          "Мелкий шаг"
+
+  // Строки параметров выводимых в гриде
+  IDS_VALUE_CAPTION       "Значение"
+
+  IDS_PARAM_CAPTION       "Параметр"
+
+  IDS_PITCH               "Шаг резьбы"
+//  IDS_DIM_KEY             "Размер под ключ"
+  IDS_HEAD_H              "Высота головки"
+  IDS_MASSA_1000          "Масса 1000 шт"
+  IDS_CUPNUT_STR1         "D Диметр колпачка, мм"
+  IDS_CUTGAY_STR9         "e Диаметр описанной окружности, мм"
+  IDS_CUPNUT_STR2         "h1 Высота под ключ, мм"
+  IDS_CUPNUT_STR3         "l Глубина отверстия, мм"
+  IDS_CUPNUT_STR4         "l1 Длина резьбы, мм"
+
+  IDS_DIAM_TIPS           "Диаметр резьбы"
+  IDS_DIAM_HINT           "Диаметр резьбы"
+  IDS_REFLECTION_TIPS     "Вид отображения"
+  IDS_REFLECTION_HINT     "Вид отображения гайки"
+  IDS_ISP_TIPS            "Исполнение"
+  IDS_ISP_HINT            "Выбор исполнения"
+  IDS_SIMPLE_TIPS         "Упрощения отображения"
+  IDS_SIMPLE_HINT         "Упрощения отображения гайки"
+  IDS_FLAGS_TIPS          "Дополнительные параметры"
+  IDS_SPC_OBJ_TIPS        "Создать объект спецификации"
+  ID_LEADER_CREATE        "&Создать новую линию выноски"
+  IDS_LEADER_HINT         "Создать новую линию выноски"
+  IDS_LEADER_TIPS         "Создать линию выноски"
+
+}
+//  END
+
+//------
+// Пример вставки ActiveX Controla
+// Контрол для ввода параметров штриховки
+STRINGTABLE // DISCARDABLE
+{ // BEGIN
+  IDP_C_VCHATCH     "VCHATCH.VCHatchCtrl.1" // Имя класса контрола
+  IDS_C_VCHATCH     "Параметры штриховки"
+} // END
+

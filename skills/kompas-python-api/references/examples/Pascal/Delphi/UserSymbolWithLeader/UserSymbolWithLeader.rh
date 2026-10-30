@@ -1,0 +1,7 @@
+#ifndef __USERSYMBOLWITHLEADER_RH
+#define __USERSYMBOLWITHLEADER_RH
+
+#define ITB_SPEC_TOOLBAR 3000
+#define END_OF_RESOURCE_TABLE     0xffff
+
+#endif

@@ -1,0 +1,8 @@
+; Step9.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "Step9"
+;DESCRIPTION  'Step9 Windows Dynamic Link Library'
+
+EXPORTS
+  LIBRARYID    @1
+  LIBRARYENTRY @2

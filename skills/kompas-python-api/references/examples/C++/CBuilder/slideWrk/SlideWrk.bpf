@@ -1,0 +1,10 @@
+USEUNIT("maing.cpp");
+USEFORM("SlideFrm.cpp", SlideForm);
+USEUNIT("Testmov.cpp");
+USEUNIT("Testsl.cpp");
+USERC("Testsl.rc");
+USELIB("$(KOMPAS_SDK)\lib\kAPI2D5bc.lib");
+//---------------------------------------------------------------------------
+This file is used by the project manager only and should be treated like the project file
+
+DllEntryPoint

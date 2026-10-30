@@ -1,0 +1,30 @@
+1006 BITMAP "1001.bmp"
+1007 BITMAP "1002.bmp"
+
+STRINGTABLE
+{
+  10 "приемы работы"
+}
+
+10 RCDATA
+{
+ 170
+ 200
+}
+
+
+10 MENU
+{
+  MENUITEM "работа с БД",         1
+  MENUITEM "Placement, Cursor",   2
+  MENUITEM "ввод длинного целого",3
+  MENUITEM "выбор имени файла",   4
+  MENUITEM "записать слайд",    6
+  MENUITEM "отрисовать слайд",    7
+  MENUITEM "пример с обработкой очереди сообщений",    8
+  MENUITEM "относительный путь фала"            9
+  MENUITEM "работа с системными каталогами"     10
+}
+
+100 BITMAP "1.bmp"
+

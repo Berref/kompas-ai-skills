@@ -1,0 +1,6 @@
+#ifndef __STEP3_RH
+#define __STEP3_RH
+
+#define IDR_LIBID                 3000
+
+#endif

@@ -1,0 +1,9 @@
+USEUNIT("step2.cpp");
+USERC("Step2b.rc");
+USELIB("$(KOMPAS_SDK)\lib\kAPI5BC.lib");
+USEUNIT("$(KOMPAS_SDK)\Include\Ks_TLB.cpp");
+
+//---------------------------------------------------------------------------
+This file is used by the project manager only and should be treated like the project file
+
+DllEntryPoint

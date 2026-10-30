@@ -1,0 +1,77 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = STEP1.rtw STEP2a.rtw Step2.rtw Step3.rtw Step3a.rtw Step4.rtw \
+  Step5.rtw Step7.rtw Step8.rtw Step9.rtw Step10.rtw Step11.rtw gayka.rtw \
+  STEP12.rtw Step3_API7_3D.rtw Step3_API7_2D.rtw Step2_API7_3D.rtw \
+  Step2_API7_2D.rtw EventsAuto.rtw
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+STEP1.rtw: STEP1\STEP1.dpr
+  $(DCC)
+
+Step2.rtw: Step2\Step2.dpr
+  $(DCC)
+
+STEP2a.rtw: step2a\STEP2a.dpr
+  $(DCC)
+
+Step3.rtw: step3\Step3.dpr
+  $(DCC)
+
+Step3a.rtw: step3a\Step3a.dpr
+  $(DCC)
+
+Step4.rtw: step4\Step4.dpr
+  $(DCC)
+
+Step5.rtw: step5\Step5.dpr
+  $(DCC)
+
+Step7.rtw: step7\Step7.dpr
+  $(DCC)
+
+Step8.rtw: step8\Step8.dpr
+  $(DCC)
+
+Step9.rtw: step9\Step9.dpr
+  $(DCC)
+
+Step10.rtw: step10\Step10.dpr
+  $(DCC)
+
+Step11.rtw: step11\Step11.dpr
+  $(DCC)
+
+gayka.rtw: gayka\gayka.dpr
+  $(DCC)
+
+STEP12.rtw: step12\STEP12.dpr
+  $(DCC)
+
+Step3_API7_3D.rtw: Step3_API7_3D\Step3_API7_3D.dpr
+  $(DCC)
+
+Step3_API7_2D.rtw: Step3_API7_2D\Step3_API7_2D.dpr
+  $(DCC)
+
+Step2_API7_3D.rtw: Step2_API7_3D\Step2_API7_3D.dpr
+  $(DCC)
+
+Step2_API7_2D.rtw: Step2_API7_2D\Step2_API7_2D.dpr
+  $(DCC)
+
+EventsAuto.rtw: ..\DELPHIAUTO\EventsAuto\EventsAuto.dpr
+  $(DCC)
+
+

@@ -1,0 +1,57 @@
+#ifndef __GAYKA_RH
+#define __GAYKA_RH
+
+#define MENU_1             100
+#define MENU_POS_LEADER	 10000
+#define MENU_G5915_1     10001
+#define MENU_G5915_2     10002
+#define MENU_G5915_3     10003
+#define MENU_G5915_4     10004
+#define MENU_G5915_5     10005
+#define MENU_G5915_6     10006
+#define MENU_G5915_7     10007
+#define MENU_G5915_8     10008
+#define GAIKA_POPUPMENU  10009
+
+#define ID_PARAM	       11000
+#define ID_ANGLE	       11001
+#define ID_VID		       11002
+#define ID_SIDEVID	     11003
+#define ID_TOPVID	       11004
+#define ID_VIDSEC	       11005
+#define ID_HATCH_ANG	   11006
+#define ID_HATCH_SHAG	   11007
+#define ID_BOTTOMVID	   11008
+#define ID_CALC_PAKET    11009
+#define ID_SEC           11010
+#define ID_SEC_R         11011
+#define ID_SIMPLE        11012
+#define ID_DIMENSION     11013
+#define ID_SERVICE       11014
+#define ID_ATTR          11015
+#define ID_VID_R		     11016
+#define ID_SHPONSLOT		 11017
+
+#define G5915_1  	       12000
+#define G5915_2  	       12001
+#define G5915_3  	       12002
+#define G5915_4        	 12003
+#define G5915_5        	 12004
+#define G5915_6        	 12005
+#define G5915_7        	 12006
+#define G5915_8  	       12007
+#define G5915_9  	       12008
+#define G5915_10 	       12009
+#define G5915_11	       12010
+
+#define STR11            13000 // Гайки ГОСТ 5915-70
+#define ANGLE_HATCH_STR  13001 // Введите угол штриховки
+#define STEP_HATCH_STR   13002 // Введите шаг штриховки
+#define PROMPT           13003 // Введите первую точку для гайки
+#define STR228           13004 // Объект не позиционная линия выноски!
+#define STR226           13005 // Ошибка в konstr.txt
+
+#define CURSOR_ROTATE    14000 
+#define CURSOR_DIAMETER  14001
+
+#endif

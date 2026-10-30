@@ -1,0 +1,6 @@
+;LIBRARY      "Step3d1"
+;DESCRIPTION  'Windows Dynamic Link Library'
+
+EXPORTS
+ LIBRARYID    @1
+ LIBRARYENTRY @2

@@ -1,0 +1,9 @@
+; Step11.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "Step11"
+;DESCRIPTION  'Step11 Windows Dynamic Link Library'
+
+EXPORTS
+  LIBRARYID    @1
+  LIBRARYENTRY @2
+  CALLBACKPROCCOMMANDWINDOW @3

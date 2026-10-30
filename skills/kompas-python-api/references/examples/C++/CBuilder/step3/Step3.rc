@@ -1,0 +1,45 @@
+#ifndef __STEP3_RH
+#include "step3.rh"
+#endif 
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_LIBID MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Cоздать документ",            1
+    MENUITEM "Виды",                        2
+    MENUITEM "Слои",                        3
+    MENUITEM "Группы",                      4
+    MENUITEM "Именная группа",              5
+    MENUITEM "Отрезки",                     6
+    MENUITEM "Дуги",                        7
+    MENUITEM "Линии",                       8
+    MENUITEM "Окружности",                  9
+    MENUITEM "Точки",                       10
+    MENUITEM "Bezier-сплайны",              11
+    MENUITEM "Штриховка",                   12
+    MENUITEM "Текст",                       13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+1011                    BITMAP  DISCARDABLE     "1011.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_LIBID               "Объекты"
+END

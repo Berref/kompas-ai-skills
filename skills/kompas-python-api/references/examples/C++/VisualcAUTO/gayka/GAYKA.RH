@@ -1,0 +1,93 @@
+#ifndef __GAYKA_RH
+#define __GAYKA_RH
+
+#define MENU_1   1001
+#define ID_ANGLE         1   // угол
+#define ID_CALC_PAKET 19  // измерить пакет для болта гайки шайбы
+#define ID_VID           2   //(Вид) macroPar.drawType = 0;
+#define ID_SIDEVID       4   //(Вид_сбоку)  macroPar.drawType = 6;
+#define ID_SEC           8   //разрез
+#define ID_SEC_R        15   //разрез
+#define ID_SHPONSLOT    16  //шпоночный паз
+#define ID_HATCH_ANG     6   //угол штриховки
+#define ID_HATCH_SHAG    7   //шаг штриховки
+#define ID_SIMPLE        9   //упрощенное изображение
+#define ID_DIMENSION    13   //с размерами или без
+#define ID_TOPVID        3   //(Вид_сверху)  macroPar.drawType = 8;
+#define ID_VIDDIMENSION  4   //(Вид_c размерами)
+#define ID_VIDSEC        5   //Пол-вида/пол-разреза  macroPar.drawType = 2;
+#define ID_PARAM        10   //параметры макроэлемента
+#define ID_ATTR         11   //атрибуты макроэлемента
+#define ID_BOTTOMVID    12   //(Вид_снизу)  macroPar.drawType = 16;
+#define ID_VID_R        14   //Вид
+#define ID_CONE         2    //конус
+#define ID_OGIVALO      3    //оживало
+#define ID_CARVING      4    //резьба
+#define ID_ROUNDING     5    //скругление
+#define ID_CHAMFER      14   //фаска
+#define ID_SPHERE       8    //сфера
+#define ID_CYLINDER     15   //цилиндр
+#define ID_SERVICE    17  //
+#define ID_SERVICE1   18  //
+
+#define FIRST_DLG        300
+#define GAYKA_DIALOG	    FIRST_DLG+1
+
+#define FIRST_MN        2000
+#define MENU_POS_LEADER      FIRST_MN+282
+#define MENU_G5915_1    FIRST_MN+19
+#define MENU_G5915_2    FIRST_MN+20
+#define MENU_G5915_3    FIRST_MN+21
+#define MENU_G5915_4    FIRST_MN+22
+#define MENU_G5915_5    FIRST_MN+31
+#define MENU_G5915_6    FIRST_MN+32
+#define MENU_G5915_7    FIRST_MN+33
+#define MENU_G5915_8    FIRST_MN+34
+
+#define FIRST_STR        500
+
+#define STR11  FIRST_STR+11
+#define STR144  FIRST_STR+144
+#define STR226  FIRST_STR+226
+#define STR228  FIRST_STR+228  // "Ошибка! Объект не позиционная линия выноски!"
+
+#define FIRST_ID        200
+
+#define IDD_DIAM        FIRST_ID+2
+#define IDD_SHOW        FIRST_ID+3
+#define IDD_ATTR        FIRST_ID+4
+#define IDD_SIMPL       FIRST_ID+5
+#define IDD_PITCH	      FIRST_ID+45
+#define IDD_ISPOLN1     FIRST_ID+8
+#define IDC_GROUP1	    FIRST_ID+16
+#define IDD_ISPOLN2     FIRST_ID+11
+#define IDD_VID	        FIRST_ID+10
+#define IDD_VIDSEC      FIRST_ID+20
+#define IDD_SIDEVID	    FIRST_ID+12
+#define IDD_TOPVID	    FIRST_ID+35
+#define IDD_H_ANG	      FIRST_ID+14
+#define IDD_H_SHAG	    FIRST_ID+15
+#define IDC_GROUP  	    FIRST_ID+17
+#define IDC_CHECK_KEY_S	    FIRST_ID+85
+#define IDD_AXIS        FIRST_ID+44
+#define IDC_GRP         FIRST_ID+7
+
+#define FIRST_BMP        4000
+
+#define G5915_1  FIRST_BMP +11
+#define G5915_2  FIRST_BMP +12
+#define G5915_3  FIRST_BMP +13
+#define G5915_4  FIRST_BMP +14
+#define G5915_5  FIRST_BMP +15
+#define G5915_6  FIRST_BMP +16
+#define G5915_7  FIRST_BMP +17
+#define G5915_8  FIRST_BMP +18
+#define G5915_9  FIRST_BMP +19
+#define G5915_10 FIRST_BMP +20
+#define G5915_11 FIRST_BMP +21
+
+#define CURSOR_ROTATE    5001
+#define CURSOR_DIAMETER  5002
+#define GAIKA_POPUPMENU  5003
+
+#endif

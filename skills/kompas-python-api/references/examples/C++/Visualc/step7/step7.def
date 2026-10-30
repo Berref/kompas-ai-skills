@@ -1,0 +1,6 @@
+;LIBRARY      "Step7"
+;DESCRIPTION  'Windows Dynamic Link Library'
+
+EXPORTS
+ LIBRARYID    @1
+ LIBRARYENTRY @2

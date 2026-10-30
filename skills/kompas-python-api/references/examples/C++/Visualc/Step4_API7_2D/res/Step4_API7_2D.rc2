@@ -1,0 +1,19 @@
+#ifdef APSTUDIO_INVOKED
+  #error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+// Иконки команд
+1001 BITMAP "res\\bmp16\\1001.bmp"
+
+
+// Меню
+IDR_LIBID MENU
+BEGIN
+  MENUITEM "Задание на печать",																	1
+  MENUITEM "Настройки принтера",                                2
+  MENUITEM "Создание и сохранение конфигурации",                3
+  MENUITEM "Загрузка конфигурации",                             4
+END
+
+/////////////////////////////////////////////////////////////////////////////

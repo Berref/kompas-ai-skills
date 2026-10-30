@@ -1,0 +1,9 @@
+; eventCom.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "eventsCom"
+;DESCRIPTION  'eventsCom Windows Dynamic Link Library'
+
+EXPORTS
+ LIBRARYENTRY @1
+ LIBRARYID    @2
+ LibInterfaceNotifyEntry @3

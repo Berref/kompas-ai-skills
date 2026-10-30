@@ -1,0 +1,9 @@
+; eventsAuto.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "eventsAuto"
+;DESCRIPTION  'eventsAuto Windows Dynamic Link Library'
+
+EXPORTS
+ LIBRARYENTRY @1
+ LIBRARYID    @2
+ LibInterfaceNotifyEntry @3

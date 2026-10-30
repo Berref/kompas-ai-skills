@@ -1,0 +1,11 @@
+#ifndef __STEP2_RH
+#define __STEP2_RH
+
+#define IDR_LIBID                 2000
+
+#define END_OF_RESOURCE_TABLE     0xffff
+#define COMPACT_BAR1              2001
+#define BAR_1                     3001
+#define BAR_2                     3002
+
+#endif

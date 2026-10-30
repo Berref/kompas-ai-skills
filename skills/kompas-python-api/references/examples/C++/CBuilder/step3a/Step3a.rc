@@ -1,0 +1,37 @@
+#ifndef __STEP3A_RH
+#include "step3a.rh"
+#endif 
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_LIBID MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Контур",                      1
+    MENUITEM "Технические требования",      2
+    MENUITEM "Стрелка вида",                3
+    MENUITEM "Заполнить штамп",             4
+    MENUITEM "Таблица",                     5
+    MENUITEM "Эквидистанта",                6
+    MENUITEM "Эллипс",                      7
+    MENUITEM "Полилиния",                   8
+    MENUITEM "Nurbs",                       9
+    MENUITEM "Допуск формы",                10
+    MENUITEM "Неуказанная шероховатость",   11
+    MENUITEM "Вставка фрагмента внешней ссылкой", 12
+    MENUITEM "Вставка локального фрагмента", 13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_LIBID               "Объекты - a"
+END

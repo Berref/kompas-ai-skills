@@ -1,0 +1,10 @@
+; SlideWrk.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "SlideWrk"
+;DESCRIPTION  'SlideWrk Windows Dynamic Link Library'
+
+EXPORTS
+  LIBRARYNAME					@1
+  LIBRARYID						@2
+  LIBRARYENTRY				@3
+  CALLBACKPROCCURSOR	@4

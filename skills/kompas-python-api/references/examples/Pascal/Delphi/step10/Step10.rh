@@ -1,0 +1,10 @@
+#ifndef __STEP10_RH
+#define __STEP10_RH
+
+#define STR225    200
+#define STR226    201
+#define STR227    202
+#define STR228    203
+#define MENU_POS_LEADER 204
+
+#endif

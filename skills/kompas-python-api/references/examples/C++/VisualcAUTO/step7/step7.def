@@ -1,0 +1,8 @@
+; Step7.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "Step7"
+;DESCRIPTION  'Step7 Windows Dynamic Link Library'
+
+EXPORTS
+  LIBRARYID    @1
+  LIBRARYENTRY @2

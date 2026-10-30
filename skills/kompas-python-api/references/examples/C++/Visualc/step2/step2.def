@@ -1,0 +1,11 @@
+;LIBRARY      "Step2"
+;DESCRIPTION  'Windows Dynamic Link Library'
+
+EXPORTS
+ LIBRARYID            @1
+ LIBRARYENTRY         @2
+ LibToolBarId         @3
+ LibraryBmpBeginID    @4
+ LIBRARYNAMEW         @5
+ DisplayLibraryNameW  @6
+ LibCommandState      @7

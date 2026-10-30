@@ -1,0 +1,6 @@
+#ifndef __STEP7_RH
+#define __STEP7_RH
+
+#define IDR_LIBID                 7000
+
+#endif

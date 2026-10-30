@@ -1,0 +1,6 @@
+#ifndef __STEP5_RH
+#define __STEP5_RH
+
+#define IDR_LIBID                 5000
+
+#endif

@@ -1,0 +1,20 @@
+# Вырезанный элемент по сечениям (Интерфейсы ksCutLoftDefinition, ICutLoftDefinition)
+
+[API интерфейсов. Версия 5](ag57940.html) > [Документ-модель (Интерфейсы - ksDocument3D, IDocument3D ) ](ksdocument3d.html) > [Компонент сборки (деталь или подсборка). Интерфейсы ksPart и IPart ](kspart.html) > [Объект модели (Интерфейсы ksEntity и IEntity) ](bw1897880.html) > [Интерфейсы ksEntity и iEntity - Интерфейс элемента модели (оси, плоскости, формообразующего элемента) ](ksentity.html) > [Интерфейсы формообразующих операций ](int_operation.html) |  Scroll [ [ [ ](kscutloftdefinition_props.html "К следующему разделу")](int_operation.html "На уровень выше")](ksbossevolutiondefinition_thinparam.html "К предыдущему разделу")  
+---|---  
+  
+Интерфейс параметров вырезанного элемента по сечениям.
+
+ksCutLoftDefinition | \- интерфейс Automation  
+---|---  
+ICutLoftDefinition | \- интерфейс COM  
+  
+Примечание:
+
+Данный интерфейс можно получить, используя метод интерфейса элемента модели [ksEntity::GetDefinition](ksentity_getdefinition.html) или [IEntity::GetDefinition](ksentity_getdefinition.html).
+
+Подразделы:
+
+[ICutLoftDefinition - свойства ](kscutloftdefinition_props.html)
+
+[ICutLoftDefinition - методы ](kscutloftdefinition_methods.html)

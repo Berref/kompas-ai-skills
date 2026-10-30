@@ -1,0 +1,7 @@
+;LIBRARY      "IPropertyTree_Sample"
+;DESCRIPTION  'Windows Dynamic Link Library'
+
+EXPORTS
+ LIBRARYID               @1
+ LIBRARYENTRY            @2
+

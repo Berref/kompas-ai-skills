@@ -1,0 +1,168 @@
+root.cpp
+root.h
+StdAfx.cpp
+StdAfx.h
+root.rc
+Resource.h
+root.def
+root.rc2
+root.bmp
+[!if DIC]
+root.dic
+[!endif]
+
+[!if PROP_PANEL]
+PropManager\CPropMen.cpp
+PropManager\CPropMen.h
+[!endif]
+
+[!if KS_EVENTS]
+[!if EXPORT_API]
+events\COM\CBaseEvent.cpp
+events\COM\CBaseEvent.h
+[!endif]
+[!if EXPORT_API]
+[!if ApplicationEvent]
+events\COM\ApplicationEvent.cpp
+events\COM\ApplicationEvent.h
+[!endif]
+[!if DocumentEvent]
+events\COM\DocumentEvent.cpp
+events\COM\DocumentEvent.h
+[!endif]
+[!if Document2DEvent]
+events\COM\Document2DEvent.cpp
+events\COM\Document2DEvent.h
+[!endif]
+[!if Document3DEvent]
+events\COM\Document3DEvent.cpp
+events\COM\Document3DEvent.h
+[!endif]
+[!if Object2DEvent]
+events\COM\Object2DEvent.cpp
+events\COM\Object2DEvent.h
+[!endif]
+[!if Object3DEvent]
+events\COM\Object3DEvent.cpp
+events\COM\Object3DEvent.h
+[!endif]
+[!if SelectMngEvent]
+events\COM\SelectMngEvent.cpp
+events\COM\SelectMngEvent.h
+[!endif]
+[!if StampEvent]
+events\COM\StampEvent.cpp
+events\COM\StampEvent.h
+[!endif]
+[!if SpcObjectEvent]
+events\COM\SpcObjectEvent.cpp
+events\COM\SpcObjectEvent.h
+[!endif]
+[!if SpecificationEvent]
+events\COM\SpecificationEvent.cpp
+events\COM\SpecificationEvent.h
+[!endif]
+[!if SpcDocumentEvent]
+events\COM\SpcDocumentEvent.cpp
+events\COM\SpcDocumentEvent.h
+[!endif]
+[!if DocumentFrameEvent]
+events\COM\DocumentFrameEvent.cpp
+events\COM\DocumentFrameEvent.h
+[!endif]
+[!if ViewsAndLayersEvent]
+events\COM\ViewsAndLayersEvent.cpp
+events\COM\ViewsAndLayersEvent.h
+[!endif]
+[!if LibMngEvent]
+events\COM\LibMngEvent.cpp
+events\COM\LibMngEvent.h
+[!endif]
+[!if PropUserEvent]
+events\COM\PropUserEvent.cpp
+events\COM\PropUserEvent.h
+[!endif]
+[!endif]
+[!if AUTO_API || PROP_PANEL]
+events\AUTO\ABaseEvent.cpp
+events\AUTO\ABaseEvent.h
+[!endif]
+[!if AUTO_API]
+events\AUTO\Misc.cpp
+events\AUTO\Misc.h
+[!if ApplicationEvent]
+events\AUTO\ApplicationEvent.cpp
+events\AUTO\ApplicationEvent.h
+[!endif]
+[!if DocumentEvent]
+events\AUTO\DocumentEvent.cpp
+events\AUTO\DocumentEvent.h
+[!endif]
+[!if Document2DEvent]
+events\AUTO\Document2DEvent.cpp
+events\AUTO\Document2DEvent.h
+[!endif]
+[!if Document3DEvent]
+events\AUTO\Document3DEvent.cpp
+events\AUTO\Document3DEvent.h
+[!endif]
+[!if Object2DEvent]
+events\AUTO\Object2DEvent.cpp
+events\AUTO\Object2DEvent.h
+[!endif]
+[!if Object3DEvent]
+events\AUTO\Object3DEvent.cpp
+events\AUTO\Object3DEvent.h
+[!endif]
+[!if SelectMngEvent]
+events\AUTO\SelectMngEvent.cpp
+events\AUTO\SelectMngEvent.h
+[!endif]
+[!if StampEvent]
+events\AUTO\StampEvent.cpp
+events\AUTO\StampEvent.h
+[!endif]
+[!if SpcObjectEvent]
+events\AUTO\SpcObjectEvent.cpp
+events\AUTO\SpcObjectEvent.h
+[!endif]
+[!if SpecificationEvent]
+events\AUTO\SpecificationEvent.cpp
+events\AUTO\SpecificationEvent.h
+[!endif]
+[!if SpcDocumentEvent]
+events\AUTO\SpcDocumentEvent.cpp
+events\AUTO\SpcDocumentEvent.h
+[!endif]
+[!if DocumentFrameEvent]
+events\AUTO\DocumentFrameEvent.cpp
+events\AUTO\DocumentFrameEvent.h
+[!endif]
+[!if ViewsAndLayersEvent]
+events\AUTO\ViewsAndLayersEvent.cpp
+events\AUTO\ViewsAndLayersEvent.h
+[!endif]
+[!if LibMngEvent]
+events\AUTO\LibMngEvent.cpp
+events\AUTO\LibMngEvent.h
+[!endif]
+[!if PropUserEvent]
+events\AUTO\PropUserEvent.cpp
+events\AUTO\PropUserEvent.h
+[!endif]
+[!endif]
+[!endif]
+
+[!if FULL_IMAGES]
+root24.bmp
+root32.bmp
+root48.bmp
+[!endif]
+
+[!if USES_TOOLBAR]
+bar1.ico
+[!endif]
+
+[!if USES_HP || EXTENDEDEDIT]
+HotPoint.cpp
+[!endif]

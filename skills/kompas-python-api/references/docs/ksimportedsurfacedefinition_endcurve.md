@@ -1,0 +1,30 @@
+# EndCurve - Завершить создание новой кривой
+
+[API интерфейсов. Версия 5](ag57940.html) > [Документ-модель (Интерфейсы - ksDocument3D, IDocument3D ) ](ksdocument3d.html) > [Компонент сборки (деталь или подсборка). Интерфейсы ksPart и IPart ](kspart.html) > [Объект модели (Интерфейсы ksEntity и IEntity) ](bw1897880.html) > [Интерфейсы ksEntity и iEntity - Интерфейс элемента модели (оси, плоскости, формообразующего элемента) ](ksentity.html) > [Интерфейсы дополнительных элементов ](int_additional.html) > [Описание импортированной поверхности (Интерфейсы ksImportedSurfaceDefinition, IImportedSurfaceDefinition) ](ksimportedsurfacedefinition.html) > [IImportedSurfaceDefinition - методы ](ksimportedsurfacedefinition_methods.html) |  Scroll [ [ [ ](ksthreaddefinition.html "К следующему разделу")](ksimportedsurfacedefinition_methods.html "На уровень выше")](ksimportedsurfacedefinition_clear.html "К предыдущему разделу")  
+---|---  
+  
+[Интерфейс...](ksimportedsurfacedefinition.html)
+
+Синтаксис Automation:
+
+BOOL EndCurve();
+
+Синтаксис COM:
+
+BOOL EndCurve();
+
+Возвращаемое значение:
+
+TRUE | \- в случае успеха,  
+---|---  
+FALSE | \- в случае неудачи.  
+  
+Примечание:
+
+Перед добавлением точек кривой нужно открыть описание кривой методом [ksImportedSurfaceDefinition::BeginCurve.](ksimportedsurfacedefinition_begincurve.html)
+
+Для добавления точек используется метод [ksImportedSurfaceDefinition::AddPoint](ksimportedsurfacedefinition_addpoint.html).
+
+Подразделы:
+
+(отсутствуют)

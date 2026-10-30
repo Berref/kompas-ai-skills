@@ -1,0 +1,70 @@
+// VCHatch.odl : type library source for ActiveX Control project.
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (VCHatch.tlb) that will become a resource in
+// VCHatch.ocx.
+
+#include <olectl.h>
+//#include <idispids.h>
+
+[ uuid(2AFD2EAF-A5DE-4A3D-95BA-D2C1E43C1088), version(1.0),
+  helpfile("VCHatch.hlp"),
+  helpstring("VCHatch ActiveX Control module"),
+  control ]
+library VCHATCHLib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+	[ uuid(3FFE9799-DF8D-4936-980C-BEA28964A3A7),
+	  helpstring("Dispatch interface for VCHatch Control"), hidden ]
+	dispinterface _DVCHatch
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CVCHatchCtrl)
+			[id(1)] double       Angle;
+			[id(2)] double       Step;
+      [id(3)] VARIANT_BOOL Enable;
+			//}}AFX_ODL_PROP
+
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CVCHatchCtrl)
+			//}}AFX_ODL_METHOD
+	};
+
+	//  Event dispatch interface for CVCHatchCtrl
+
+	[ uuid(26776524-F601-42CE-A49E-90CF804111A5),
+	  helpstring("Event interface for VCHatch Control") ]
+	dispinterface _DVCHatchEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			// NOTE - ClassWizard will maintain event information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_EVENT(CVCHatchCtrl)
+			[id(1)] void ChangeAngle();
+			[id(2)] void ChangeStep();
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Class information for CVCHatchCtrl
+
+	[ uuid(FFED03F1-481A-4ACD-A39E-C5D4A8828236),
+	  helpstring("VCHatch Control"), control ]
+	coclass VCHatch
+	{
+		[default] dispinterface _DVCHatch;
+		[default, source] dispinterface _DVCHatchEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

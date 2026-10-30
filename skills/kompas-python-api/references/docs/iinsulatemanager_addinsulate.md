@@ -1,0 +1,29 @@
+# AddInsulate - Добавить объект в список изолированных
+
+[API интерфейсов. Версия 7](applicate.html) > [Сервисные функции ](service.html) > [Изолирование компонентов](isolation.html) > [Интерфейс IInsulateManager](iinsulatemanager.html) > [IInsulateManager - методы](iinsulatemanager_methods.html) |  Scroll [ [ [ ](iinsulatemanager_deleteinsulate.html "К следующему разделу")](iinsulatemanager_methods.html "На уровень выше")](iinsulatemanager_methods.html "К предыдущему разделу")  
+---|---  
+  
+[Интерфейс...](iinsulatemanager.html)
+
+Синтаксис Automation:
+
+BOOL AddInsulate( VARIANT Objects ) ;
+
+Синтаксис COM:
+
+HRESULT AddInsulate( VARIANT Objects, BOOL * Result );
+
+Возвращаемое значение:
+
+TRUE | \- успешное завершение,  
+---|---  
+FALSE | \- в случае неудачи.  
+  
+Входные параметры:
+
+Objects | \- Список изолируемых объектов в виде массива SAFEARRAY'я DISPATCH - VT_ARRAY | VT_DISPATCH.  
+---|---  
+  
+Подразделы:
+
+(отсутствуют)

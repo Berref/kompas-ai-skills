@@ -1,0 +1,11 @@
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+IDM_TREE_MENU MENU DISCARDABLE
+BEGIN
+POPUP "1"
+BEGIN
+MENUITEM "Редактировать", 510
+END
+END

@@ -1,0 +1,16 @@
+////////////////////////////////////////////////////////////////////////////////
+// Библиотека примеров: 'Самая простая библиотека'
+////////////////////////////////////////////////////////////////////////////////
+library Step1;
+
+{$E rtw}
+uses
+  step11 in 'step11.pas';
+
+exports
+  LibraryName name 'LIBRARYNAME',
+  LibraryId name 'LIBRARYID',
+  LibraryEntry name 'LIBRARYENTRY';
+
+begin
+end.

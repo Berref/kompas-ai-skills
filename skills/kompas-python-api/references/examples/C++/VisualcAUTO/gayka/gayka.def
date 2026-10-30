@@ -1,0 +1,12 @@
+; Gayka.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "Gayka"
+;DESCRIPTION  'Gayka Windows Dynamic Link Library'
+
+EXPORTS
+  LIBRARYNAME  @1
+  LIBRARYID    @2
+  LIBRARYENTRY @3
+  CALLBACKPROCPLACEMENT @4
+  CALLBACKPROCCURSOR    @5
+  LibObjInterfaceEntry  @6

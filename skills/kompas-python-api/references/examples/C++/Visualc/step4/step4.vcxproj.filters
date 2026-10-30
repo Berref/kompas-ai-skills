@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1b360022-ba18-4eae-868d-f8a57521864e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b91fcbf4-7b5d-413b-8d49-abf13c47e122}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{9c1361dd-af24-47cc-b504-74b6108b08e2}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="events">
+      <UniqueIdentifier>{612206dd-7d12-4e77-9910-3a25f85eec08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="step4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="step4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="step4_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPropMen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Api7Draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\aBaseEvent.cpp">
+      <Filter>events</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\CBaseEvent.cpp">
+      <Filter>events</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\ApplicationEvent.cpp">
+      <Filter>events</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="step4.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\step4.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="step4.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPropMen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Api7Draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\aBaseEvent.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\ApplicationEvent.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\CBaseEvent.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="step4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1006.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="1007.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Slide.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

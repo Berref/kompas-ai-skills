@@ -1,0 +1,30 @@
+#include "UserSymbolWithLeader.rh"
+
+ITB_SPEC_TOOLBAR RCDATA
+{
+  1 // pbEnter
+  2 // pbEsc
+  8 // pbHelp
+  500 // Редактирование выносной линии
+
+  END_OF_RESOURCE_TABLE
+}
+
+// Определение имени библиотеки
+STRINGTABLE
+{
+  100  "Пользовательское обозначение"
+}
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+100 MENU DISCARDABLE
+BEGIN
+  MENUITEM "Создать обозначение",        1
+END
+
+500  BITMAP DISCARDABLE "leader.BMP"
+

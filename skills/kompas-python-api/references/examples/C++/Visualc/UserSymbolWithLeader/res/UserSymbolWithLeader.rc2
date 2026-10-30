@@ -1,0 +1,36 @@
+#ifdef APSTUDIO_INVOKED
+  #error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+ITB_SPEC_TOOLBAR  RCDATA   
+{
+  1 //pbEnter
+  2 //pbEsc
+  8 //pbHelp
+
+  500 // –едактирование выносной линии           
+  END_OF_RESOURCE_TABLE
+}
+
+// »конки команд
+//1001 BITMAP "res\\bmp16\\1001.bmp"
+// »конки 24*24
+//2001 BITMAP "res\\bmp24\\2001.bmp"
+// »конки 32*32
+//3001 BITMAP "res\\bmp32\\3001.bmp"
+// »конки 48*48
+//4001 BITMAP "res\\bmp48\\4001.bmp"
+
+1001 ICON DISCARDABLE "res\\leader.ico"
+
+
+// »конка дл€ кнопки редактировани€ выносной линии
+//500 BITMAP "res\\bmp16\\leader.bmp" 
+//600 BITMAP "res\\bmp24\\leader24.bmp" 
+//700 BITMAP "res\\bmp32\\leader32.bmp" 
+//800 BITMAP "res\\bmp48\\leader48.bmp" 
+
+500 ICON DISCARDABLE "res\\leader.ico"
+
+/////////////////////////////////////////////////////////////////////////////

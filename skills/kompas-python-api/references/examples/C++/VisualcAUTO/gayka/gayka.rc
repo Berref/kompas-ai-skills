@@ -1,0 +1,561 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\slide.rh"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\slide.rh""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#endif //_WIN32\r\n"
+    "#endif\r\n"
+    "#include ""res\\gayka.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_LIBID MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Гайки ГОСТ 5915 - 70",        1
+END
+
+MENU_POS_LEADER MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Подключить существующую",     2
+    MENUITEM "Создать новую линию выноски ", 1
+END
+
+MENU_G5915_1 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Отключить угол",              ID_ANGLE
+    POPUP "Тип отображения"
+    BEGIN
+        MENUITEM "Вид сверху",                  ID_TOPVID
+        MENUITEM "Вид сбоку",                   ID_SIDEVID
+        MENUITEM "Пол-вида/пол-разреза",        ID_VIDSEC
+    END
+END
+
+MENU_G5915_2 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Отключить угол",              ID_ANGLE
+    POPUP "Тип отображения"
+    BEGIN
+        MENUITEM "Вид",                         ID_VID
+        MENUITEM "Вид сбоку",                   ID_SIDEVID
+        MENUITEM "Пол-вида/пол-разреза",        ID_VIDSEC
+    END
+END
+
+MENU_G5915_3 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Отключить угол",              ID_ANGLE
+    POPUP "Тип отображения"
+    BEGIN
+        MENUITEM "Вид",                         ID_VID
+        MENUITEM "Вид сбоку",                   ID_SIDEVID
+        MENUITEM "Вид сверху",                  ID_TOPVID
+    END
+    POPUP "Параметры штриховки"
+    BEGIN
+        MENUITEM "Угол штриховки",              ID_HATCH_ANG
+        MENUITEM "Шаг штриховки",               ID_HATCH_SHAG
+    END
+END
+
+MENU_G5915_4 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Отключить угол",              ID_ANGLE
+    POPUP "Тип отображения"
+    BEGIN
+        MENUITEM "Вид",                         ID_VID
+        MENUITEM "Вид сверху",                  ID_TOPVID
+        MENUITEM "Пол-вида/пол-разреза",        ID_VIDSEC
+    END
+END
+
+MENU_G5915_5 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Включить угол",               ID_ANGLE
+    POPUP "Тип отображения"
+    BEGIN
+        MENUITEM "Вид сверху",                  ID_TOPVID
+        MENUITEM "Вид сбоку",                   ID_SIDEVID
+        MENUITEM "Пол-вида/пол-разреза",        ID_VIDSEC
+    END
+END
+
+MENU_G5915_6 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Включить угол",               ID_ANGLE
+    POPUP "Тип отображения"
+    BEGIN
+        MENUITEM "Вид",                         ID_VID
+        MENUITEM "Вид сбоку",                   ID_SIDEVID
+        MENUITEM "Пол-вида/пол-разреза",        ID_VIDSEC
+    END
+END
+
+MENU_G5915_7 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Включить угол",               ID_ANGLE
+    POPUP "Тип отображения"
+    BEGIN
+        MENUITEM "Вид",                         ID_VID
+        MENUITEM "Вид сбоку",                   ID_SIDEVID
+        MENUITEM "Вид сверху",                  ID_TOPVID
+    END
+    POPUP "Параметры штриховки"
+    BEGIN
+        MENUITEM "Угол штриховки",              ID_HATCH_ANG
+        MENUITEM "Шаг штриховки",               ID_HATCH_SHAG
+    END
+END
+
+MENU_G5915_8 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM "Включить угол",               ID_ANGLE
+    POPUP "Тип отображения"
+    BEGIN
+        MENUITEM "Вид",                         ID_VID
+        MENUITEM "Вид сверху",                  ID_TOPVID
+        MENUITEM "Пол-вида/пол-разреза",        ID_VIDSEC
+    END
+END
+
+GAIKA_POPUPMENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Параметры",                   ID_PARAM
+    MENUITEM SEPARATOR
+    MENUITEM "Вид",                         ID_VID
+    MENUITEM "Вид сверху",                  ID_TOPVID
+    MENUITEM "Вид сбоку",                   ID_SIDEVID
+    MENUITEM "Полвида/полразреза",          ID_VIDSEC
+    MENUITEM SEPARATOR
+    MENUITEM "Угол штриховки",              ID_HATCH_ANG
+    MENUITEM "Шаг штриховки",               ID_HATCH_SHAG
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDR_LIBID RCDATA MOVEABLE PURE 
+BEGIN
+    0x00aa, 0x00c8
+END
+
+G5915_1 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x004a, 0x003b, 0x004a, 0x001c, 0x4e22, 0x004a, 0x001c, 0x004e, 0x0014, 
+    0x4e22, 0x004e, 0x0014, 0x006a, 0x0014, 0x4e22, 0x006a, 0x0014, 0x006e, 
+    0x001c, 0x4e22, 0x006d, 0x001c, 0x006d, 0x003b, 0x4e22, 0x004e, 0x0027, 
+    0x006a, 0x0027, 0x4e28, 0x0077, 0x003b, 0x002d, 0x004f, 0x0027, 0x004a, 
+    0x003b, 0x4e28, 0x0042, 0x003b, 0x002c, 0x006e, 0x003b, 0x006a, 0x0027, 
+    0x4e28, 0x0055, 0x001e, 0x000b, 0x004c, 0x0017, 0x004f, 0x0027, 0x4e28, 
+    0x0063, 0x001e, 0x000b, 0x006a, 0x0027, 0x006c, 0x0017, 0x4e22, 0x004a, 
+    0x003b, 0x004a, 0x005a, 0x4e22, 0x004a, 0x005a, 0x004e, 0x0062, 0x4e22, 
+    0x004e, 0x0062, 0x006a, 0x0062, 0x4e22, 0x006a, 0x0062, 0x006d, 0x005a, 
+    0x4e22, 0x006d, 0x005a, 0x006d, 0x003b, 0x4e22, 0x004e, 0x004f, 0x006a, 
+    0x004f, 0x4e28, 0x0077, 0x003b, 0x002d, 0x004a, 0x003b, 0x004f, 0x004f, 
+    0x4e28, 0x0042, 0x003b, 0x002c, 0x0069, 0x004f, 0x006e, 0x003b, 0x4e28, 
+    0x0055, 0x0058, 0x000b, 0x004f, 0x004f, 0x004c, 0x005f, 0x4e28, 0x0063, 
+    0x0058, 0x000b, 0x006e, 0x005d, 0x0068, 0x0050, 0x4e24, 0x0000, 0x4e23, 
+    0x0002, 0x0001, 0x4e22, 0x0043, 0x003b, 0x0075, 0x003b, 0x4e21
+END
+
+G5915_2 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0000, 0x4e23, 0x0002, 0x0001, 0x4e22, 
+    0x0043, 0x003b, 0x0075, 0x003b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 
+    0x4e22, 0x004a, 0x003b, 0x004a, 0x001c, 0x4e22, 0x004a, 0x001c, 0x004d, 
+    0x0019, 0x4e28, 0x0077, 0x002a, 0x002c, 0x004f, 0x0019, 0x004f, 0x003b, 
+    0x4e22, 0x004d, 0x0019, 0x006b, 0x0019, 0x4e22, 0x006b, 0x0019, 0x006e, 
+    0x001c, 0x4e28, 0x0043, 0x002a, 0x002b, 0x006b, 0x003b, 0x006b, 0x0019, 
+    0x4e22, 0x006e, 0x001c, 0x006e, 0x003b, 0x4e22, 0x004d, 0x003b, 0x006b, 
+    0x003b, 0x4e22, 0x004a, 0x003b, 0x004a, 0x005a, 0x4e22, 0x004a, 0x005a, 
+    0x004d, 0x005d, 0x4e28, 0x0077, 0x004c, 0x002c, 0x004f, 0x003b, 0x004f, 
+    0x005d, 0x4e22, 0x004d, 0x005d, 0x006b, 0x005d, 0x4e22, 0x006b, 0x005d, 
+    0x006e, 0x005a, 0x4e28, 0x0043, 0x004c, 0x002b, 0x006b, 0x005d, 0x006b, 
+    0x003b, 0x4e22, 0x006e, 0x005a, 0x006e, 0x003b, 0x4e21
+END
+
+G5915_3 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x0039, 0x0028, 0x005b, 0x0015, 0x4e22, 0x005b, 0x0015, 0x007d, 0x0028, 
+    0x4e22, 0x007d, 0x0028, 0x007d, 0x0050, 0x4e22, 0x007d, 0x0050, 0x005b, 
+    0x0063, 0x4e22, 0x005b, 0x0063, 0x0039, 0x0050, 0x4e22, 0x0039, 0x0050, 
+    0x0039, 0x0028, 0x4e30, 0x005b, 0x003c, 0x001f, 0x4e30, 0x005b, 0x003c, 
+    0x0014, 0x4e24, 0x0000, 0x4e28, 0x005b, 0x003c, 0x0017, 0x0061, 0x0026, 
+    0x0071, 0x0042, 0x4e23, 0x0002, 0x0001, 0x4e22, 0x0032, 0x003c, 0x0084, 
+    0x003c, 0x4e22, 0x005b, 0x006a, 0x005b, 0x000e, 0x4e21
+END
+
+G5915_4 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x004a, 0x003c, 0x004a, 0x001d, 0x4e22, 0x004a, 0x001d, 0x004e, 0x0015, 
+    0x4e22, 0x004e, 0x0015, 0x006a, 0x0015, 0x4e22, 0x006a, 0x0015, 0x006e, 
+    0x001d, 0x4e22, 0x006e, 0x001d, 0x006e, 0x003c, 0x4e22, 0x004e, 0x0028, 
+    0x006a, 0x0028, 0x4e28, 0x0077, 0x003c, 0x002d, 0x004e, 0x0028, 0x004a, 
+    0x003c, 0x4e28, 0x0043, 0x003c, 0x002c, 0x006e, 0x003c, 0x006a, 0x0028, 
+    0x4e28, 0x0055, 0x001f, 0x000b, 0x004a, 0x001f, 0x004f, 0x0029, 0x4e28, 
+    0x0064, 0x001f, 0x000b, 0x006a, 0x0028, 0x006e, 0x001f, 0x4e22, 0x004a, 
+    0x003c, 0x004a, 0x005b, 0x4e22, 0x004a, 0x005b, 0x004d, 0x0061, 0x4e22, 
+    0x004d, 0x0061, 0x006b, 0x0061, 0x4e22, 0x006b, 0x0061, 0x006e, 0x005b, 
+    0x4e22, 0x006e, 0x005b, 0x006e, 0x003c, 0x4e22, 0x006e, 0x0055, 0x0069, 
+    0x0050, 0x4e22, 0x0069, 0x0050, 0x0069, 0x003c, 0x4e22, 0x0069, 0x0050, 
+    0x004f, 0x0050, 0x4e22, 0x004f, 0x0050, 0x004a, 0x0055, 0x4e22, 0x004f, 
+    0x0050, 0x004f, 0x003c, 0x4e24, 0x0000, 0x4e22, 0x004c, 0x0053, 0x006c, 
+    0x0053, 0x4e23, 0x0002, 0x0001, 0x4e22, 0x0043, 0x003c, 0x0075, 0x003c, 
+    0x4e23, 0x0000, 0x0001, 0x4e22, 0x0065, 0x0061, 0x006e, 0x0058, 0x4e22, 
+    0x006a, 0x0051, 0x005a, 0x0061, 0x4e22, 0x004f, 0x0061, 0x0061, 0x0050, 
+    0x4e22, 0x0056, 0x0050, 0x004a, 0x005c, 0x4e21
+END
+
+G5915_5 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x004a, 0x003b, 0x004a, 0x0014, 0x4e22, 0x004a, 0x0014, 0x006d, 0x0014, 
+    0x4e22, 0x006d, 0x0014, 0x006d, 0x003b, 0x4e22, 0x004a, 0x0027, 0x006d, 
+    0x0027, 0x4e22, 0x004a, 0x003b, 0x004a, 0x0062, 0x4e22, 0x004a, 0x0062, 
+    0x006d, 0x0062, 0x4e22, 0x006d, 0x0062, 0x006d, 0x003b, 0x4e22, 0x004a, 
+    0x004f, 0x006d, 0x004f, 0x4e24, 0x0000, 0x4e23, 0x0002, 0x0001, 0x4e22, 
+    0x0043, 0x003b, 0x0075, 0x003b, 0x4e21
+END
+
+G5915_6 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0000, 0x4e23, 0x0002, 0x0001, 0x4e22, 
+    0x0043, 0x003b, 0x0075, 0x003b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 
+    0x4e22, 0x004a, 0x003b, 0x004a, 0x0019, 0x4e22, 0x004a, 0x0019, 0x006e, 
+    0x0019, 0x4e22, 0x006e, 0x0019, 0x006e, 0x003b, 0x4e22, 0x004a, 0x003b, 
+    0x006e, 0x003b, 0x4e22, 0x004a, 0x003b, 0x004a, 0x005d, 0x4e22, 0x004a, 
+    0x005d, 0x006e, 0x005d, 0x4e22, 0x006e, 0x005d, 0x006e, 0x003b, 0x4e21
+
+END
+
+G5915_7 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x0039, 0x0028, 0x005b, 0x0015, 0x4e22, 0x005b, 0x0015, 0x007d, 0x0028, 
+    0x4e22, 0x007d, 0x0028, 0x007d, 0x0050, 0x4e22, 0x007d, 0x0050, 0x005b, 
+    0x0063, 0x4e22, 0x005b, 0x0063, 0x0039, 0x0050, 0x4e22, 0x0039, 0x0050, 
+    0x0039, 0x0028, 0x4e30, 0x005b, 0x003c, 0x0014, 0x4e24, 0x0000, 0x4e28, 
+    0x005b, 0x003c, 0x0017, 0x0061, 0x0026, 0x0071, 0x0042, 0x4e23, 0x0002, 
+    0x0001, 0x4e22, 0x0032, 0x003c, 0x0084, 0x003c, 0x4e22, 0x005b, 0x006a, 
+    0x005b, 0x000e, 0x4e21
+END
+
+G5915_8 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x004a, 0x003c, 0x004a, 0x0015, 0x4e22, 0x004a, 0x0015, 0x006e, 0x0015, 
+    0x4e22, 0x006e, 0x0015, 0x006e, 0x003c, 0x4e22, 0x004a, 0x0028, 0x006e, 
+    0x0028, 0x4e22, 0x004a, 0x003c, 0x004a, 0x0061, 0x4e22, 0x004a, 0x0061, 
+    0x006e, 0x0061, 0x4e22, 0x006e, 0x0061, 0x006e, 0x003c, 0x4e22, 0x006e, 
+    0x0050, 0x004a, 0x0050, 0x4e24, 0x0000, 0x4e22, 0x004a, 0x0053, 0x006e, 
+    0x0053, 0x4e23, 0x0002, 0x0001, 0x4e22, 0x0043, 0x003c, 0x0075, 0x003c, 
+    0x4e23, 0x0000, 0x0001, 0x4e22, 0x0065, 0x0061, 0x006e, 0x0058, 0x4e22, 
+    0x006a, 0x0051, 0x005a, 0x0061, 0x4e22, 0x004f, 0x0061, 0x0061, 0x0050, 
+    0x4e22, 0x0056, 0x0050, 0x004a, 0x005c, 0x4e21
+END
+
+G5915_9 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x004a, 0x003b, 0x004a, 0x0014, 0x4e22, 0x004a, 0x0014, 0x006a, 0x0014, 
+    0x4e22, 0x006a, 0x0014, 0x006e, 0x001c, 0x4e22, 0x006d, 0x001c, 0x006d, 
+    0x003b, 0x4e22, 0x004a, 0x0027, 0x006a, 0x0027, 0x4e28, 0x0042, 0x003b, 
+    0x002c, 0x006e, 0x003b, 0x006a, 0x0027, 0x4e28, 0x0063, 0x001e, 0x000b, 
+    0x006a, 0x0027, 0x006c, 0x0017, 0x4e22, 0x004a, 0x003b, 0x004a, 0x0062, 
+    0x4e22, 0x004a, 0x0062, 0x006a, 0x0062, 0x4e22, 0x006a, 0x0062, 0x006d, 
+    0x005a, 0x4e22, 0x006d, 0x005a, 0x006d, 0x003b, 0x4e22, 0x004a, 0x004f, 
+    0x006a, 0x004f, 0x4e28, 0x0042, 0x003b, 0x002c, 0x0069, 0x004f, 0x006e, 
+    0x003b, 0x4e28, 0x0063, 0x0058, 0x000b, 0x006e, 0x005d, 0x0068, 0x0050, 
+    0x4e24, 0x0000, 0x4e23, 0x0002, 0x0001, 0x4e22, 0x0043, 0x003b, 0x0075, 
+    0x003b, 0x4e21
+END
+
+G5915_10 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0000, 0x4e23, 0x0002, 0x0001, 0x4e22, 
+    0x0043, 0x003b, 0x0075, 0x003b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 
+    0x4e22, 0x004a, 0x003b, 0x004a, 0x0019, 0x4e22, 0x004a, 0x0019, 0x006b, 
+    0x0019, 0x4e22, 0x006b, 0x0019, 0x006e, 0x001c, 0x4e28, 0x0043, 0x002a, 
+    0x002b, 0x006b, 0x003b, 0x006b, 0x0019, 0x4e22, 0x006e, 0x001c, 0x006e, 
+    0x003b, 0x4e22, 0x004a, 0x003b, 0x006b, 0x003b, 0x4e22, 0x004a, 0x003b, 
+    0x004a, 0x005d, 0x4e22, 0x004a, 0x005d, 0x006b, 0x005d, 0x4e22, 0x006b, 
+    0x005d, 0x006e, 0x005a, 0x4e28, 0x0043, 0x004c, 0x002b, 0x006b, 0x005d, 
+    0x006b, 0x003b, 0x4e22, 0x006e, 0x005a, 0x006e, 0x003b, 0x4e21
+END
+
+G5915_11 RCDATA MOVEABLE PURE 
+BEGIN
+    0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22, 
+    0x004a, 0x003c, 0x004a, 0x0015, 0x4e22, 0x004a, 0x0015, 0x006a, 0x0015, 
+    0x4e22, 0x006a, 0x0015, 0x006e, 0x001d, 0x4e22, 0x006e, 0x001d, 0x006e, 
+    0x003c, 0x4e22, 0x004a, 0x0028, 0x006a, 0x0028, 0x4e28, 0x0043, 0x003c, 
+    0x002c, 0x006e, 0x003c, 0x006a, 0x0028, 0x4e28, 0x0064, 0x001f, 0x000b, 
+    0x006a, 0x0028, 0x006e, 0x001f, 0x4e22, 0x004a, 0x003c, 0x004a, 0x0061, 
+    0x4e22, 0x004a, 0x0061, 0x006b, 0x0061, 0x4e22, 0x006b, 0x0061, 0x006e, 
+    0x005b, 0x4e22, 0x006e, 0x005b, 0x006e, 0x003c, 0x4e22, 0x006e, 0x0050, 
+    0x004f, 0x0050, 0x4e22, 0x004f, 0x0050, 0x004a, 0x0055, 0x4e22, 0x004f, 
+    0x0050, 0x004f, 0x003c, 0x4e24, 0x0000, 0x4e22, 0x004c, 0x0053, 0x006e, 
+    0x0053, 0x4e23, 0x0002, 0x0001, 0x4e22, 0x0043, 0x003c, 0x0075, 0x003c, 
+    0x4e23, 0x0000, 0x0001, 0x4e22, 0x0065, 0x0061, 0x006e, 0x0058, 0x4e22, 
+    0x006a, 0x0051, 0x005a, 0x0061, 0x4e22, 0x004f, 0x0061, 0x0061, 0x0050, 
+    0x4e22, 0x0056, 0x0050, 0x004a, 0x005c, 0x4e21
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+GAYKA_DIALOG DIALOGEX DISCARDABLE  0, 0, 221, 223
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Гайки ГОСТ 5915-70"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,202,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,82,202,50,14
+    PUSHBUTTON      "Справка",IDC_HELP_BUTTON,163,202,50,14
+    COMBOBOX        IDC_DIAM,57,14,41,189,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDD_H_ANG,164,113,41,13,ES_AUTOHSCROLL
+    EDITTEXT        IDD_H_SHAG,164,129,41,13,ES_AUTOHSCROLL
+    CONTROL         "Создать объект спецификации",IDC_SPCOBJ,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,153,136,10
+    CONTROL         "Упрощенно",IDC_SIMPLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,146,153,64,10
+    CONTROL         "Шаг мелкий",IDC_SLIMSTEP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,167,84,10
+    CONTROL         "Ось рисовать",IDC_DRAWAXIS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,146,167,65,10
+    CONTROL         "Дополнительный размер под ключ",IDC_ADDKEY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,181,188,10
+    GROUPBOX        "Параметры штриховки",IDC_STATIC,106,103,107,44,WS_GROUP
+    CONTROL         "",IDD_SHOW,"Static",SS_WHITEFRAME | SS_SUNKEN | 
+                    WS_BORDER,106,7,107,92
+    LTEXT           "Диаметр",IDC_STATIC,9,16,45,8
+    LTEXT           "Угол, гр.",IDC_STATIC,115,114,45,8
+    LTEXT           "Шаг, мм",IDC_STATIC,115,131,44,8
+    GROUPBOX        "",IDC_GROUP1,7,34,92,65
+    CONTROL         "Вид",IDC_VIEW,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,18,44,74,10
+    CONTROL         "Вид сбоку",IDC_SIDEVIEW,"Button",BS_AUTORADIOBUTTON,18,
+                    57,75,10
+    CONTROL         "Вид сверху",IDC_TOPVIEW,"Button",BS_AUTORADIOBUTTON,18,
+                    70,74,10
+    CONTROL         "Вид/разрез",IDC_SECVIEW,"Button",BS_AUTORADIOBUTTON,18,
+                    83,75,10
+    GROUPBOX        "",IDC_GROUP2,7,103,92,44
+    CONTROL         "Исполнение 1",IDC_PERF1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,18,114,75,10
+    CONTROL         "Исполнение 2",IDC_PERF2,"Button",BS_AUTORADIOBUTTON,18,
+                    130,75,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    GAYKA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+CURSOR_ROTATE           CURSOR  DISCARDABLE     "rotate.cur"
+CURSOR_DIAMETER         CURSOR  DISCARDABLE     "diametr.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    STR11                   "Гайки ГОСТ 5915-70"
+    STR226                  "Укажите линию выноски."
+    STR228                  "Ошибка! Объект не позиционная линия выноски!"
+    IDS_STRING4             "kAPI5.dll"
+    IDS_2DDOCERROR          """Документ не активизирован или \n\rне является листом/фрагментом"""
+    IDS_STRING5             "klAPI5.dll"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "gayka DLL\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "gayka\0"
+            VALUE "LegalCopyright", "Copyright (C) 2000\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "gayka.DLL\0"
+            VALUE "ProductName", "gayka Dynamic Link Library\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+#endif
+#include "res\gayka.rc2"  // non-Microsoft Visual C++ edited resources
+
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

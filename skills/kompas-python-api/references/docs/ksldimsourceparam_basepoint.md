@@ -1,0 +1,28 @@
+# basePoint - Признак, указывающий, от какой точки откладывать вектор по dx,dy
+
+[API интерфейсов. Версия 5](ag57940.html) > [Графический документ (Интерфейсы - ksDocument2D и IDocument2D) ](ksdocument2d.html) > [Интерфейсы параметров размеров ](cf1713887.html) > [Линейные размеры ](cf1760627.html) > [Привязка размера (Интерфейс ksLDimSourceParam) ](ksldimsourceparam.html) > [ksLDimSourceParam - свойства ](ksldimsourceparam_props.html) |  Scroll [ [ [ ](ksldimsourceparam_dx.html "К следующему разделу")](ksldimsourceparam_props.html "На уровень выше")](ksldimsourceparam_props.html "К предыдущему разделу")  
+---|---  
+  
+[Интерфейс...](ksldimsourceparam.html)
+
+Тип данных:short.
+
+Значения свойства:
+
+1 | \- от первой точки,  
+---|---  
+2 | \- от второй точки.  
+  
+Синтаксис Automation:
+
+basePoint = iLDimSource.basePoint | Получить свойство ([* ](1.html))  
+---|---  
+iLDimSource.basePoint = basePoint | Установить свойство ([* ](1.html))  
+basePoint = iLDimSource.GetBasePoint() | Получить свойство ([**](2.html))  
+iLDimSource.SetBasePoint( basePoint ) | Установить свойство ([**](2.html))  
+  
+См. также свойство [dx,dy](ksldimsourceparam_dx.html)
+
+Подразделы:
+
+(отсутствуют)

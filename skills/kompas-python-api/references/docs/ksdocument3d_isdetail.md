@@ -1,0 +1,24 @@
+# IsDetail - Определить, является ли модель деталью
+
+[API интерфейсов. Версия 5](ag57940.html) > [Документ-модель (Интерфейсы - ksDocument3D, IDocument3D ) ](ksdocument3d.html) > [ksDocument3D, IDocument3D - методы ](ksdocument3d_methods.html) |  Scroll [ [ [ ](ksdocument3d_iseditmode.html "К следующему разделу")](ksdocument3d_methods.html "На уровень выше")](ksdocument3d_isactive.html "К предыдущему разделу")  
+---|---  
+  
+[Интерфейс...](ksdocument3d.html)
+
+Синтаксис Automation:
+
+BOOL IsDetail();
+
+Синтаксис COM:
+
+BOOL IsDetail();
+
+Возвращаемое значение:
+
+TRUE | \- деталь,  
+---|---  
+FALSE | \- сборка.  
+  
+Подразделы:
+
+(отсутствуют)

@@ -1,0 +1,28 @@
+#ifdef APSTUDIO_INVOKED
+  #error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+IDR_LIBID MENU
+{
+  MENUITEM "Базовая операция выдавливания", 1
+  MENUITEM "Операции вращения",             2
+  MENUITEM "Оперции по сечениям",           3
+  MENUITEM "Создание фаски и скругления",   4
+  MENUITEM "Операции : оболочка, уклон, сечение плоскостью, сечение эскизом", 
+                                            5
+}
+
+
+STRINGTABLE
+{
+  IDR_LIBID "Операции"
+  IDS_3DDOCERROR "Документ не активизирован или не является 3D-моделью"
+}
+
+
+IDS_LIBID RCDATA
+{
+  0,
+  0
+}

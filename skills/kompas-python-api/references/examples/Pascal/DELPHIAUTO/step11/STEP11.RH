@@ -1,0 +1,23 @@
+#ifndef _STEP11_RH
+#define _STEP11_RH
+
+#define ID_TREE_CONTENTS    100
+#define ID_COMMAND_1          1
+#define ID_COMMAND_2          2
+#define ID_COMMAND_1_1        3
+#define ID_COMMAND_1_2        4
+#define ID_COMMAND_1_3        5
+#define ID_COMMAND_2_1_1      6
+#define ID_COMMAND_2_1_2      7
+#define ID_COMMAND_2_1_3      8
+#define ID_COMMAND_2_2_1      9
+#define ID_COMMAND_2_2_2     10
+#define ID_COMMAND_2_2_3     11
+#define ID_COMMAND_2_2_1_1   12
+#define ID_COMMAND_2_2_1_2   13
+#define ID_COMMAND_2_2_1_3   14
+
+#define ID_WINDOW_TITLE_1      1500
+#define ID_WINDOW_TITLE_2      1501
+#define ID_WINDOW_TITLE_3      1502
+#endif

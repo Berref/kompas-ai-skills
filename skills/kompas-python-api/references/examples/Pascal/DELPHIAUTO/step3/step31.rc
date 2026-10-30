@@ -1,0 +1,33 @@
+
+
+STRINGTABLE
+{
+  100 "объекты"
+}
+
+100 RCDATA
+{
+ 170
+ 200
+}
+
+1011 BITMAP "1001.bmp"
+
+100 MENU
+{
+  MENUITEM "создать документ"          1
+  MENUITEM "виды"                      2
+  MENUITEM "слои"                      3
+  MENUITEM "группы"                    4
+	MENUITEM "именная группа"            5
+  MENUITEM "отрезки"                   6
+  MENUITEM "дуги"                      7
+  MENUITEM "линии"                     8
+  MENUITEM "окружности"                9
+  MENUITEM "точки"                     10
+  MENUITEM "Bezier-сплайны"            11
+  MENUITEM "штриховка"                 12
+  MENUITEM "текст"                     13
+}
+
+

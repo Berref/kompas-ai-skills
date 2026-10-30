@@ -1,0 +1,14 @@
+#ifdef APSTUDIO_INVOKED
+  #error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+// Иконки команд
+1001 BITMAP "res\\bmp16\\1001.bmp"
+
+// Строковые сообщения
+STRINGTABLE
+BEGIN
+  IDS_EDIT  "Операция создана. Отредактировать?"
+END
+/////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,10 @@
+USEUNIT("entry.cpp");
+USERC("Step4.rc");
+USEUNIT("Step4.cpp");
+USEFORM("SlideFrm.cpp", SlideForm);
+USELIB("$(KOMPAS_SDK)\lib\kAPI2D5bc.lib");
+USEUNIT("Step4_1.cpp");
+//---------------------------------------------------------------------------
+This file is used by the project manager only and should be treated like the project file
+
+DllEntryPoint

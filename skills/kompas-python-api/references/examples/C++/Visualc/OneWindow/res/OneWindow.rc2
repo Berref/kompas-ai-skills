@@ -1,0 +1,34 @@
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+STRINGTABLE DISCARDABLE
+BEGIN
+IDS_BUTTON1_TIPS        "Создать нагрузку"
+IDS_BUTTON2_TIPS        "Показать\скрыть дерево"
+IDS_BUTTON3_TIPS        "Обновить нагрузки"
+IDS_FORCES              "Нагрузки"
+STR_SELECT_FACES        "Укажите грани для создания нагрузок"
+IDP_FORCE               "Нагрузка"
+
+END
+
+
+IDR_LIBID MENU DISCARDABLE
+BEGIN
+MENUITEM "Создать нагрузку", 1
+MENUITEM "Показать\скрыть дерево", 4
+MENUITEM "Обновить нагрузки", 5
+END
+
+IDM_TREE_MENU MENU DISCARDABLE
+BEGIN
+POPUP "1"
+BEGIN
+MENUITEM "Удалить", 502
+MENUITEM "Скрыть\показать", 503
+END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////

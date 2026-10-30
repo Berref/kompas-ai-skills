@@ -1,0 +1,11 @@
+; Studs3d.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "Studs3d"
+;DESCRIPTION  'Studs3d Windows Dynamic Link Library'
+
+EXPORTS
+  LIBRARYID    @1
+  LIBRARYNAME  @2
+  LIBRARYENTRY @3
+  SELECTFILTERPROC   @4
+  SELECTCALLBACKPROC @5

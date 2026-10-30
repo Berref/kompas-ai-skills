@@ -1,0 +1,33 @@
+// Строки
+STRINGTABLE
+{
+  100 "Объекты" // Имя библиотеки
+}
+
+// Размер окна слайдов
+100 RCDATA
+{
+  0
+  0
+}
+
+// Меню команд библиотеки
+100 MENU
+{
+  MENUITEM "Создать документ"          1
+  MENUITEM "Виды"                      2
+  MENUITEM "Слои"                      3
+  MENUITEM "Группы"                    4
+  MENUITEM "Именная группа"            5
+  MENUITEM "Отрезки"                   6
+  MENUITEM "Дуги"                      7
+  MENUITEM "Линии"                     8
+  MENUITEM "Окружности"                9
+  MENUITEM "Точки"                     10
+  MENUITEM "Bezier-сплайны"            11
+  MENUITEM "Штриховка"                 12
+  MENUITEM "Текст"                     13
+}
+
+
+

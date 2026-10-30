@@ -1,0 +1,13 @@
+USEUNIT("events.cpp");
+USEUNIT("ApplicationEvent.cpp");
+USEUNIT("BaseEvent.cpp");
+USEUNIT("SelectMngEvent.cpp");
+USEUNIT("DocumentEvent.cpp");
+USELIB("$(KOMPAS_SDK)\lib\kAPI3D5bc.lib");
+USELIB("$(KOMPAS_SDK)\lib\kAPI2D5bc.lib");
+USEUNIT("Object2DEvent.cpp");
+USERC("events.rc");
+//---------------------------------------------------------------------------
+This file is used by the project manager only and should be treated like the project file
+
+DllEntryPoint

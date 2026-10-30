@@ -1,0 +1,8 @@
+# IModelContainer - методы
+
+[API интерфейсов. Версия 7](applicate.html) > [Документ 3D ](bc1473974.html) > [Операции, массивы, эскизы, точки ](bc2278808.html) > [Контейнер ](bc2278809.html) > [Интерфейс IModelContainer ](imodelcontainer.html) |  Scroll [ [ [ ](imodelcontainer_addobject.html "К следующему разделу")](imodelcontainer.html "На уровень выше")](imodelcontainer_wireframes3d.html "К предыдущему разделу")  
+---|---  
+  
+Подразделы:
+
+[AddObject - Создает новый элемент 3D модели ](imodelcontainer_addobject.html)

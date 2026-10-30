@@ -1,0 +1,78 @@
+#ifdef APSTUDIO_INVOKED
+  #error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+// Определение имени панелей  
+STRINGTABLE 
+{
+  COMPACT_BAR1 "Компактная панель Математика"  
+  BAR_1 "Инструментальная панель 1"
+}
+
+// Определение состава
+COMPACT_BAR1 RCDATA
+{
+  BAR_1 // Инструментальная панель, входящая в компактную     
+  END_OF_RESOURCE_TABLE     
+}
+
+IDR_LIBID RCDATA
+{
+  200
+  200
+}
+
+// Определение состава панели
+BAR_1 RCDATA
+{
+  1 // Пересечь прямые
+  2 // Пересечь кривые
+	3 // Пересечь отрезок и дугу
+	4 // Касательная из точки
+	5 // Касательная под углом
+	6 // Поворот точки
+	7 // Симметрия точки
+	8 // Сопрягающие окружности к двум прямым
+	9 // Перепендикуляр
+	END_OF_RESOURCE_TABLE
+}
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+  IDR_LIBDIS  "Дисплейное имя библиотеки"
+END
+
+// Определение иконок инструментальной панели при включении её в компактную панель:
+BAR_1 ICON DISCARDABLE "bar1.ico" 
+
+1001 BITMAP "1.bmp"
+1002 BITMAP "2.bmp"
+1003 BITMAP "3.bmp"
+1004 BITMAP "4.bmp"
+1005 BITMAP "5.bmp"
+1006 BITMAP "6.bmp"
+1007 BITMAP "7.bmp"
+1008 BITMAP "8.bmp"
+1009 BITMAP "9.bmp"
+
+2001 BITMAP "1_24.bmp"
+2002 BITMAP "2_24.bmp"
+2003 BITMAP "3_24.bmp"
+2004 BITMAP "4_24.bmp"
+2005 BITMAP "5_24.bmp"
+2006 BITMAP "6_24.bmp"
+2007 BITMAP "7_24.bmp"
+2008 BITMAP "8_24.bmp"
+2009 BITMAP "9_24.bmp"
+
+4001 BITMAP "1_48.bmp"
+4002 BITMAP "2_48.bmp"
+4003 BITMAP "3_48.bmp"
+4004 BITMAP "4_48.bmp"
+4005 BITMAP "5_48.bmp"
+4006 BITMAP "6_48.bmp"
+4007 BITMAP "7_48.bmp"
+4008 BITMAP "8_48.bmp"
+4009 BITMAP "9_48.bmp"
+
+/////////////////////////////////////////////////////////////////////////////

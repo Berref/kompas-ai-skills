@@ -1,0 +1,30 @@
+# hideAllAxis - Скрыть\показать конструктивные оси
+
+[API интерфейсов. Версия 5](ag57940.html) > [Документ-модель (Интерфейсы - ksDocument3D, IDocument3D ) ](ksdocument3d.html) > [ksDocument3D, IDocument3D - свойства ](ksdocument3d_properties.html) |  Scroll [ [ [ ](ksdocument3d_hideallcontrolpoints.html "К следующему разделу")](ksdocument3d_properties.html "На уровень выше")](ksdocument3d_hideallauxiliarygeom.html "К предыдущему разделу")  
+---|---  
+  
+[Интерфейс...](ksdocument3d.html)
+
+Тип данных: BOOL
+
+Значения свойства:
+
+TRUE | \- скрыть конструктивные оси,  
+---|---  
+FALSE | \- показать конструктивные оси.  
+  
+Синтаксис Automation:
+
+hideAllAxis = iDocument3D.hideAllAxis | Получить свойство([* ](1.html))  
+---|---  
+iDocument3D.hideAllAxis = hideAllAxis | Установить свойство([* ](1.html))  
+hideAllAxis = iDocument3D.GetHideAllAxis() | Получить свойство([**](2.html))  
+iDocument3D.SetHideAllAxis(hideAllAxis) | Установить свойство ([**](2.html))  
+  
+Примечание:
+
+В зависимости от флага [hideInComponentsMode](ksdocument3d_hideincomponentsmode.html) позволяет скрыть или показать все вспомогательные объекты в документе или, если документ является сборкой, во вставках.
+
+Подразделы:
+
+(отсутствуют)

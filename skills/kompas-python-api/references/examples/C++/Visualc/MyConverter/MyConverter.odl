@@ -1,0 +1,66 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+// Файл будет транслироваться MIDL компилятором для создания
+// библиотеки типов
+//
+////////////////////////////////////////////////////////////////////////////////
+[ uuid(ADEFA6C7-CF88-4a79-AAC9-69C37740FFC8), version(1.0), helpfile("LibConverter.hlp")]
+library LibConverter_LIBRARY
+{
+  importlib("stdole32.tlb");
+  importlib("stdole2.tlb");	
+// САА K8+ // {44FFFFF9-094D-4e33-B687-9C63AD164108}
+// САА K8+ DEFINE_GUID(<<name>>, 
+// САА K8+ 0x44fffff9, 0x94d, 0x4e33, 0xb6, 0x87, 0x9c, 0x63, 0xad, 0x16, 0x41, 0x8);
+
+cpp_quote("  //------------------------------------------------------------------------------")
+cpp_quote("  // Перечисление команд конвертора")
+cpp_quote("  // ---")
+  [uuid(44FFFFF9-094D-4e33-B687-9C63AD164108), 
+   helpstring("Команды конвертора"), 
+   v1_enum]
+  typedef enum _LibConvEnum
+  {
+    [helpstring("Конвертация файла модели Компаса в формат (*.mym3d)")]
+    libConv_Exp_m3d = 1,
+    [helpstring("Конвертация файла сборки Компаса в формат (*.mya3d)")]
+    libConv_Exp_a3d = 2,
+    [helpstring("Конвертация файла фрагмента Компаса в формат (*.myfrw)")]
+    libConv_Exp_frw = 3,
+    [helpstring("Конвертация файла чертежа Компаса в формат (*.mycdw)")]
+    libConv_Exp_cdw = 4,
+    [helpstring("Конвертация файла спецификации Компаса в формат (*.myspw)")]
+    libConv_Exp_spw = 5,
+    [helpstring("Конвертация текстового файла Компаса в формат (*.mykdw)")]
+    libConv_Exp_kdw = 6,
+    [helpstring("Конвертация файла (*.mym3d) в модель Компаса")]
+    libConv_Imp_m3d = 7,
+    [helpstring("Конвертация файла (*.mya3d) в сборку Компаса ")]
+    libConv_Imp_a3d = 8,
+    [helpstring("Конвертация файла (*.myfrw) в фрагмент Компаса ")]
+    libConv_Imp_frw = 9,
+    [helpstring("Конвертация файла (*.mycdw) в чертеж Компаса")]
+    libConv_Imp_cdw = 10,
+    [helpstring("Конвертация файла (*.myspw) в спецификацию Компаса ")]
+    libConv_Imp_spw = 11,
+    [helpstring("Конвертация файла (*.mykdw) в текстовый файл Компаса")]
+    libConv_Imp_kdw = 12,
+  }
+  LibConvEnum;
+
+  //-------------------------------------------------------------------------------
+  // 
+  // ---
+  [ uuid(35ED8E66-7F20-4d27-A888-0819152350B5), 
+    odl, oleautomation, dual, pointer_default(unique), nonextensible,
+    helpstring("Параметры конвертора")
+  ]
+  interface ILibConverterParam : IDispatch
+  {
+    [propget, id(1), helpstring("Сохранять стиль линий.")]
+    HRESULT SaveLineStyle([out, retval] VARIANT_BOOL* PVal);
+    [propput, id(1), helpstring("Сохранять стиль линий.")]
+    HRESULT SaveLineStyle([in, defaultvalue(TRUE)] VARIANT_BOOL Val);
+  };
+}
+

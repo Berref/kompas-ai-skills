@@ -1,0 +1,64 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = Step1.rtw Step2.rtw Step2a.rtw step3.rtw step3a.rtw step4.rtw \
+  step5.rtw step8.rtw step9.rtw step11.rtw Step3D1.rtw step3d3.rtw step3d2.rtw \
+  step7.rtw step10.dll
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+Step1.rtw: Step1\Step1.dpr
+  $(DCC)
+
+Step2.rtw: Step2\Step2.dpr
+  $(DCC)
+
+Step2a.rtw: Step2A\Step2a.dpr
+  $(DCC)
+
+step3.rtw: step3\step3.dpr
+  $(DCC)
+
+step3a.rtw: step3a\step3a.dpr
+  $(DCC)
+
+step4.rtw: step4\step4.dpr
+  $(DCC)
+
+step5.rtw: step5\step5.dpr
+  $(DCC)
+
+step8.rtw: step8\step8.dpr
+  $(DCC)
+
+step9.rtw: step9\step9.dpr
+  $(DCC)
+
+step11.rtw: step11\step11.dpr
+  $(DCC)
+
+Step3D1.rtw: Step3D1\Step3D1.dpr
+  $(DCC)
+
+step3d3.rtw: step3d3\step3d3.dpr
+  $(DCC)
+
+step3d2.rtw: Step3D2\step3d2.dpr
+  $(DCC)
+
+step7.rtw: step7\step7.dpr
+  $(DCC)
+
+step10.dll: step10\step10.dpr
+  $(DCC)
+
+

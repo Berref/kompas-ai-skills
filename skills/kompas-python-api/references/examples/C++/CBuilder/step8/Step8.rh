@@ -1,0 +1,6 @@
+#ifndef __STEP8_RH
+#define __STEP8_RH
+
+#define IDR_LIBID                 8000
+
+#endif

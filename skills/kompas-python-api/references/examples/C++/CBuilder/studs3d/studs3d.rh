@@ -1,0 +1,85 @@
+#ifndef __STUDS3D_RH
+#define __STUDS3D_RH
+
+#define STR59                10059 // 22032-76
+#define STR60                10060 // 22033-76
+#define STR61                10061 // 22034-76
+#define STR62                10062 // 22035-76
+#define STR63                10063 // 22036-76
+#define STR64                10064 // 22037-76
+#define STR65                10065 // 22038-76
+#define STR66                10066 // 22039-76
+#define STR67                10067 // 22040-76
+#define STR68                10068 // 22041-76
+#define STR69                10069 // 22042-76
+#define STR70                10070 // 22043-76
+#define STR_200              10200 // 22032.loa
+#define STR_201              10201 // 22033.loa
+#define STR_202              10202 // 22034.loa
+#define STR_203              10203 // 22035.loa
+#define STR_204              10204 // 22036.loa
+#define STR_205              10205 // 22036.loa
+#define STR_206              10206 // 22038.loa
+#define STR_207              10207 // 22038.loa
+#define STR_208              10208 // 22040.loa
+#define STR_209              10209 // 22040.loa
+#define STR_210              10210 // 22042.loa
+#define STR_211              10211 // 22042.loa
+#define STR_220              10220 // st22032.loa
+#define STR_221              10221 // st22033.loa
+#define STR_222              10222 // st22034.loa
+#define STR_223              10223 // st22035.loa
+#define STR_224              10224 // st22036.loa
+#define STR_225              10225 // st22037.loa
+#define STR_226              10226 // st22038.loa
+#define STR_227              10227 // st22039.loa
+#define STR_228              10228 // st22040.loa
+#define STR_229              10229 // st22041.loa
+#define STR_230              10230 // st22042.loa
+#define STR_231              10231 // st22043.loa
+
+#define STR231               12000 // p Шаг резьбы
+#define STR236               12001 // c Фаска
+#define STR237               12002 // m(кг) Масса 1000 шт.
+#define STR238               12003 // Сталь
+#define STR239               12004 // Алюмин. сплав
+#define STR240               12005 // Латунь
+#define STR246               12006 // Бронза
+#define STR247               12007 // b0 Гаечный конец
+#define STR248               12008 // b1 Ввинчиваемый конец
+#define STR_STUD_1D          12009 // 1d
+#define STR_STUD_125D        12010 // 1,25d
+#define STR_STUD_16D         12011 // 1,6d
+#define STR_STUD_2D          12012 // 2d
+#define STR_STUD_A           12013 // A
+#define STR_STUD_B           12014 // B
+
+#define STR_STUD_NAME        11000 // Шпилька М%gх%g ГОСТ %i-76
+#define STR_SELECT_PLANE     11001 // Создайте объект или укажите элемент базирования крепёжной детали
+#define STR_SELECT_POINT     11002 // Укажите элемент базирования крепёжной детали
+#define STR_KONSTR_ERROR     11003 // Ошибка в konstr.txt
+#define STR_NOREALIZE        11004 // Не реализовано
+#define STR_3DDOCERROR       11005 // Документ не активизирован или не является 3D-сборкой
+#define STR_DIAM_ERROR       11006 // Ошибка при заполнении списка диаметров
+#define STR_LEN_ERROR        11007 // Ошибка при заполнении списка длин
+
+#define IDR_LIBID            100
+#define STUDS_COMMAND        101
+#define ID_VID               102
+#define ID_PARAM             103
+#define ID_ANGLE             104
+#define ID_TOPVID            105
+
+#define MENU_22032_1         200
+#define MENU_22032_2         201
+#define MENU_22032_3         202
+#define MENU_22032_4         203
+
+#define SH22042_1            300
+#define SH22042_2            301
+#define SH22042_3            302
+#define SH22032_1            303
+#define SH22032_2            304
+#define SH22032_3            305
+
+#endif

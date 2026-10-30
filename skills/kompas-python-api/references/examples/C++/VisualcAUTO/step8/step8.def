@@ -1,0 +1,8 @@
+; Step8.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "Step8"
+;DESCRIPTION  'Step8 Windows Dynamic Link Library'
+
+EXPORTS
+  LIBRARYID    @1
+  LIBRARYENTRY @2

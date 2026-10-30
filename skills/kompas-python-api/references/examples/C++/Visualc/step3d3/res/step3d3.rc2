@@ -1,0 +1,27 @@
+#ifdef APSTUDIO_INVOKED
+  #error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+IDR_LIBID MENU
+{
+  MENUITEM " онструктивна€ ось операции",                                                      1
+  MENUITEM " онструктивна€ ось по двум точкам",                                                2
+  MENUITEM " онструктивна€ ось, проход€ща€ через ребро",                                       3
+  MENUITEM "—мещенна€ плоскость, ось по двум плоскост€м, плоскость под углом к другой пло-ти", 4
+  MENUITEM "ѕлоскость через три вершины",                                                      5
+}
+
+
+STRINGTABLE
+{
+  IDS_3DDOCERROR "ƒокумент не активизирован или не €вл€етс€ 3D-моделью"
+  IDR_LIBID " онструктивные оси и плоскости"
+}
+
+
+IDR_LIBID RCDATA
+{
+  0,
+  0
+}

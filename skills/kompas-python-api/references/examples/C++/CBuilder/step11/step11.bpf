@@ -1,0 +1,8 @@
+USEUNIT("entry.cpp");
+USEUNIT("Step11.cpp");
+USERC("Step11.rc");
+USELIB("$(KOMPAS_SDK)\lib\kAPI2D5bc.lib");
+//---------------------------------------------------------------------------
+This file is used by the project manager only and should be treated like the project file
+
+DllEntryPoint

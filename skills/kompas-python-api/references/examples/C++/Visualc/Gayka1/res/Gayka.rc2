@@ -1,0 +1,659 @@
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+CURSOR_ROTATE    CURSOR  DISCARDABLE     "res\\Rotate.cur"
+CURSOR_DIAMETER  CURSOR  DISCARDABLE     "res\\Diametr.cur"
+CURSOR_LENGHT    CURSOR  DISCARDABLE     "res\\Length.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+// Слайд Гайка
+CM_GAYKA5915 RCDATA
+{
+  GB,  168, 158,
+  SC,  1,
+  LS,  0,   1,
+  LN,  69,  57, 69,  26,
+  LN,  69,  26, 74,  18,
+  LN,  74,  18, 101, 18,
+  LN,  101, 18, 105, 26,
+  LN,  105, 26, 105, 57,
+  LN,  74,  37, 101, 37,
+  AR1, 114, 57, 45,  74,  37, 69,  57,
+  AR1, 61,  57, 44,  105, 57, 101, 37,
+  AR1, 80,  28, 11,  69,  28, 74,  37,
+  AR1, 94,  28, 11,  101, 37, 105, 28,
+  LN,  69,  57, 69,  88,
+  LN,  69,  88, 74,  96,
+  LN,  74,  96, 101, 96,
+  LN,  101, 96, 105, 88,
+  LN,  105, 88, 105, 57,
+  LN,  74,  77, 101, 77,
+  AR1, 114, 57, 45,  69,  57, 74,  77,
+  AR1, 62,  57, 44,  103, 77, 105, 57,
+  AR1, 80,  86, 11,  74,  77, 69,  86,
+  AR1, 95,  86, 11,  106, 86, 100, 76,
+  SC,  0,
+  LS,  2,   1,
+  LN,  62,  57, 112, 57,
+  SC,  0,
+  TS,  0,
+  MA,  45,  112,
+  TX,  "ГОСТ 9515-70\0"
+  MA,  37, 132,
+  TX,  "Класс точности В\0"
+  END_SLIDE
+}
+
+CM_BOLT7787 RCDATA
+{
+  GB, 265, 230,
+  SC, 1,
+  LS, 0, 1,
+  LN, 11, 70, 11, 30,
+  LN, 11, 30, 15, 30,
+  LN, 15, 30, 15, 70,
+  LN, 15, 30, 61, 46,
+  LN, 61, 46, 61, 70,
+  LN, 61, 46, 240, 46,
+  LN, 240, 46, 240, 70,
+  LN, 124, 46, 124, 70,
+  LN, 240, 46, 247, 53,
+  LN, 247, 53, 247, 70,
+  SC, 0,
+  LN, 124, 53, 247, 53,
+  SC, 1,
+  LN, 11, 70, 11, 110,
+  LN, 11, 110, 15, 110,
+  LN, 15, 110, 15, 70,
+  LN, 15, 110, 61, 94,
+  LN, 61, 94, 61, 70,
+  LN, 61, 94, 240, 94,
+  LN, 240, 94, 240, 70,
+  LN, 124, 94, 124, 70,
+  LN, 240, 94, 247, 87,
+  LN, 247, 87, 247, 70,
+  SC, 0,
+  LN, 124, 87, 247, 87,
+  LS, 2, 1,
+  LN, -3, 70, 261, 70,
+  SC, 0,
+  TS, 0,
+  MA, 32, 144,
+  TX, "Болт ГОСТ 7787-81\0",
+  SC, 0,
+  TS, 0,
+  MA, 35, 184,
+  TX, "Класс точности C\0",
+  END_SLIDE
+}
+
+// Определение состава панели
+GAYKA5915_BAR RCDATA
+{
+  ID_VIEW                // Вид спереди 
+  ID_TOPVID              // Вид сверху
+  ID_LEFT                // Вид сбоку
+  ID_VIDSEC              // Вид разрез
+  0
+  ID_SIMPLE              // Упрощенный вид
+  ID_AXIS                // Рисовать ось
+  END_OF_RESOURCE_TABLE
+}
+
+// Определение состава панели
+DATABASE_TOOLBAR RCDATA
+{
+  CM_INSERT              // Вставить элемент
+  CM_SET_FAVORITE        // Добавить в избранное
+  0
+  CM_CFG                 // Конфигурация
+  CM_HELP                // Справка
+  END_OF_RESOURCE_TABLE
+}
+
+// Определение состава панели
+FAVORITE_TOOLBAR RCDATA
+{
+  CM_INSERT              // Вставить элемент
+  CM_DEL_FAVORITE        // Удалить элемент
+  0
+  CM_CFG                 // Конфигурация
+  CM_HELP                // Справка
+  END_OF_RESOURCE_TABLE
+}
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+//ID_LEADER_CREATE  BITMAP DISCARDABLE "res\\G_leader.BMP"
+
+//IDP_BMP_KEY       BITMAP DISCARDABLE  "res\\G_KEY.bmp"
+//IDP_BMP_AXIS      BITMAP DISCARDABLE  "res\\G_OSX_ON.bmp"
+
+//IDP_BMP_G_VIEW    BITMAP DISCARDABLE  "res\\G_VIEW.bmp"
+//IDP_BMP_G_LEFT    BITMAP DISCARDABLE  "res\\G_LEFT.bmp"
+//IDP_BMP_G_TOP     BITMAP DISCARDABLE  "res\\G_TOP.bmp"
+//IDP_BMP_G_SEC     BITMAP DISCARDABLE  "res\\G_SEC.bmp"
+//IDP_BMP_G_I1      BITMAP DISCARDABLE  "res\\G_I1.bmp"
+//IDP_BMP_G_I2      BITMAP DISCARDABLE  "res\\G_I2.bmp"
+//IDP_BMP_G_SIMPLE  BITMAP DISCARDABLE  "res\\G_SIMPLE.bmp"
+//IDP_BMP_G_STEP    BITMAP DISCARDABLE  "res\\G_STEP.bmp"
+1001               ICON DISCARDABLE    "res\\Gayka.ico"
+1002               ICON DISCARDABLE    "res\\Bolt.ico"
+
+1900               ICON DISCARDABLE    "res\\LibCfg.ico"
+1901               ICON DISCARDABLE    "res\\st_help.ico"
+1902               ICON DISCARDABLE    "res\\ins_std_part.ico"
+1903               ICON DISCARDABLE    "res\\AddFavorite.ico"
+1904               ICON DISCARDABLE    "res\\Delete.ico"
+
+ID_LEADER_CREATE   ICON DISCARDABLE    "res\\G_leader.ico"
+IDP_GAYKA5915      ICON DISCARDABLE    "res\\Gayka.ico"
+IDP_BOLT7787       ICON DISCARDABLE    "res\\Bolt.ico"
+IDP_ELEMENT_PARAM  ICON DISCARDABLE    "res\\Рarameters.ico"
+IDP_ICO_KEY        ICON DISCARDABLE    "res\\G_KEY.ico"
+IDP_ICO_AXIS       ICON DISCARDABLE    "res\\G_OSX_ON.ico"
+
+IDP_ICO_G_VIEW     ICON DISCARDABLE    "res\\G_VIEW.ico"
+IDP_ICO_G_LEFT     ICON DISCARDABLE    "res\\G_LEFT.ico"
+IDP_ICO_G_TOP      ICON DISCARDABLE    "res\\G_TOP.ico"
+IDP_ICO_G_SEC      ICON DISCARDABLE    "res\\G_SEC.ico"
+IDP_ICO_G_I1       ICON DISCARDABLE    "res\\G_I1.ico"
+IDP_ICO_G_I2       ICON DISCARDABLE    "res\\G_I2.ico"
+IDP_ICO_G_SIMPLE   ICON DISCARDABLE    "res\\G_SIMPLE.ico"
+IDP_ICO_G_STEP     ICON DISCARDABLE    "res\\G_STEP.ico"
+
+IDB_ID_VIEW        ICON DISCARDABLE    "res\\G_VIEW.ico"
+IDB_ID_TOPVID      ICON DISCARDABLE    "res\\G_TOP.ico"
+IDB_ID_SIDEVID     ICON DISCARDABLE    "res\\G_LEFT.ico"
+IDB_ID_VIDSEC      ICON DISCARDABLE    "res\\G_SEC.ico"
+IDB_ID_SIMPLE      ICON DISCARDABLE    "res\\G_SIMPLE.ico"
+IDB_ID_AXIS        ICON DISCARDABLE    "res\\G_OSX_ON.ico"
+
+IDP_HOTPNT1_BMP    BITMAP DISCARDABLE  "res\\6011.bmp"
+IDP_HOTPNT2_BMP    BITMAP DISCARDABLE  "res\\6012.bmp"
+IDP_HOTPNT3_BMP    BITMAP DISCARDABLE  "res\\6013.bmp"
+IDP_HOTPNT4_BMP    BITMAP DISCARDABLE  "res\\6014.bmp"
+
+IDP_HOTPNT1C_BMP   BITMAP DISCARDABLE  "res\\6011-c.bmp"
+IDP_HOTPNT2C_BMP   BITMAP DISCARDABLE  "res\\6012-c.bmp"
+IDP_HOTPNT3C_BMP   BITMAP DISCARDABLE  "res\\6013-c.bmp"
+IDP_HOTPNT4C_BMP   BITMAP DISCARDABLE  "res\\6014-c.bmp"
+
+IDP_HOTPNT1S_BMP   BITMAP DISCARDABLE  "res\\6011-s.bmp"
+IDP_HOTPNT2S_BMP   BITMAP DISCARDABLE  "res\\6012-s.bmp"
+IDP_HOTPNT3S_BMP   BITMAP DISCARDABLE  "res\\6013-s.bmp"
+IDP_HOTPNT4S_BMP   BITMAP DISCARDABLE  "res\\6014-s.bmp"
+
+IDP_BOLT_VIEW      ICON DISCARDABLE    "res/Vint_side1.ico"
+IDP_BOLT_TOP       ICON DISCARDABLE    "res/Vint_top.ico"
+IDP_BOLT_BOTTOM    ICON DISCARDABLE    "res/Vint_bottom.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+ID_LIBID MENU DISCARDABLE
+BEGIN
+MENUITEM "Гайки ГОСТ 5915 - 70", CM_GAYKA5915
+MENUITEM "Болт ГОСТ 7787 - 81", CM_BOLT7787
+END
+
+ID_TREE_MENU MENU DISCARDABLE
+BEGIN
+MENUITEM "Вставить элемент", CM_INSERT
+MENUITEM "Добавить в избранное", CM_SET_FAVORITE
+END
+
+ID_TREE_FAVORITE_MENU MENU DISCARDABLE
+BEGIN
+MENUITEM "Вставить элемент", CM_INSERT
+MENUITEM "Удалить из избранного", CM_DEL_FAVORITE
+END
+
+
+
+/*
+MENU_POS_LEADER MENU DISCARDABLE
+BEGIN
+  MENUITEM "Подключить существующую",     ID_LEADER_CONNECT
+  MENUITEM "Создать новую линию выноски ", ID_LEADER_CREATE
+END
+*/
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE
+BEGIN
+IDS_API7                "kAPI7.dll"
+IDS_API7LT              "klAPI7.dll"
+
+ID_LIBID                "Конструкторский элемент на Visual C++ с панелью"
+ID_ERROR_2DDOC          "Документ не активизирован или \nне является листом/фрагментом"
+ID_ERROR_LEADER         "Объект не позиционная линия выноски"
+ID_INDICATE_LEADER      "Укажите позиционную линию выноски"
+
+// Имена закладок 
+IDP_ELEMENT_PARAM       "Параметры элемента"
+IDP_POS_LEADER          "Ввод линии выноски"
+IDP_LEADER_BUTTONS      "Создать новую"
+IDP_GAYKA5915           "Гайки ГОСТ 5915-70"
+IDP_BOLT7787            "Болт ГОСТ 7787-81"
+
+// Имена контролов ( Надписи )
+IDP_SPC_OBJ             "&Создать объект спецификации"
+IDP_HATCH_PARAM         "Параметры штриховки"
+IDP_HATCHANG_ANGLE      "У&гол, гр"
+IDP_HATCHANG_STEP       "&Шаг, мм"
+IDP_DIAM                "&Диаметр, мм"
+IDP_REFLECTION          "&Вид отображения"
+IDP_ISP                 "&Исполнение"
+IDP_FLAGS               "Дополнительные па&раметры"
+IDP_SIMPLE              "&Упрощения"
+ID_AXIS                 "Ось рисовать"
+ID_SIMPLE               "Упрощенно"
+ID_VIEW                 "Главный вид"
+ID_LEFT                 "Вид сбоку"
+ID_TOP                  "Вид сверху"
+ID_SEC                  "Вид\\разрез"
+IDB_ID_VIEW             "Главный вид"
+IDB_ID_TOPVID           "Вид сверху"
+IDB_ID_SIDEVID          "Вид сбоку"
+IDB_ID_VIDSEC           "Вид\\разрез"
+
+IDS_CM_GAYKA5915_HINT_TIPS    "Гайки ГОСТ 5915-70\nГайки ГОСТ 5915-70"
+IDS_ID_VIEW_HINT_TIPS         "Вид\nВид спереди"
+IDS_ID_TOPVID_HINT_TIPS       "Вид сверху\nВид сверху"
+IDS_ID_SIDEVID_HINT_TIPS      "Вид сбоку\nВид сбоку"
+IDS_ID_VIDSEC_HINT_TIPS       "Вид разрез\nВид разрез"
+IDS_ID_SIMPLE_HINT_TIPS       "Упрощенный вид\nУпрощенный вид"
+IDS_ID_AXIS_HINT_TIPS         "Рисовать ось\nРисовать ось"
+IDS_CM_CFG_HINT_TIPS          "Конфигурация библиотеки\nКонфигурация библиотеки"
+IDS_CM_HELP_HINT_TIPS         "Справка\nСправка"
+IDS_CM_INSERT_HINT_TIPS       "Вставить элемент\nВставить элемент"
+IDS_CM_SET_FAVORITE_HINT_TIPS "Добавить в избранное\nДобавить в избранное"
+IDS_CM_DEL_FAVORITE_HINT_TIPS "Удалить из избранного\nУдалить из избранного"
+
+
+// Подсказки для кнопок
+//IDP_BMP_KEY             "Размер под ключ"
+//IDP_BMP_G_I1            "Исполнение 1"
+//IDP_BMP_G_I2            "Исполнение 2"
+//IDP_BMP_G_SIMPLE        "Упрощенно"
+//IDP_BMP_G_STEP          "Мелкий шаг"
+IDP_ICO_KEY             "Размер под ключ"
+IDP_ICO_G_I1            "Исполнение 1"
+IDP_ICO_G_I2            "Исполнение 2"
+IDP_ICO_G_SIMPLE        "Упрощенно"
+IDP_ICO_G_STEP          "Мелкий шаг"
+
+// Строки параметров выводимых в гриде
+IDS_PARAM_CAPTION       "Параметры"
+IDS_VALUE_CAPTION       "Значение"
+
+IDS_PITCH               "Шаг резьбы"
+//  IDS_DIM_KEY             "Размер под ключ"  
+IDS_HEAD_H              "Высота головки"
+IDS_MASSA_1000          "Масса 1000 шт"
+IDS_CUPNUT_STR1         "D Диметр колпачка, мм"
+IDS_CUTGAY_STR9         "e Диаметр описанной окружности, мм"
+IDS_CUPNUT_STR2         "h1 Высота под ключ, мм"
+IDS_CUPNUT_STR3         "l Глубина отверстия, мм"
+IDS_CUPNUT_STR4         "l1 Длина резьбы, мм"
+
+IDS_DIAM_TIPS           "Диаметр резьбы"
+IDS_DIAM_HINT           "Диаметр резьбы"
+IDS_REFLECTION_TIPS     "Вид отображения"
+IDS_REFLECTION_HINT     "Вид отображения"
+IDS_ISP_TIPS            "Исполнение"
+IDS_ISP_HINT            "Выбор исполнения"
+IDS_SIMPLE_TIPS         "Упрощения отображения"
+IDS_SIMPLE_HINT         "Упрощения отображения гайки"
+IDS_FLAGS_TIPS          "Дополнительные параметры"
+IDS_SPC_OBJ_TIPS        "Создать объект спецификации"
+ID_LEADER_CREATE        "&Создать новую линию выноски"
+IDS_LEADER_HINT         "Создать новую линию выноски"
+IDS_LEADER_TIPS         "Создать линию выноски"
+IDS_COM_ERROR           "Номер ошибки= %08lx\nСообщение:\nИсточник:\nОписание ошибки:"
+
+// Окно свойств
+ID_PROP_ELEMENT_PARAM   "Параметры элемента"
+ID_PROP_DIAM            "Диаметр резьбы"
+ID_PROP_ISPOLN          "Исполнение"
+ID_PROP_VIEW_PARAM      "Параметры отображения"
+ID_PROP_VIEW            "Вид"
+ID_PROP_SIMPLE          "Упрощенно"
+ID_PROP_AXIS            "Рисовать ось"
+ID_PROP_HATCH_PARAM     "Параметры штриховки"
+ID_PROP_HATCH_STEP      "Шаг штриховки"
+ID_PROP_HATCH_ANGLE     "Угол штриховки"
+
+ID_PROP_OTHER_PARAM     "Справочные данные"
+ID_PROP_MASSA_1000      "Масса 1000 шт"
+END
+
+// Reserve /*Резерв*/
+STRINGTABLE DISCARDABLE
+BEGIN
+IDS_COMMAND_NUMBER      "Номер команды = %d"
+IDS_REFLECTION_SEP      "Отображение"
+IDS_GOST                "ГОСТ"
+IDS_HINT_GRID           "Hint для грида"
+IDS_TIPS_GRID           "Tips для грида"
+IDS_HINT_SLIDEBOX       "Hint для слайда"
+IDS_TIPS_SLIDEBOX       "Tips для слайда"
+IDS_SLIDEBOX            "Окно просмотра"
+END
+
+// Болт
+STRINGTABLE DISCARDABLE
+BEGIN
+IDS_BOLT7787_CAPTION    "Болт ГОСТ 7787-81"
+IDS_HEAD_DIAM           "Диаметр головки"
+IDS_HEAD_HEIGHT         "Высота головки"
+IDS_THREAD_LENGTH       "Длина резьбы"
+
+// Окно свойств свойства сортируются в порядке возростания идентификаторов
+ID_PROP_BOLT_PARAM      "Параметры болта"
+ID_PROP_DIAMETER        "Диаметр"
+ID_PROP_LENGTH          "Длина"
+ID_PROP_BOLT_VIEW_PARAM "Параметры отображения"
+ID_PROP_BOLT_VIEW       "Вид"
+IDP_BOLT_VIEW           "Главный вид"
+IDP_BOLT_TOP            "Вид сверху"
+IDP_BOLT_BOTTOM         "Вид снизу"
+
+IDC_DIAMETER            "&Диаметр, мм"
+IDC_DIAMETER_BOLT_HINT  "Диаметр"
+IDC_DIAMETER_BOLT_TIPS  "Диаметр"
+IDC_LENGTH              "Д&лина, мм"
+IDC_LENGTH_BOLT_HINT    "Длина болта"
+IDC_LENGTH_BOLT_TIPS    "Длина болта"
+IDC_AXIS                "Ось &рисовать"
+IDC_AXIS_HINT           "Ось рисовать"
+IDC_AXIS_TIPS           "Ось рисовать"
+END
+
+// ExternalBaseElement
+STRINGTABLE DISCARDABLE
+BEGIN
+// Шапка дерева
+IDS_XML_TREE_HAT "<?xml version=""1.0"" encoding=""utf-8""?> \
+    <ReferenceStandardParts title=""Справочник СИ - крепеж""> \
+      <ReferenceDescription> \
+        <Annotation>Тестовый вариант справочника</Annotation> \
+        <Licension>Тест</Licension> \
+        <Developer>KOMPAS</Developer> \
+      </ReferenceDescription> \
+      <StandardPartsCollection>"
+  // Хвост дерева
+  IDS_XML_TREE_NAIL " \
+      </StandardPartsCollection> \
+    </ReferenceStandardParts>"
+  // Дерево XML "Крепеж"
+  IDS_XML_TREE_FASTENER " \
+        <PartFamiliesSet name=""Гайки""> \
+          <PartFamily name=""Гайка ГОСТ 5915-70"" id=""Gayka GOST 5915-70""/> \
+        </PartFamiliesSet> \
+        <PartFamiliesSet name=""Болты""> \
+          <PartFamiliesSet name=""Болты c шестигранной головкой""/> \
+          <PartFamiliesSet name=""Болты откидные""/> \
+          <PartFamiliesSet name=""Болты с потайной головкой""> \
+            <PartFamily name=""Болт ГОСТ 7787-81"" id=""Bolt GOST 7787-81""/> \
+          </PartFamiliesSet> \
+        </PartFamiliesSet> \
+        <PartFamiliesSet name=""Винты""/>"
+  // PartFamily
+  IDS_XML_TREE_PARTFAMILY    "<PartFamily name=""%s"" id=""%s""/>"
+
+  IDS_FAVORITES              "Избранное"
+  IDS_FASTENER               "Крепеж"
+  IDS_FASTENER_ELMEMENT      "Крепежный элемент"
+  IDS_ARMATURE               "Арматура"
+  IDS_GAYKA5915              "Гайка ГОСТ 5915-70"
+  IDS_GAYKA5915_ID           "Gayka GOST 5915-70"
+  IDS_BOLT7787               "Болт ГОСТ 7787-81"
+  IDS_BOLT7787_ID            "Bolt GOST 7787-81"
+  IDS_LOCATION               "Размещение"
+  END
+
+
+  ///////////////////////////////////////////////////////////////////////////
+  // Свойства для окна свойств
+  ///////////////////////////////////////////////////////////////////////////
+  ID_PROP_VIEW RCDATA
+{
+  IDB_ID_VIEW
+  IDB_ID_TOPVID
+  IDB_ID_SIDEVID
+  IDB_ID_VIDSEC
+  END_OF_RESOURCE_TABLE
+}
+
+ID_PROP_ISPOLN RCDATA
+{
+  IDP_ICO_G_I1
+  IDP_ICO_G_I2
+  END_OF_RESOURCE_TABLE
+}
+
+ID_PROP_BOLT_VIEW RCDATA
+{
+  IDP_BOLT_VIEW
+  IDP_BOLT_TOP
+  IDP_BOLT_BOTTOM
+  END_OF_RESOURCE_TABLE
+}
+
+
+MENU_G5915_1 MENU DISCARDABLE
+BEGIN
+MENUITEM "Команда объекта 1", ID_TOPVID
+POPUP "Сообщения"
+BEGIN
+MENUITEM "Cообщения Command", 1
+MENUITEM "Cообщения Prepare\Complete", 2
+MENUITEM "Cообщения Select\Unselect", 3
+MENUITEM "Выключить сообщения", 4
+END
+
+MENUITEM "Команда объекта 2", ID_SIDEVID
+MENUITEM "Изменить битмапы", 7
+
+END
+
+
+MENU_G5915_2 MENU DISCARDABLE
+BEGIN
+MENUITEM "Cообщения Command", 1
+MENUITEM "Cообщения Prepare\Complete", 2
+MENUITEM "Cообщения Select\Unselect", 3
+MENUITEM "Выключить сообщения", 4
+END
+
+MENU_G5915_3 MENU DISCARDABLE
+BEGIN
+MENUITEM "Выключить сообщения", 4
+MENUITEM "Команда 5", 5
+MENUITEM "Команда 6", 6
+END
+
+/////////////////////////////////////////////////////////////////////////////
+G5915_1 RCDATA MOVEABLE PURE
+BEGIN
+0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22,
+0x004a, 0x003b, 0x004a, 0x001c, 0x4e22, 0x004a, 0x001c, 0x004e, 0x0014,
+0x4e22, 0x004e, 0x0014, 0x006a, 0x0014, 0x4e22, 0x006a, 0x0014, 0x006e,
+0x001c, 0x4e22, 0x006d, 0x001c, 0x006d, 0x003b, 0x4e22, 0x004e, 0x0027,
+0x006a, 0x0027, 0x4e28, 0x0077, 0x003b, 0x002d, 0x004f, 0x0027, 0x004a,
+0x003b, 0x4e28, 0x0042, 0x003b, 0x002c, 0x006e, 0x003b, 0x006a, 0x0027,
+0x4e28, 0x0055, 0x001e, 0x000b, 0x004c, 0x0017, 0x004f, 0x0027, 0x4e28,
+0x0063, 0x001e, 0x000b, 0x006a, 0x0027, 0x006c, 0x0017, 0x4e22, 0x004a,
+0x003b, 0x004a, 0x005a, 0x4e22, 0x004a, 0x005a, 0x004e, 0x0062, 0x4e22,
+0x004e, 0x0062, 0x006a, 0x0062, 0x4e22, 0x006a, 0x0062, 0x006d, 0x005a,
+0x4e22, 0x006d, 0x005a, 0x006d, 0x003b, 0x4e22, 0x004e, 0x004f, 0x006a,
+0x004f, 0x4e28, 0x0077, 0x003b, 0x002d, 0x004a, 0x003b, 0x004f, 0x004f,
+0x4e28, 0x0042, 0x003b, 0x002c, 0x0069, 0x004f, 0x006e, 0x003b, 0x4e28,
+0x0055, 0x0058, 0x000b, 0x004f, 0x004f, 0x004c, 0x005f, 0x4e28, 0x0063,
+0x0058, 0x000b, 0x006e, 0x005d, 0x0068, 0x0050, 0x4e24, 0x0000, 0x4e23,
+0x0002, 0x0001, 0x4e22, 0x0043, 0x003b, 0x0075, 0x003b, 0x4e21
+END
+
+
+G5915_2 RCDATA MOVEABLE PURE
+BEGIN
+0x4e37, 0x00be, 0x007b, 0x4e24, 0x0000, 0x4e23, 0x0002, 0x0001, 0x4e22,
+0x0043, 0x003b, 0x0075, 0x003b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001,
+0x4e22, 0x004a, 0x003b, 0x004a, 0x001c, 0x4e22, 0x004a, 0x001c, 0x004d,
+0x0019, 0x4e28, 0x0077, 0x002a, 0x002c, 0x004f, 0x0019, 0x004f, 0x003b,
+0x4e22, 0x004d, 0x0019, 0x006b, 0x0019, 0x4e22, 0x006b, 0x0019, 0x006e,
+0x001c, 0x4e28, 0x0043, 0x002a, 0x002b, 0x006b, 0x003b, 0x006b, 0x0019,
+0x4e22, 0x006e, 0x001c, 0x006e, 0x003b, 0x4e22, 0x004d, 0x003b, 0x006b,
+0x003b, 0x4e22, 0x004a, 0x003b, 0x004a, 0x005a, 0x4e22, 0x004a, 0x005a,
+0x004d, 0x005d, 0x4e28, 0x0077, 0x004c, 0x002c, 0x004f, 0x003b, 0x004f,
+0x005d, 0x4e22, 0x004d, 0x005d, 0x006b, 0x005d, 0x4e22, 0x006b, 0x005d,
+0x006e, 0x005a, 0x4e28, 0x0043, 0x004c, 0x002b, 0x006b, 0x005d, 0x006b,
+0x003b, 0x4e22, 0x006e, 0x005a, 0x006e, 0x003b, 0x4e21
+END
+
+G5915_3 RCDATA MOVEABLE PURE
+BEGIN
+0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22,
+0x0039, 0x0028, 0x005b, 0x0015, 0x4e22, 0x005b, 0x0015, 0x007d, 0x0028,
+0x4e22, 0x007d, 0x0028, 0x007d, 0x0050, 0x4e22, 0x007d, 0x0050, 0x005b,
+0x0063, 0x4e22, 0x005b, 0x0063, 0x0039, 0x0050, 0x4e22, 0x0039, 0x0050,
+0x0039, 0x0028, 0x4e30, 0x005b, 0x003c, 0x001f, 0x4e30, 0x005b, 0x003c,
+0x0014, 0x4e24, 0x0000, 0x4e28, 0x005b, 0x003c, 0x0017, 0x0061, 0x0026,
+0x0071, 0x0042, 0x4e23, 0x0002, 0x0001, 0x4e22, 0x0032, 0x003c, 0x0084,
+0x003c, 0x4e22, 0x005b, 0x006a, 0x005b, 0x000e, 0x4e21
+END
+
+G5915_4 RCDATA MOVEABLE PURE
+BEGIN
+0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22,
+0x004a, 0x003c, 0x004a, 0x001d, 0x4e22, 0x004a, 0x001d, 0x004e, 0x0015,
+0x4e22, 0x004e, 0x0015, 0x006a, 0x0015, 0x4e22, 0x006a, 0x0015, 0x006e,
+0x001d, 0x4e22, 0x006e, 0x001d, 0x006e, 0x003c, 0x4e22, 0x004e, 0x0028,
+0x006a, 0x0028, 0x4e28, 0x0077, 0x003c, 0x002d, 0x004e, 0x0028, 0x004a,
+0x003c, 0x4e28, 0x0043, 0x003c, 0x002c, 0x006e, 0x003c, 0x006a, 0x0028,
+0x4e28, 0x0055, 0x001f, 0x000b, 0x004a, 0x001f, 0x004f, 0x0029, 0x4e28,
+0x0064, 0x001f, 0x000b, 0x006a, 0x0028, 0x006e, 0x001f, 0x4e22, 0x004a,
+0x003c, 0x004a, 0x005b, 0x4e22, 0x004a, 0x005b, 0x004d, 0x0061, 0x4e22,
+0x004d, 0x0061, 0x006b, 0x0061, 0x4e22, 0x006b, 0x0061, 0x006e, 0x005b,
+0x4e22, 0x006e, 0x005b, 0x006e, 0x003c, 0x4e22, 0x006e, 0x0055, 0x0069,
+0x0050, 0x4e22, 0x0069, 0x0050, 0x0069, 0x003c, 0x4e22, 0x0069, 0x0050,
+0x004f, 0x0050, 0x4e22, 0x004f, 0x0050, 0x004a, 0x0055, 0x4e22, 0x004f,
+0x0050, 0x004f, 0x003c, 0x4e24, 0x0000, 0x4e22, 0x004c, 0x0053, 0x006c,
+0x0053, 0x4e23, 0x0002, 0x0001, 0x4e22, 0x0043, 0x003c, 0x0075, 0x003c,
+0x4e23, 0x0000, 0x0001, 0x4e22, 0x0065, 0x0061, 0x006e, 0x0058, 0x4e22,
+0x006a, 0x0051, 0x005a, 0x0061, 0x4e22, 0x004f, 0x0061, 0x0061, 0x0050,
+0x4e22, 0x0056, 0x0050, 0x004a, 0x005c, 0x4e21
+END
+
+G5915_5 RCDATA MOVEABLE PURE
+BEGIN
+0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22,
+0x004a, 0x003b, 0x004a, 0x0014, 0x4e22, 0x004a, 0x0014, 0x006d, 0x0014,
+0x4e22, 0x006d, 0x0014, 0x006d, 0x003b, 0x4e22, 0x004a, 0x0027, 0x006d,
+0x0027, 0x4e22, 0x004a, 0x003b, 0x004a, 0x0062, 0x4e22, 0x004a, 0x0062,
+0x006d, 0x0062, 0x4e22, 0x006d, 0x0062, 0x006d, 0x003b, 0x4e22, 0x004a,
+0x004f, 0x006d, 0x004f, 0x4e24, 0x0000, 0x4e23, 0x0002, 0x0001, 0x4e22,
+0x0043, 0x003b, 0x0075, 0x003b, 0x4e21
+END
+
+G5915_6 RCDATA MOVEABLE PURE
+BEGIN
+0x4e37, 0x00be, 0x007b, 0x4e24, 0x0000, 0x4e23, 0x0002, 0x0001, 0x4e22,
+0x0043, 0x003b, 0x0075, 0x003b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001,
+0x4e22, 0x004a, 0x003b, 0x004a, 0x0019, 0x4e22, 0x004a, 0x0019, 0x006e,
+0x0019, 0x4e22, 0x006e, 0x0019, 0x006e, 0x003b, 0x4e22, 0x004a, 0x003b,
+0x006e, 0x003b, 0x4e22, 0x004a, 0x003b, 0x004a, 0x005d, 0x4e22, 0x004a,
+0x005d, 0x006e, 0x005d, 0x4e22, 0x006e, 0x005d, 0x006e, 0x003b, 0x4e21
+
+END
+
+G5915_7 RCDATA MOVEABLE PURE
+BEGIN
+0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22,
+0x0039, 0x0028, 0x005b, 0x0015, 0x4e22, 0x005b, 0x0015, 0x007d, 0x0028,
+0x4e22, 0x007d, 0x0028, 0x007d, 0x0050, 0x4e22, 0x007d, 0x0050, 0x005b,
+0x0063, 0x4e22, 0x005b, 0x0063, 0x0039, 0x0050, 0x4e22, 0x0039, 0x0050,
+0x0039, 0x0028, 0x4e30, 0x005b, 0x003c, 0x0014, 0x4e24, 0x0000, 0x4e28,
+0x005b, 0x003c, 0x0017, 0x0061, 0x0026, 0x0071, 0x0042, 0x4e23, 0x0002,
+0x0001, 0x4e22, 0x0032, 0x003c, 0x0084, 0x003c, 0x4e22, 0x005b, 0x006a,
+0x005b, 0x000e, 0x4e21
+END
+
+G5915_8 RCDATA MOVEABLE PURE
+BEGIN
+0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22,
+0x004a, 0x003c, 0x004a, 0x0015, 0x4e22, 0x004a, 0x0015, 0x006e, 0x0015,
+0x4e22, 0x006e, 0x0015, 0x006e, 0x003c, 0x4e22, 0x004a, 0x0028, 0x006e,
+0x0028, 0x4e22, 0x004a, 0x003c, 0x004a, 0x0061, 0x4e22, 0x004a, 0x0061,
+0x006e, 0x0061, 0x4e22, 0x006e, 0x0061, 0x006e, 0x003c, 0x4e22, 0x006e,
+0x0050, 0x004a, 0x0050, 0x4e24, 0x0000, 0x4e22, 0x004a, 0x0053, 0x006e,
+0x0053, 0x4e23, 0x0002, 0x0001, 0x4e22, 0x0043, 0x003c, 0x0075, 0x003c,
+0x4e23, 0x0000, 0x0001, 0x4e22, 0x0065, 0x0061, 0x006e, 0x0058, 0x4e22,
+0x006a, 0x0051, 0x005a, 0x0061, 0x4e22, 0x004f, 0x0061, 0x0061, 0x0050,
+0x4e22, 0x0056, 0x0050, 0x004a, 0x005c, 0x4e21
+END
+
+G5915_9 RCDATA MOVEABLE PURE
+BEGIN
+0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22,
+0x004a, 0x003b, 0x004a, 0x0014, 0x4e22, 0x004a, 0x0014, 0x006a, 0x0014,
+0x4e22, 0x006a, 0x0014, 0x006e, 0x001c, 0x4e22, 0x006d, 0x001c, 0x006d,
+0x003b, 0x4e22, 0x004a, 0x0027, 0x006a, 0x0027, 0x4e28, 0x0042, 0x003b,
+0x002c, 0x006e, 0x003b, 0x006a, 0x0027, 0x4e28, 0x0063, 0x001e, 0x000b,
+0x006a, 0x0027, 0x006c, 0x0017, 0x4e22, 0x004a, 0x003b, 0x004a, 0x0062,
+0x4e22, 0x004a, 0x0062, 0x006a, 0x0062, 0x4e22, 0x006a, 0x0062, 0x006d,
+0x005a, 0x4e22, 0x006d, 0x005a, 0x006d, 0x003b, 0x4e22, 0x004a, 0x004f,
+0x006a, 0x004f, 0x4e28, 0x0042, 0x003b, 0x002c, 0x0069, 0x004f, 0x006e,
+0x003b, 0x4e28, 0x0063, 0x0058, 0x000b, 0x006e, 0x005d, 0x0068, 0x0050,
+0x4e24, 0x0000, 0x4e23, 0x0002, 0x0001, 0x4e22, 0x0043, 0x003b, 0x0075,
+0x003b, 0x4e21
+END
+
+G5915_10 RCDATA MOVEABLE PURE
+BEGIN
+0x4e37, 0x00be, 0x007b, 0x4e24, 0x0000, 0x4e23, 0x0002, 0x0001, 0x4e22,
+0x0043, 0x003b, 0x0075, 0x003b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001,
+0x4e22, 0x004a, 0x003b, 0x004a, 0x0019, 0x4e22, 0x004a, 0x0019, 0x006b,
+0x0019, 0x4e22, 0x006b, 0x0019, 0x006e, 0x001c, 0x4e28, 0x0043, 0x002a,
+0x002b, 0x006b, 0x003b, 0x006b, 0x0019, 0x4e22, 0x006e, 0x001c, 0x006e,
+0x003b, 0x4e22, 0x004a, 0x003b, 0x006b, 0x003b, 0x4e22, 0x004a, 0x003b,
+0x004a, 0x005d, 0x4e22, 0x004a, 0x005d, 0x006b, 0x005d, 0x4e22, 0x006b,
+0x005d, 0x006e, 0x005a, 0x4e28, 0x0043, 0x004c, 0x002b, 0x006b, 0x005d,
+0x006b, 0x003b, 0x4e22, 0x006e, 0x005a, 0x006e, 0x003b, 0x4e21
+END
+
+G5915_11 RCDATA MOVEABLE PURE
+BEGIN
+0x4e37, 0x00be, 0x007b, 0x4e24, 0x0001, 0x4e23, 0x0000, 0x0001, 0x4e22,
+0x004a, 0x003c, 0x004a, 0x0015, 0x4e22, 0x004a, 0x0015, 0x006a, 0x0015,
+0x4e22, 0x006a, 0x0015, 0x006e, 0x001d, 0x4e22, 0x006e, 0x001d, 0x006e,
+0x003c, 0x4e22, 0x004a, 0x0028, 0x006a, 0x0028, 0x4e28, 0x0043, 0x003c,
+0x002c, 0x006e, 0x003c, 0x006a, 0x0028, 0x4e28, 0x0064, 0x001f, 0x000b,
+0x006a, 0x0028, 0x006e, 0x001f, 0x4e22, 0x004a, 0x003c, 0x004a, 0x0061,
+0x4e22, 0x004a, 0x0061, 0x006b, 0x0061, 0x4e22, 0x006b, 0x0061, 0x006e,
+0x005b, 0x4e22, 0x006e, 0x005b, 0x006e, 0x003c, 0x4e22, 0x006e, 0x0050,
+0x004f, 0x0050, 0x4e22, 0x004f, 0x0050, 0x004a, 0x0055, 0x4e22, 0x004f,
+0x0050, 0x004f, 0x003c, 0x4e24, 0x0000, 0x4e22, 0x004c, 0x0053, 0x006e,
+0x0053, 0x4e23, 0x0002, 0x0001, 0x4e22, 0x0043, 0x003c, 0x0075, 0x003c,
+0x4e23, 0x0000, 0x0001, 0x4e22, 0x0065, 0x0061, 0x006e, 0x0058, 0x4e22,
+0x006a, 0x0051, 0x005a, 0x0061, 0x4e22, 0x004f, 0x0061, 0x0061, 0x0050,
+0x4e22, 0x0056, 0x0050, 0x004a, 0x005c, 0x4e21
+END
+

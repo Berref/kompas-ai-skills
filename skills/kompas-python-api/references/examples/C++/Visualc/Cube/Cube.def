@@ -1,0 +1,6 @@
+;LIBRARY      "Cube"
+;DESCRIPTION  'Windows Dynamic Link Library'
+
+EXPORTS
+ LIBRARYENTRY @1
+ LIBRARYID    @2
